@@ -1,0 +1,2059 @@
+{
+  "deck": [
+    {
+      "id": 1,
+      "name": "The Fool",
+      "name_vi": "Kẻ Khờ",
+      "arcana": "Major",
+      "suit": null,
+      "number": 0,
+      "keywords_upright": [
+        "new beginnings",
+        "innocence",
+        "spontaneity",
+        "leap of faith"
+      ],
+      "keywords_reversed": [
+        "recklessness",
+        "hesitation",
+        "naivety",
+        "risk without thought"
+      ],
+      "meaning_upright": {
+        "en": "A fresh start beckons. You're invited to trust the unknown, move with an open heart, and let curiosity lead the way.",
+        "vi": "Một khởi đầu mới đang gọi mời. Hãy tin vào điều chưa biết, bước đi với trái tim rộng mở và để sự tò mò dẫn lối."
+      },
+      "meaning_reversed": {
+        "en": "You may be holding back out of fear, or leaping without any grounding. Pause just long enough to check in with yourself, not to punish the impulse.",
+        "vi": "Bạn có thể đang chần chừ vì sợ hãi, hoặc lao vào điều gì đó mà chưa có nền tảng vững. Hãy dừng lại một chút để lắng nghe chính mình, không phải để tự trách."
+      }
+    },
+    {
+      "id": 2,
+      "name": "The Magician",
+      "name_vi": "Pháp Sư",
+      "arcana": "Major",
+      "suit": null,
+      "number": 1,
+      "keywords_upright": [
+        "manifestation",
+        "resourcefulness",
+        "focus",
+        "action"
+      ],
+      "keywords_reversed": [
+        "untapped potential",
+        "scattered energy",
+        "manipulation",
+        "self-doubt"
+      ],
+      "meaning_upright": {
+        "en": "You already have every tool you need. Align your intention with clear action, and what you're reaching for starts to take shape.",
+        "vi": "Bạn đã có đủ mọi công cụ cần thiết. Hãy hợp nhất ý định với hành động rõ ràng, điều bạn hướng tới sẽ dần thành hình."
+      },
+      "meaning_reversed": {
+        "en": "Energy feels scattered or your confidence has dipped. Gently refocus on one small, honest step rather than trying to do everything at once.",
+        "vi": "Năng lượng đang phân tán hoặc sự tự tin chững lại. Hãy nhẹ nhàng tập trung vào một bước nhỏ chân thật, thay vì cố ôm đồm tất cả."
+      }
+    },
+    {
+      "id": 3,
+      "name": "The High Priestess",
+      "name_vi": "Nữ Tư Tế",
+      "arcana": "Major",
+      "suit": null,
+      "number": 2,
+      "keywords_upright": [
+        "intuition",
+        "inner knowing",
+        "mystery",
+        "stillness"
+      ],
+      "keywords_reversed": [
+        "disconnection from intuition",
+        "secrets surfacing",
+        "confusion"
+      ],
+      "meaning_upright": {
+        "en": "The answer isn't loud right now — it's quiet. Give yourself permission to sit with a question before rushing to solve it.",
+        "vi": "Câu trả lời lúc này không ồn ào mà lặng lẽ. Hãy cho phép mình ngồi lại với câu hỏi trước khi vội vàng giải quyết."
+      },
+      "meaning_reversed": {
+        "en": "You might be ignoring a quiet feeling in favor of noise or other people's opinions. It's safe to come back to your own inner voice.",
+        "vi": "Có thể bạn đang lờ đi một cảm giác nhỏ để chạy theo tiếng ồn hay ý kiến người khác. Việc quay về lắng nghe tiếng nói bên trong là điều an toàn."
+      }
+    },
+    {
+      "id": 4,
+      "name": "The Empress",
+      "name_vi": "Nữ Hoàng",
+      "arcana": "Major",
+      "suit": null,
+      "number": 3,
+      "keywords_upright": [
+        "abundance",
+        "nurturing",
+        "creativity",
+        "growth"
+      ],
+      "keywords_reversed": [
+        "creative block",
+        "self-neglect",
+        "smothering",
+        "burnout"
+      ],
+      "meaning_upright": {
+        "en": "Something you've been tending — an idea, a relationship, yourself — is ready to bloom. Let it grow at its own pace.",
+        "vi": "Điều bạn đã âm thầm vun đắp — một ý tưởng, một mối quan hệ, hay chính bản thân — đang sẵn sàng nở hoa. Hãy để nó lớn lên theo nhịp riêng."
+      },
+      "meaning_reversed": {
+        "en": "You may be pouring into everyone else while running dry. Nurturing starts with including yourself in the care you give.",
+        "vi": "Có thể bạn đang dồn hết cho người khác mà quên mất bản thân. Sự chăm sóc thật sự bắt đầu từ việc không bỏ quên chính mình."
+      }
+    },
+    {
+      "id": 5,
+      "name": "The Emperor",
+      "name_vi": "Hoàng Đế",
+      "arcana": "Major",
+      "suit": null,
+      "number": 4,
+      "keywords_upright": [
+        "structure",
+        "stability",
+        "leadership",
+        "boundaries"
+      ],
+      "keywords_reversed": [
+        "rigidity",
+        "loss of control",
+        "over-control",
+        "instability"
+      ],
+      "meaning_upright": {
+        "en": "A little structure will bring you relief right now. Set the boundary or plan you've been avoiding — it protects, it doesn't restrict.",
+        "vi": "Một chút cấu trúc lúc này sẽ mang lại sự nhẹ nhõm. Hãy thiết lập ranh giới hay kế hoạch mà bạn vẫn né tránh — nó bảo vệ, không phải trói buộc."
+      },
+      "meaning_reversed": {
+        "en": "Control (yours or someone else's) may be creating tension instead of safety. Structure works best when it still leaves room to breathe.",
+        "vi": "Sự kiểm soát (của bạn hoặc người khác) có thể đang gây căng thẳng thay vì an toàn. Cấu trúc chỉ thực sự tốt khi vẫn còn chỗ để thở."
+      }
+    },
+    {
+      "id": 6,
+      "name": "The Hierophant",
+      "name_vi": "Giáo Chủ",
+      "arcana": "Major",
+      "suit": null,
+      "number": 5,
+      "keywords_upright": [
+        "tradition",
+        "guidance",
+        "shared values",
+        "learning"
+      ],
+      "keywords_reversed": [
+        "breaking convention",
+        "questioning authority",
+        "rigid dogma"
+      ],
+      "meaning_upright": {
+        "en": "There's wisdom in what's already been tested — a mentor, a community, a proven method. You don't have to figure everything out alone.",
+        "vi": "Có sự khôn ngoan trong những gì đã được kiểm chứng — một người thầy, một cộng đồng, một phương pháp đáng tin. Bạn không cần tự mình giải quyết tất cả."
+      },
+      "meaning_reversed": {
+        "en": "A rule or tradition may no longer fit you. It's okay to respectfully step outside what was expected and find your own way.",
+        "vi": "Một quy tắc hay truyền thống nào đó có thể không còn phù hợp với bạn nữa. Bạn hoàn toàn có thể bước ra ngoài khuôn mẫu để tìm con đường riêng."
+      }
+    },
+    {
+      "id": 7,
+      "name": "The Lovers",
+      "name_vi": "Cặp Tình Nhân",
+      "arcana": "Major",
+      "suit": null,
+      "number": 6,
+      "keywords_upright": [
+        "connection",
+        "alignment of values",
+        "meaningful choice",
+        "harmony"
+      ],
+      "keywords_reversed": [
+        "misalignment",
+        "avoidance",
+        "imbalance in relationship"
+      ],
+      "meaning_upright": {
+        "en": "A choice in front of you is really about what you value most. Choose the option that feels true, not just comfortable.",
+        "vi": "Một lựa chọn trước mắt thực chất phản ánh điều bạn coi trọng nhất. Hãy chọn điều chân thật, không chỉ chọn điều dễ chịu."
+      },
+      "meaning_reversed": {
+        "en": "Something feels out of sync — with another person, or between what you say you want and what you're actually doing.",
+        "vi": "Có điều gì đó đang lệch nhịp — với một người khác, hoặc giữa điều bạn nói mình muốn và điều bạn thực sự đang làm."
+      }
+    },
+    {
+      "id": 8,
+      "name": "The Chariot",
+      "name_vi": "Cỗ Xe Chiến Mã",
+      "arcana": "Major",
+      "suit": null,
+      "number": 7,
+      "keywords_upright": [
+        "willpower",
+        "determination",
+        "forward motion",
+        "focus"
+      ],
+      "keywords_reversed": [
+        "lack of direction",
+        "burnout",
+        "internal conflict"
+      ],
+      "meaning_upright": {
+        "en": "You have more control over the outcome than it feels like. Keep your eyes on what matters and let the rest fall away.",
+        "vi": "Bạn có nhiều quyền kiểm soát kết quả hơn bạn nghĩ. Hãy giữ ánh nhìn vào điều thực sự quan trọng và để phần còn lại lùi lại phía sau."
+      },
+      "meaning_reversed": {
+        "en": "You might be pulled in two directions at once. Slow down enough to choose one clear direction rather than forcing speed.",
+        "vi": "Có thể bạn đang bị kéo về hai hướng cùng lúc. Hãy chậm lại đủ để chọn một hướng rõ ràng, thay vì ép mình phải tăng tốc."
+      }
+    },
+    {
+      "id": 9,
+      "name": "Strength",
+      "name_vi": "Sức Mạnh",
+      "arcana": "Major",
+      "suit": null,
+      "number": 8,
+      "keywords_upright": [
+        "gentle courage",
+        "patience",
+        "compassion",
+        "inner resilience"
+      ],
+      "keywords_reversed": [
+        "self-doubt",
+        "insecurity",
+        "forcing control"
+      ],
+      "meaning_upright": {
+        "en": "Real strength here looks soft — patience, compassion, staying calm instead of forcing an outcome. That's what will actually move things forward.",
+        "vi": "Sức mạnh thật sự lúc này lại rất dịu dàng — sự kiên nhẫn, lòng trắc ẩn, giữ bình tĩnh thay vì ép buộc kết quả. Đó mới là điều thực sự tạo ra chuyển biến."
+      },
+      "meaning_reversed": {
+        "en": "You may be doubting your own resilience, or trying to control something through force instead of steadiness.",
+        "vi": "Có thể bạn đang nghi ngờ sức chịu đựng của chính mình, hoặc cố kiểm soát điều gì đó bằng vũ lực thay vì sự vững vàng."
+      }
+    },
+    {
+      "id": 10,
+      "name": "The Hermit",
+      "name_vi": "Ẩn Sĩ",
+      "arcana": "Major",
+      "suit": null,
+      "number": 9,
+      "keywords_upright": [
+        "introspection",
+        "solitude",
+        "inner guidance",
+        "reflection"
+      ],
+      "keywords_reversed": [
+        "isolation",
+        "loneliness",
+        "withdrawal from support"
+      ],
+      "meaning_upright": {
+        "en": "Some time alone right now isn't avoidance — it's exactly what will help you hear your own answer clearly.",
+        "vi": "Chút thời gian một mình lúc này không phải là trốn tránh — đó chính xác là điều giúp bạn nghe rõ câu trả lời của chính mình."
+      },
+      "meaning_reversed": {
+        "en": "Solitude may be tipping into isolation. It's okay to step back, but don't forget the people who are there to support you.",
+        "vi": "Sự tĩnh lặng có thể đang chuyển thành cô lập. Rút lui một chút cũng được, nhưng đừng quên những người vẫn luôn ở đó để đỡ bạn."
+      }
+    },
+    {
+      "id": 11,
+      "name": "Wheel of Fortune",
+      "name_vi": "Bánh Xe Vận Mệnh",
+      "arcana": "Major",
+      "suit": null,
+      "number": 10,
+      "keywords_upright": [
+        "cycles",
+        "change",
+        "turning point",
+        "fate"
+      ],
+      "keywords_reversed": [
+        "resisting change",
+        "feeling stuck",
+        "unwanted disruption"
+      ],
+      "meaning_upright": {
+        "en": "Things are shifting, and that's not a bad sign. Let go of needing to control every variable — the cycle is moving in your favor.",
+        "vi": "Mọi thứ đang xoay chuyển, và đó không phải điềm xấu. Hãy buông bớt nhu cầu kiểm soát mọi biến số — chu kỳ này đang nghiêng về phía bạn."
+      },
+      "meaning_reversed": {
+        "en": "A change feels unwelcome or out of your hands. Even so, this turn is redirecting you away from something that had already run its course.",
+        "vi": "Một sự thay đổi có thể khiến bạn khó chịu hoặc ngoài tầm kiểm soát. Dù vậy, khúc quanh này đang đưa bạn tránh xa điều vốn đã đến hồi kết."
+      }
+    },
+    {
+      "id": 12,
+      "name": "Justice",
+      "name_vi": "Công Lý",
+      "arcana": "Major",
+      "suit": null,
+      "number": 11,
+      "keywords_upright": [
+        "truth",
+        "fairness",
+        "accountability",
+        "clarity"
+      ],
+      "keywords_reversed": [
+        "unfairness",
+        "avoiding responsibility",
+        "imbalance"
+      ],
+      "meaning_upright": {
+        "en": "Look honestly at the facts, including your own part in the situation. Clarity, not blame, is what will bring resolution.",
+        "vi": "Hãy nhìn thẳng vào sự thật, kể cả phần trách nhiệm của chính mình. Sự rõ ràng, chứ không phải đổ lỗi, mới là điều mang lại giải quyết."
+      },
+      "meaning_reversed": {
+        "en": "Something may feel unfair, or there's an accountability being avoided — by you or someone else. Naming it plainly helps more than staying quiet.",
+        "vi": "Có điều gì đó cảm giác không công bằng, hoặc một trách nhiệm đang bị né tránh — từ bạn hoặc người khác. Gọi tên nó rõ ràng sẽ hữu ích hơn là im lặng."
+      }
+    },
+    {
+      "id": 13,
+      "name": "The Hanged Man",
+      "name_vi": "Người Treo Ngược",
+      "arcana": "Major",
+      "suit": null,
+      "number": 12,
+      "keywords_upright": [
+        "surrender",
+        "new perspective",
+        "pause",
+        "letting go of control"
+      ],
+      "keywords_reversed": [
+        "resistance to pause",
+        "stalling",
+        "martyrdom"
+      ],
+      "meaning_upright": {
+        "en": "This waiting period isn't wasted time. Let yourself see the situation from a different angle before deciding anything.",
+        "vi": "Khoảng thời gian chờ đợi này không hề lãng phí. Hãy để mình nhìn tình huống từ một góc khác trước khi quyết định bất cứ điều gì."
+      },
+      "meaning_reversed": {
+        "en": "You may be resisting a needed pause, or sacrificing yourself unnecessarily for something that doesn't ask that of you.",
+        "vi": "Có thể bạn đang chống lại một khoảng dừng cần thiết, hoặc hy sinh bản thân một cách không cần thiết cho điều không đòi hỏi điều đó."
+      }
+    },
+    {
+      "id": 14,
+      "name": "Death",
+      "name_vi": "Tử Thần",
+      "arcana": "Major",
+      "suit": null,
+      "number": 13,
+      "keywords_upright": [
+        "transformation",
+        "endings that make room",
+        "letting go",
+        "renewal"
+      ],
+      "keywords_reversed": [
+        "resistance to change",
+        "fear of endings",
+        "stagnation"
+      ],
+      "meaning_upright": {
+        "en": "Something is ending so something else can begin. This isn't a punishment — it's a natural, needed transition.",
+        "vi": "Một điều gì đó đang khép lại để nhường chỗ cho điều mới. Đây không phải là hình phạt — mà là một chuyển tiếp tự nhiên và cần thiết."
+      },
+      "meaning_reversed": {
+        "en": "You may be clinging to a chapter that has already closed. Holding on tighter won't stop the change; it only delays your own relief.",
+        "vi": "Có thể bạn đang bám víu vào một chương đã thực sự khép lại. Càng giữ chặt càng không ngăn được thay đổi, chỉ khiến bạn chậm được nhẹ lòng hơn."
+      }
+    },
+    {
+      "id": 15,
+      "name": "Temperance",
+      "name_vi": "Tiết Chế",
+      "arcana": "Major",
+      "suit": null,
+      "number": 14,
+      "keywords_upright": [
+        "balance",
+        "patience",
+        "moderation",
+        "gentle integration"
+      ],
+      "keywords_reversed": [
+        "imbalance",
+        "excess",
+        "impatience",
+        "misalignment"
+      ],
+      "meaning_upright": {
+        "en": "Slow, steady blending — not drastic change — is what will bring things into balance. Give the process time.",
+        "vi": "Sự hòa hợp chậm rãi, ổn định — chứ không phải thay đổi đột ngột — mới là điều đưa mọi thứ về cân bằng. Hãy cho quá trình này thời gian."
+      },
+      "meaning_reversed": {
+        "en": "Something feels too extreme in one direction. A small course correction, done patiently, will help more than an abrupt swing.",
+        "vi": "Có điều gì đó đang lệch quá đà về một phía. Một điều chỉnh nhỏ, thực hiện kiên nhẫn, sẽ hữu ích hơn một cú xoay chuyển đột ngột."
+      }
+    },
+    {
+      "id": 16,
+      "name": "The Devil",
+      "name_vi": "Ác Quỷ",
+      "arcana": "Major",
+      "suit": null,
+      "number": 15,
+      "keywords_upright": [
+        "attachment",
+        "habits",
+        "restriction",
+        "shadow patterns"
+      ],
+      "keywords_reversed": [
+        "breaking free",
+        "reclaiming power",
+        "releasing a habit"
+      ],
+      "meaning_upright": {
+        "en": "Notice where comfort has quietly become a trap — a habit, a relationship dynamic, a belief about yourself. You have more freedom to leave than it feels like.",
+        "vi": "Hãy để ý nơi mà sự thoải mái đã âm thầm biến thành cái bẫy — một thói quen, một mối quan hệ, hay một niềm tin về bản thân. Bạn tự do hơn bạn tưởng."
+      },
+      "meaning_reversed": {
+        "en": "You're starting to see the chain, or already loosening it. That awareness itself is real progress.",
+        "vi": "Bạn đang bắt đầu nhìn thấy sợi xích, hoặc đã đang nới lỏng nó. Chỉ riêng nhận thức đó thôi cũng đã là một bước tiến thật sự."
+      }
+    },
+    {
+      "id": 17,
+      "name": "The Tower",
+      "name_vi": "Tòa Tháp",
+      "arcana": "Major",
+      "suit": null,
+      "number": 16,
+      "keywords_upright": [
+        "sudden change",
+        "revelation",
+        "breakdown of illusion",
+        "awakening"
+      ],
+      "keywords_reversed": [
+        "avoiding inevitable change",
+        "internal upheaval",
+        "delayed collapse"
+      ],
+      "meaning_upright": {
+        "en": "Something that felt solid may be shifting suddenly. It's disorienting, but it's clearing away what wasn't built to last.",
+        "vi": "Điều gì đó tưởng như vững chắc có thể đang lung lay đột ngột. Nó gây hoang mang, nhưng đang dọn đường cho những gì không được xây trên nền vững."
+      },
+      "meaning_reversed": {
+        "en": "You may be bracing against a change that's already happening internally, even if it hasn't shown up outwardly yet.",
+        "vi": "Có thể bạn đang gồng mình chống lại một thay đổi vốn đã diễn ra bên trong, dù nó chưa bộc lộ ra ngoài."
+      }
+    },
+    {
+      "id": 18,
+      "name": "The Star",
+      "name_vi": "Ngôi Sao",
+      "arcana": "Major",
+      "suit": null,
+      "number": 17,
+      "keywords_upright": [
+        "hope",
+        "healing",
+        "renewed faith",
+        "quiet inspiration"
+      ],
+      "keywords_reversed": [
+        "despair",
+        "disconnection from hope",
+        "self-doubt"
+      ],
+      "meaning_upright": {
+        "en": "After a hard stretch, something gentle is returning — hope, calm, a little faith in what's ahead. Let it in.",
+        "vi": "Sau một chặng khó khăn, có điều gì đó dịu dàng đang quay lại — hy vọng, sự bình yên, một chút niềm tin vào phía trước. Hãy để nó đến với mình."
+      },
+      "meaning_reversed": {
+        "en": "Hope might feel far away right now. That doesn't mean it's gone — it just means you need extra gentleness with yourself.",
+        "vi": "Hy vọng lúc này có thể cảm giác xa vời. Điều đó không có nghĩa là nó đã mất, chỉ là bạn cần đối xử với chính mình dịu dàng hơn."
+      }
+    },
+    {
+      "id": 19,
+      "name": "The Moon",
+      "name_vi": "Mặt Trăng",
+      "arcana": "Major",
+      "suit": null,
+      "number": 18,
+      "keywords_upright": [
+        "uncertainty",
+        "intuition",
+        "hidden emotions",
+        "illusion"
+      ],
+      "keywords_reversed": [
+        "releasing fear",
+        "clarity emerging",
+        "confusion lifting"
+      ],
+      "meaning_upright": {
+        "en": "Not everything is clear right now, and that's okay. Let your feelings be present without deciding they're the whole truth.",
+        "vi": "Không phải mọi thứ đều rõ ràng lúc này, và điều đó không sao cả. Hãy để cảm xúc hiện diện mà không vội cho rằng đó là toàn bộ sự thật."
+      },
+      "meaning_reversed": {
+        "en": "Some of the fog is starting to lift. Trust that the anxious story you've been telling yourself isn't the only possible one.",
+        "vi": "Một phần sương mù đang bắt đầu tan. Hãy tin rằng câu chuyện lo âu bạn đang tự kể cho mình không phải là khả năng duy nhất."
+      }
+    },
+    {
+      "id": 20,
+      "name": "The Sun",
+      "name_vi": "Mặt Trời",
+      "arcana": "Major",
+      "suit": null,
+      "number": 19,
+      "keywords_upright": [
+        "joy",
+        "vitality",
+        "clarity",
+        "success"
+      ],
+      "keywords_reversed": [
+        "temporary sadness",
+        "delayed joy",
+        "low energy"
+      ],
+      "meaning_upright": {
+        "en": "Warmth and clarity are available to you right now. Let yourself enjoy what's going well without waiting for a catch.",
+        "vi": "Sự ấm áp và rõ ràng đang có sẵn cho bạn lúc này. Hãy cho phép mình tận hưởng những điều đang tốt đẹp mà không cần chờ một điều gì đó trục trặc."
+      },
+      "meaning_reversed": {
+        "en": "Joy may feel dimmed or delayed. It's still within reach — sometimes it just needs smaller, gentler moments to show up in.",
+        "vi": "Niềm vui có thể đang mờ nhạt hoặc đến chậm. Nó vẫn ở trong tầm với — đôi khi chỉ cần những khoảnh khắc nhỏ, dịu dàng hơn để xuất hiện."
+      }
+    },
+    {
+      "id": 21,
+      "name": "Judgement",
+      "name_vi": "Sự Phán Xét",
+      "arcana": "Major",
+      "suit": null,
+      "number": 20,
+      "keywords_upright": [
+        "awakening",
+        "reflection",
+        "renewal",
+        "answering a calling"
+      ],
+      "keywords_reversed": [
+        "self-criticism",
+        "avoiding a calling",
+        "unresolved past"
+      ],
+      "meaning_upright": {
+        "en": "You're being invited to see yourself more clearly — including how far you've already come. It's time to step into what's next.",
+        "vi": "Bạn đang được mời gọi để nhìn thấy chính mình rõ ràng hơn — kể cả quãng đường đã đi qua. Đã đến lúc bước vào chặng tiếp theo."
+      },
+      "meaning_reversed": {
+        "en": "You may be judging yourself more harshly than the situation deserves. Reflection works best paired with self-compassion, not self-criticism.",
+        "vi": "Có thể bạn đang tự phán xét mình khắt khe hơn mức cần thiết. Sự nhìn lại chỉ thực sự hiệu quả khi đi cùng lòng bao dung, không phải tự trách."
+      }
+    },
+    {
+      "id": 22,
+      "name": "The World",
+      "name_vi": "Thế Giới",
+      "arcana": "Major",
+      "suit": null,
+      "number": 21,
+      "keywords_upright": [
+        "completion",
+        "wholeness",
+        "fulfillment",
+        "integration"
+      ],
+      "keywords_reversed": [
+        "incomplete closure",
+        "delay",
+        "seeking outside validation"
+      ],
+      "meaning_upright": {
+        "en": "A chapter is coming full circle. Take a moment to recognize what you've learned before stepping into the next cycle.",
+        "vi": "Một chặng đường đang khép lại trọn vẹn. Hãy dành một khoảnh khắc để ghi nhận những gì mình đã học được trước khi bước vào chu kỳ mới."
+      },
+      "meaning_reversed": {
+        "en": "Something may feel unfinished. That's alright — closure sometimes comes gradually, not all at once.",
+        "vi": "Có điều gì đó vẫn cảm giác dang dở. Không sao cả — đôi khi sự trọn vẹn đến từ từ, chứ không phải ngay lập tức."
+      }
+    },
+    {
+      "id": 23,
+      "name": "Ace of Wands",
+      "name_vi": "Át Gậy",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 1,
+      "keywords_upright": [
+        "new opportunity",
+        "potential",
+        "raw energy"
+      ],
+      "keywords_reversed": [
+        "missed opportunity",
+        "delay",
+        "false start"
+      ],
+      "meaning_upright": {
+        "en": "A fresh spark of action, ambition, creativity, passion is available to you. It's small and unformed right now, but it's real — worth paying attention to.",
+        "vi": "Một tia lửa mới của hành động, tham vọng, sự sáng tạo và đam mê đang xuất hiện với bạn. Nó còn nhỏ và chưa rõ hình dạng, nhưng là thật — đáng để bạn chú ý."
+      },
+      "meaning_reversed": {
+        "en": "An opportunity related to action, ambition, creativity, passion may be delayed or harder to access than expected. It hasn't disappeared, it just needs more groundwork first.",
+        "vi": "Một cơ hội liên quan đến hành động, tham vọng, sự sáng tạo và đam mê có thể đang bị trì hoãn hoặc khó nắm bắt hơn dự kiến. Nó chưa biến mất, chỉ cần thêm thời gian chuẩn bị."
+      }
+    },
+    {
+      "id": 24,
+      "name": "Two of Wands",
+      "name_vi": "Hai Gậy",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 2,
+      "keywords_upright": [
+        "choice",
+        "balance",
+        "partnership"
+      ],
+      "keywords_reversed": [
+        "indecision",
+        "imbalance",
+        "disconnection"
+      ],
+      "meaning_upright": {
+        "en": "You're weighing a decision or a partnership around action, ambition, creativity, passion. Both options may be reasonable — trust what feels aligned, not just logical.",
+        "vi": "Bạn đang cân nhắc một quyết định hay mối quan hệ hợp tác quanh hành động, tham vọng, sự sáng tạo và đam mê. Cả hai lựa chọn đều có lý do riêng — hãy tin vào điều phù hợp với mình, không chỉ dựa vào lý trí."
+      },
+      "meaning_reversed": {
+        "en": "Indecision around action, ambition, creativity, passion is understandable, but staying suspended too long has its own cost. A small choice is enough to start.",
+        "vi": "Sự do dự quanh hành động, tham vọng, sự sáng tạo và đam mê là điều dễ hiểu, nhưng treo lơ lửng quá lâu cũng có cái giá của nó. Một lựa chọn nhỏ cũng đủ để bắt đầu."
+      }
+    },
+    {
+      "id": 25,
+      "name": "Three of Wands",
+      "name_vi": "Ba Gậy",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 3,
+      "keywords_upright": [
+        "growth",
+        "expansion",
+        "early results"
+      ],
+      "keywords_reversed": [
+        "setbacks",
+        "disappointment",
+        "misdirected effort"
+      ],
+      "meaning_upright": {
+        "en": "Early signs of growth are showing in your action, ambition, creativity, passion. Keep going — the foundation you laid is starting to pay off.",
+        "vi": "Những dấu hiệu tăng trưởng đầu tiên đang xuất hiện trong hành động, tham vọng, sự sáng tạo và đam mê của bạn. Hãy tiếp tục — nền tảng bạn đã đặt đang bắt đầu sinh trái."
+      },
+      "meaning_reversed": {
+        "en": "Progress in action, ambition, creativity, passion may feel slower or less certain than hoped. It's a setback, not a dead end.",
+        "vi": "Tiến triển trong hành động, tham vọng, sự sáng tạo và đam mê có thể chậm hơn hoặc chưa chắc chắn như bạn mong. Đây là một bước lùi, không phải ngõ cụt."
+      }
+    },
+    {
+      "id": 26,
+      "name": "Four of Wands",
+      "name_vi": "Bốn Gậy",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 4,
+      "keywords_upright": [
+        "stability",
+        "rest",
+        "consolidation"
+      ],
+      "keywords_reversed": [
+        "stagnation",
+        "boredom",
+        "resistance to rest"
+      ],
+      "meaning_upright": {
+        "en": "This is a good moment to pause and consolidate around action, ambition, creativity, passion, rather than pushing for more right away.",
+        "vi": "Đây là thời điểm tốt để dừng lại và củng cố quanh hành động, tham vọng, sự sáng tạo và đam mê, thay vì vội vàng tiến thêm."
+      },
+      "meaning_reversed": {
+        "en": "Stability in action, ambition, creativity, passion may have tipped into stagnation. A small shift, not a total overhaul, is what's needed.",
+        "vi": "Sự ổn định trong hành động, tham vọng, sự sáng tạo và đam mê có thể đã chuyển thành trì trệ. Một thay đổi nhỏ, chứ không phải đại tu toàn bộ, là điều cần thiết."
+      }
+    },
+    {
+      "id": 27,
+      "name": "Five of Wands",
+      "name_vi": "Năm Gậy",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 5,
+      "keywords_upright": [
+        "conflict",
+        "challenge",
+        "disruption"
+      ],
+      "keywords_reversed": [
+        "avoiding conflict",
+        "resolution emerging",
+        "residual tension"
+      ],
+      "meaning_upright": {
+        "en": "Some friction or challenge around action, ambition, creativity, passion is testing you right now. It's uncomfortable, but it's also clarifying what actually matters.",
+        "vi": "Một vài va chạm hay thử thách quanh hành động, tham vọng, sự sáng tạo và đam mê đang thử thách bạn lúc này. Khó chịu thật, nhưng nó cũng đang làm rõ điều thực sự quan trọng."
+      },
+      "meaning_reversed": {
+        "en": "Tension around action, ambition, creativity, passion may be easing, or you might be avoiding a conflict that needs gentle, honest attention.",
+        "vi": "Căng thẳng quanh hành động, tham vọng, sự sáng tạo và đam mê có thể đang dịu bớt, hoặc bạn đang né tránh một xung đột cần được nhìn nhận một cách nhẹ nhàng và thành thật."
+      }
+    },
+    {
+      "id": 28,
+      "name": "Six of Wands",
+      "name_vi": "Sáu Gậy",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 6,
+      "keywords_upright": [
+        "recovery",
+        "cooperation",
+        "moving forward"
+      ],
+      "keywords_reversed": [
+        "setback in recovery",
+        "one-sided giving",
+        "nostalgia"
+      ],
+      "meaning_upright": {
+        "en": "Things around action, ambition, creativity, passion are beginning to ease and move forward, often with the help of others.",
+        "vi": "Mọi thứ quanh hành động, tham vọng, sự sáng tạo và đam mê đang bắt đầu dịu lại và tiến về phía trước, thường là nhờ sự giúp đỡ từ người khác."
+      },
+      "meaning_reversed": {
+        "en": "Recovery in action, ambition, creativity, passion may feel uneven, or you may be giving more than you're receiving. Balance matters here.",
+        "vi": "Sự hồi phục trong hành động, tham vọng, sự sáng tạo và đam mê có thể chưa đồng đều, hoặc bạn đang cho đi nhiều hơn nhận lại. Sự cân bằng rất quan trọng lúc này."
+      }
+    },
+    {
+      "id": 29,
+      "name": "Seven of Wands",
+      "name_vi": "Bảy Gậy",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 7,
+      "keywords_upright": [
+        "reassessment",
+        "perseverance",
+        "inner questioning"
+      ],
+      "keywords_reversed": [
+        "giving up too soon",
+        "overwhelm",
+        "lack of clarity"
+      ],
+      "meaning_upright": {
+        "en": "It's worth pausing to reassess your approach to action, ambition, creativity, passion. Staying the course with small adjustments beats a total restart.",
+        "vi": "Đáng để bạn dừng lại và nhìn nhận lại cách tiếp cận với hành động, tham vọng, sự sáng tạo và đam mê. Kiên trì với những điều chỉnh nhỏ tốt hơn là làm lại từ đầu."
+      },
+      "meaning_reversed": {
+        "en": "You may feel like giving up on something related to action, ambition, creativity, passion. Before deciding, check whether it's exhaustion talking, or real misalignment.",
+        "vi": "Bạn có thể đang muốn buông bỏ điều gì đó liên quan đến hành động, tham vọng, sự sáng tạo và đam mê. Trước khi quyết định, hãy kiểm tra xem đó là do kiệt sức hay thực sự không còn phù hợp."
+      }
+    },
+    {
+      "id": 30,
+      "name": "Eight of Wands",
+      "name_vi": "Tám Gậy",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 8,
+      "keywords_upright": [
+        "movement",
+        "progress",
+        "swift change"
+      ],
+      "keywords_reversed": [
+        "delays",
+        "frustration",
+        "scattered energy"
+      ],
+      "meaning_upright": {
+        "en": "Momentum is building around action, ambition, creativity, passion. Things may move faster than expected — stay responsive rather than rigid.",
+        "vi": "Đà tiến đang hình thành quanh hành động, tham vọng, sự sáng tạo và đam mê. Mọi thứ có thể diễn ra nhanh hơn dự kiến — hãy linh hoạt thay vì cứng nhắc."
+      },
+      "meaning_reversed": {
+        "en": "Delays around action, ambition, creativity, passion are frustrating, but they're often protecting you from moving too fast in the wrong direction.",
+        "vi": "Sự trì hoãn quanh hành động, tham vọng, sự sáng tạo và đam mê khiến bạn khó chịu, nhưng nó thường đang bảo vệ bạn khỏi việc tiến quá nhanh sai hướng."
+      }
+    },
+    {
+      "id": 31,
+      "name": "Nine of Wands",
+      "name_vi": "Chín Gậy",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 9,
+      "keywords_upright": [
+        "resilience",
+        "close to completion",
+        "self-reliance"
+      ],
+      "keywords_reversed": [
+        "exhaustion",
+        "defensiveness",
+        "isolation"
+      ],
+      "meaning_upright": {
+        "en": "You're closer to a resolution in action, ambition, creativity, passion than it feels. What's carried you this far — your resilience — is still enough.",
+        "vi": "Bạn đang gần đạt được kết quả trong hành động, tham vọng, sự sáng tạo và đam mê hơn là bạn cảm nhận. Điều đã đưa bạn đi xa đến vậy — sự bền bỉ của bạn — vẫn còn đủ."
+      },
+      "meaning_reversed": {
+        "en": "You may be running on empty around action, ambition, creativity, passion, or guarding yourself so tightly that support can't reach you. Rest is not a setback.",
+        "vi": "Bạn có thể đang cạn kiệt năng lượng quanh hành động, tham vọng, sự sáng tạo và đam mê, hoặc đang phòng thủ quá chặt khiến sự hỗ trợ không thể chạm tới. Nghỉ ngơi không phải là bước lùi."
+      }
+    },
+    {
+      "id": 32,
+      "name": "Ten of Wands",
+      "name_vi": "Mười Gậy",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 10,
+      "keywords_upright": [
+        "completion",
+        "culmination",
+        "fulfillment or burden"
+      ],
+      "keywords_reversed": [
+        "release",
+        "letting go of a burden",
+        "incomplete ending"
+      ],
+      "meaning_upright": {
+        "en": "A cycle involving action, ambition, creativity, passion is reaching its natural completion — whether that feels like relief, fulfillment, or a lot to carry.",
+        "vi": "Một chu kỳ liên quan đến hành động, tham vọng, sự sáng tạo và đam mê đang đi đến hồi kết tự nhiên — dù điều đó mang lại cảm giác nhẹ nhõm, mãn nguyện, hay nặng nề."
+      },
+      "meaning_reversed": {
+        "en": "It may be time to set down a burden connected to action, ambition, creativity, passion rather than carrying it into the next chapter.",
+        "vi": "Có lẽ đã đến lúc đặt xuống một gánh nặng liên quan đến hành động, tham vọng, sự sáng tạo và đam mê, thay vì mang nó sang chương tiếp theo."
+      }
+    },
+    {
+      "id": 33,
+      "name": "Page of Wands",
+      "name_vi": "Học Trò Gậy",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": "Page",
+      "keywords_upright": [
+        "curiosity",
+        "new message",
+        "willingness to learn"
+      ],
+      "keywords_reversed": [
+        "immaturity",
+        "distraction",
+        "hesitation to start"
+      ],
+      "meaning_upright": {
+        "en": "A curious, beginner's-mind energy around action, ambition, creativity, passion is opening up — a message, an idea, or an invitation to learn something new.",
+        "vi": "Một năng lượng tò mò, tâm thế người mới bắt đầu quanh hành động, tham vọng, sự sáng tạo và đam mê đang mở ra — một tin nhắn, một ý tưởng, hay lời mời học điều gì đó mới."
+      },
+      "meaning_reversed": {
+        "en": "There may be some scattered or unready energy around action, ambition, creativity, passion. That's alright — not every idea needs to be acted on immediately.",
+        "vi": "Có thể có chút năng lượng chưa sẵn sàng hay phân tán quanh hành động, tham vọng, sự sáng tạo và đam mê. Không sao cả — không phải ý tưởng nào cũng cần hành động ngay."
+      }
+    },
+    {
+      "id": 34,
+      "name": "Knight of Wands",
+      "name_vi": "Kỵ Sĩ Gậy",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": "Knight",
+      "keywords_upright": [
+        "momentum",
+        "pursuit",
+        "bold action"
+      ],
+      "keywords_reversed": [
+        "recklessness",
+        "impatience",
+        "stalled momentum"
+      ],
+      "meaning_upright": {
+        "en": "There's real momentum around action, ambition, creativity, passion right now. Channel it toward something you actually care about, and it will carry you far.",
+        "vi": "Có đà tiến thực sự quanh hành động, tham vọng, sự sáng tạo và đam mê lúc này. Hãy hướng nó vào điều bạn thực sự quan tâm, nó sẽ đưa bạn đi xa."
+      },
+      "meaning_reversed": {
+        "en": "Energy around action, ambition, creativity, passion may be moving too fast or not moving at all. Either way, a more measured pace will serve you better.",
+        "vi": "Năng lượng quanh hành động, tham vọng, sự sáng tạo và đam mê có thể đang quá nhanh hoặc hoàn toàn đứng yên. Dù thế nào, một nhịp độ vừa phải sẽ tốt hơn cho bạn."
+      }
+    },
+    {
+      "id": 35,
+      "name": "Queen of Wands",
+      "name_vi": "Nữ Hoàng Gậy",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": "Queen",
+      "keywords_upright": [
+        "nurturing mastery",
+        "emotional intelligence",
+        "confidence"
+      ],
+      "keywords_reversed": [
+        "self-neglect",
+        "insecurity",
+        "overextension"
+      ],
+      "meaning_upright": {
+        "en": "You're being asked to lead with the mature, grounded side of action, ambition, creativity, passion — steady, warm, and sure of yourself.",
+        "vi": "Bạn đang được mời gọi dẫn dắt bằng phần trưởng thành, vững vàng của hành động, tham vọng, sự sáng tạo và đam mê — điềm tĩnh, ấm áp và tự tin."
+      },
+      "meaning_reversed": {
+        "en": "You may be neglecting your own needs while tending to action, ambition, creativity, passion for others. It's safe to include yourself in the care.",
+        "vi": "Có thể bạn đang bỏ quên nhu cầu của chính mình trong khi chăm sóc hành động, tham vọng, sự sáng tạo và đam mê cho người khác. Bạn hoàn toàn có thể tự chăm sóc bản thân."
+      }
+    },
+    {
+      "id": 36,
+      "name": "King of Wands",
+      "name_vi": "Vua Gậy",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": "King",
+      "keywords_upright": [
+        "mastery",
+        "authority",
+        "steady leadership"
+      ],
+      "keywords_reversed": [
+        "control issues",
+        "rigidity",
+        "misuse of power"
+      ],
+      "meaning_upright": {
+        "en": "You have more mastery over action, ambition, creativity, passion than you're giving yourself credit for. Lead from that steadiness, not from pressure.",
+        "vi": "Bạn có nhiều sự làm chủ với hành động, tham vọng, sự sáng tạo và đam mê hơn bạn tự nhận. Hãy dẫn dắt từ sự vững vàng đó, không phải từ áp lực."
+      },
+      "meaning_reversed": {
+        "en": "Authority around action, ambition, creativity, passion may feel rigid or forced right now. True steadiness leaves room for flexibility.",
+        "vi": "Quyền lực quanh hành động, tham vọng, sự sáng tạo và đam mê có thể đang cứng nhắc hoặc gượng ép lúc này. Sự vững vàng thật sự vẫn cần chỗ cho linh hoạt."
+      }
+    },
+    {
+      "id": 37,
+      "name": "Ace of Cups",
+      "name_vi": "Át Cốc",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 1,
+      "keywords_upright": [
+        "new opportunity",
+        "potential",
+        "raw energy"
+      ],
+      "keywords_reversed": [
+        "missed opportunity",
+        "delay",
+        "false start"
+      ],
+      "meaning_upright": {
+        "en": "A fresh spark of emotion, relationships, intuition, connection is available to you. It's small and unformed right now, but it's real — worth paying attention to.",
+        "vi": "Một tia lửa mới của cảm xúc, các mối quan hệ, trực giác và sự kết nối đang xuất hiện với bạn. Nó còn nhỏ và chưa rõ hình dạng, nhưng là thật — đáng để bạn chú ý."
+      },
+      "meaning_reversed": {
+        "en": "An opportunity related to emotion, relationships, intuition, connection may be delayed or harder to access than expected. It hasn't disappeared, it just needs more groundwork first.",
+        "vi": "Một cơ hội liên quan đến cảm xúc, các mối quan hệ, trực giác và sự kết nối có thể đang bị trì hoãn hoặc khó nắm bắt hơn dự kiến. Nó chưa biến mất, chỉ cần thêm thời gian chuẩn bị."
+      }
+    },
+    {
+      "id": 38,
+      "name": "Two of Cups",
+      "name_vi": "Hai Cốc",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 2,
+      "keywords_upright": [
+        "choice",
+        "balance",
+        "partnership"
+      ],
+      "keywords_reversed": [
+        "indecision",
+        "imbalance",
+        "disconnection"
+      ],
+      "meaning_upright": {
+        "en": "You're weighing a decision or a partnership around emotion, relationships, intuition, connection. Both options may be reasonable — trust what feels aligned, not just logical.",
+        "vi": "Bạn đang cân nhắc một quyết định hay mối quan hệ hợp tác quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối. Cả hai lựa chọn đều có lý do riêng — hãy tin vào điều phù hợp với mình, không chỉ dựa vào lý trí."
+      },
+      "meaning_reversed": {
+        "en": "Indecision around emotion, relationships, intuition, connection is understandable, but staying suspended too long has its own cost. A small choice is enough to start.",
+        "vi": "Sự do dự quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối là điều dễ hiểu, nhưng treo lơ lửng quá lâu cũng có cái giá của nó. Một lựa chọn nhỏ cũng đủ để bắt đầu."
+      }
+    },
+    {
+      "id": 39,
+      "name": "Three of Cups",
+      "name_vi": "Ba Cốc",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 3,
+      "keywords_upright": [
+        "growth",
+        "expansion",
+        "early results"
+      ],
+      "keywords_reversed": [
+        "setbacks",
+        "disappointment",
+        "misdirected effort"
+      ],
+      "meaning_upright": {
+        "en": "Early signs of growth are showing in your emotion, relationships, intuition, connection. Keep going — the foundation you laid is starting to pay off.",
+        "vi": "Những dấu hiệu tăng trưởng đầu tiên đang xuất hiện trong cảm xúc, các mối quan hệ, trực giác và sự kết nối của bạn. Hãy tiếp tục — nền tảng bạn đã đặt đang bắt đầu sinh trái."
+      },
+      "meaning_reversed": {
+        "en": "Progress in emotion, relationships, intuition, connection may feel slower or less certain than hoped. It's a setback, not a dead end.",
+        "vi": "Tiến triển trong cảm xúc, các mối quan hệ, trực giác và sự kết nối có thể chậm hơn hoặc chưa chắc chắn như bạn mong. Đây là một bước lùi, không phải ngõ cụt."
+      }
+    },
+    {
+      "id": 40,
+      "name": "Four of Cups",
+      "name_vi": "Bốn Cốc",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 4,
+      "keywords_upright": [
+        "stability",
+        "rest",
+        "consolidation"
+      ],
+      "keywords_reversed": [
+        "stagnation",
+        "boredom",
+        "resistance to rest"
+      ],
+      "meaning_upright": {
+        "en": "This is a good moment to pause and consolidate around emotion, relationships, intuition, connection, rather than pushing for more right away.",
+        "vi": "Đây là thời điểm tốt để dừng lại và củng cố quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối, thay vì vội vàng tiến thêm."
+      },
+      "meaning_reversed": {
+        "en": "Stability in emotion, relationships, intuition, connection may have tipped into stagnation. A small shift, not a total overhaul, is what's needed.",
+        "vi": "Sự ổn định trong cảm xúc, các mối quan hệ, trực giác và sự kết nối có thể đã chuyển thành trì trệ. Một thay đổi nhỏ, chứ không phải đại tu toàn bộ, là điều cần thiết."
+      }
+    },
+    {
+      "id": 41,
+      "name": "Five of Cups",
+      "name_vi": "Năm Cốc",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 5,
+      "keywords_upright": [
+        "conflict",
+        "challenge",
+        "disruption"
+      ],
+      "keywords_reversed": [
+        "avoiding conflict",
+        "resolution emerging",
+        "residual tension"
+      ],
+      "meaning_upright": {
+        "en": "Some friction or challenge around emotion, relationships, intuition, connection is testing you right now. It's uncomfortable, but it's also clarifying what actually matters.",
+        "vi": "Một vài va chạm hay thử thách quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối đang thử thách bạn lúc này. Khó chịu thật, nhưng nó cũng đang làm rõ điều thực sự quan trọng."
+      },
+      "meaning_reversed": {
+        "en": "Tension around emotion, relationships, intuition, connection may be easing, or you might be avoiding a conflict that needs gentle, honest attention.",
+        "vi": "Căng thẳng quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối có thể đang dịu bớt, hoặc bạn đang né tránh một xung đột cần được nhìn nhận một cách nhẹ nhàng và thành thật."
+      }
+    },
+    {
+      "id": 42,
+      "name": "Six of Cups",
+      "name_vi": "Sáu Cốc",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 6,
+      "keywords_upright": [
+        "recovery",
+        "cooperation",
+        "moving forward"
+      ],
+      "keywords_reversed": [
+        "setback in recovery",
+        "one-sided giving",
+        "nostalgia"
+      ],
+      "meaning_upright": {
+        "en": "Things around emotion, relationships, intuition, connection are beginning to ease and move forward, often with the help of others.",
+        "vi": "Mọi thứ quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối đang bắt đầu dịu lại và tiến về phía trước, thường là nhờ sự giúp đỡ từ người khác."
+      },
+      "meaning_reversed": {
+        "en": "Recovery in emotion, relationships, intuition, connection may feel uneven, or you may be giving more than you're receiving. Balance matters here.",
+        "vi": "Sự hồi phục trong cảm xúc, các mối quan hệ, trực giác và sự kết nối có thể chưa đồng đều, hoặc bạn đang cho đi nhiều hơn nhận lại. Sự cân bằng rất quan trọng lúc này."
+      }
+    },
+    {
+      "id": 43,
+      "name": "Seven of Cups",
+      "name_vi": "Bảy Cốc",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 7,
+      "keywords_upright": [
+        "reassessment",
+        "perseverance",
+        "inner questioning"
+      ],
+      "keywords_reversed": [
+        "giving up too soon",
+        "overwhelm",
+        "lack of clarity"
+      ],
+      "meaning_upright": {
+        "en": "It's worth pausing to reassess your approach to emotion, relationships, intuition, connection. Staying the course with small adjustments beats a total restart.",
+        "vi": "Đáng để bạn dừng lại và nhìn nhận lại cách tiếp cận với cảm xúc, các mối quan hệ, trực giác và sự kết nối. Kiên trì với những điều chỉnh nhỏ tốt hơn là làm lại từ đầu."
+      },
+      "meaning_reversed": {
+        "en": "You may feel like giving up on something related to emotion, relationships, intuition, connection. Before deciding, check whether it's exhaustion talking, or real misalignment.",
+        "vi": "Bạn có thể đang muốn buông bỏ điều gì đó liên quan đến cảm xúc, các mối quan hệ, trực giác và sự kết nối. Trước khi quyết định, hãy kiểm tra xem đó là do kiệt sức hay thực sự không còn phù hợp."
+      }
+    },
+    {
+      "id": 44,
+      "name": "Eight of Cups",
+      "name_vi": "Tám Cốc",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 8,
+      "keywords_upright": [
+        "movement",
+        "progress",
+        "swift change"
+      ],
+      "keywords_reversed": [
+        "delays",
+        "frustration",
+        "scattered energy"
+      ],
+      "meaning_upright": {
+        "en": "Momentum is building around emotion, relationships, intuition, connection. Things may move faster than expected — stay responsive rather than rigid.",
+        "vi": "Đà tiến đang hình thành quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối. Mọi thứ có thể diễn ra nhanh hơn dự kiến — hãy linh hoạt thay vì cứng nhắc."
+      },
+      "meaning_reversed": {
+        "en": "Delays around emotion, relationships, intuition, connection are frustrating, but they're often protecting you from moving too fast in the wrong direction.",
+        "vi": "Sự trì hoãn quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối khiến bạn khó chịu, nhưng nó thường đang bảo vệ bạn khỏi việc tiến quá nhanh sai hướng."
+      }
+    },
+    {
+      "id": 45,
+      "name": "Nine of Cups",
+      "name_vi": "Chín Cốc",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 9,
+      "keywords_upright": [
+        "resilience",
+        "close to completion",
+        "self-reliance"
+      ],
+      "keywords_reversed": [
+        "exhaustion",
+        "defensiveness",
+        "isolation"
+      ],
+      "meaning_upright": {
+        "en": "You're closer to a resolution in emotion, relationships, intuition, connection than it feels. What's carried you this far — your resilience — is still enough.",
+        "vi": "Bạn đang gần đạt được kết quả trong cảm xúc, các mối quan hệ, trực giác và sự kết nối hơn là bạn cảm nhận. Điều đã đưa bạn đi xa đến vậy — sự bền bỉ của bạn — vẫn còn đủ."
+      },
+      "meaning_reversed": {
+        "en": "You may be running on empty around emotion, relationships, intuition, connection, or guarding yourself so tightly that support can't reach you. Rest is not a setback.",
+        "vi": "Bạn có thể đang cạn kiệt năng lượng quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối, hoặc đang phòng thủ quá chặt khiến sự hỗ trợ không thể chạm tới. Nghỉ ngơi không phải là bước lùi."
+      }
+    },
+    {
+      "id": 46,
+      "name": "Ten of Cups",
+      "name_vi": "Mười Cốc",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 10,
+      "keywords_upright": [
+        "completion",
+        "culmination",
+        "fulfillment or burden"
+      ],
+      "keywords_reversed": [
+        "release",
+        "letting go of a burden",
+        "incomplete ending"
+      ],
+      "meaning_upright": {
+        "en": "A cycle involving emotion, relationships, intuition, connection is reaching its natural completion — whether that feels like relief, fulfillment, or a lot to carry.",
+        "vi": "Một chu kỳ liên quan đến cảm xúc, các mối quan hệ, trực giác và sự kết nối đang đi đến hồi kết tự nhiên — dù điều đó mang lại cảm giác nhẹ nhõm, mãn nguyện, hay nặng nề."
+      },
+      "meaning_reversed": {
+        "en": "It may be time to set down a burden connected to emotion, relationships, intuition, connection rather than carrying it into the next chapter.",
+        "vi": "Có lẽ đã đến lúc đặt xuống một gánh nặng liên quan đến cảm xúc, các mối quan hệ, trực giác và sự kết nối, thay vì mang nó sang chương tiếp theo."
+      }
+    },
+    {
+      "id": 47,
+      "name": "Page of Cups",
+      "name_vi": "Học Trò Cốc",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": "Page",
+      "keywords_upright": [
+        "curiosity",
+        "new message",
+        "willingness to learn"
+      ],
+      "keywords_reversed": [
+        "immaturity",
+        "distraction",
+        "hesitation to start"
+      ],
+      "meaning_upright": {
+        "en": "A curious, beginner's-mind energy around emotion, relationships, intuition, connection is opening up — a message, an idea, or an invitation to learn something new.",
+        "vi": "Một năng lượng tò mò, tâm thế người mới bắt đầu quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối đang mở ra — một tin nhắn, một ý tưởng, hay lời mời học điều gì đó mới."
+      },
+      "meaning_reversed": {
+        "en": "There may be some scattered or unready energy around emotion, relationships, intuition, connection. That's alright — not every idea needs to be acted on immediately.",
+        "vi": "Có thể có chút năng lượng chưa sẵn sàng hay phân tán quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối. Không sao cả — không phải ý tưởng nào cũng cần hành động ngay."
+      }
+    },
+    {
+      "id": 48,
+      "name": "Knight of Cups",
+      "name_vi": "Kỵ Sĩ Cốc",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": "Knight",
+      "keywords_upright": [
+        "momentum",
+        "pursuit",
+        "bold action"
+      ],
+      "keywords_reversed": [
+        "recklessness",
+        "impatience",
+        "stalled momentum"
+      ],
+      "meaning_upright": {
+        "en": "There's real momentum around emotion, relationships, intuition, connection right now. Channel it toward something you actually care about, and it will carry you far.",
+        "vi": "Có đà tiến thực sự quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối lúc này. Hãy hướng nó vào điều bạn thực sự quan tâm, nó sẽ đưa bạn đi xa."
+      },
+      "meaning_reversed": {
+        "en": "Energy around emotion, relationships, intuition, connection may be moving too fast or not moving at all. Either way, a more measured pace will serve you better.",
+        "vi": "Năng lượng quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối có thể đang quá nhanh hoặc hoàn toàn đứng yên. Dù thế nào, một nhịp độ vừa phải sẽ tốt hơn cho bạn."
+      }
+    },
+    {
+      "id": 49,
+      "name": "Queen of Cups",
+      "name_vi": "Nữ Hoàng Cốc",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": "Queen",
+      "keywords_upright": [
+        "nurturing mastery",
+        "emotional intelligence",
+        "confidence"
+      ],
+      "keywords_reversed": [
+        "self-neglect",
+        "insecurity",
+        "overextension"
+      ],
+      "meaning_upright": {
+        "en": "You're being asked to lead with the mature, grounded side of emotion, relationships, intuition, connection — steady, warm, and sure of yourself.",
+        "vi": "Bạn đang được mời gọi dẫn dắt bằng phần trưởng thành, vững vàng của cảm xúc, các mối quan hệ, trực giác và sự kết nối — điềm tĩnh, ấm áp và tự tin."
+      },
+      "meaning_reversed": {
+        "en": "You may be neglecting your own needs while tending to emotion, relationships, intuition, connection for others. It's safe to include yourself in the care.",
+        "vi": "Có thể bạn đang bỏ quên nhu cầu của chính mình trong khi chăm sóc cảm xúc, các mối quan hệ, trực giác và sự kết nối cho người khác. Bạn hoàn toàn có thể tự chăm sóc bản thân."
+      }
+    },
+    {
+      "id": 50,
+      "name": "King of Cups",
+      "name_vi": "Vua Cốc",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": "King",
+      "keywords_upright": [
+        "mastery",
+        "authority",
+        "steady leadership"
+      ],
+      "keywords_reversed": [
+        "control issues",
+        "rigidity",
+        "misuse of power"
+      ],
+      "meaning_upright": {
+        "en": "You have more mastery over emotion, relationships, intuition, connection than you're giving yourself credit for. Lead from that steadiness, not from pressure.",
+        "vi": "Bạn có nhiều sự làm chủ với cảm xúc, các mối quan hệ, trực giác và sự kết nối hơn bạn tự nhận. Hãy dẫn dắt từ sự vững vàng đó, không phải từ áp lực."
+      },
+      "meaning_reversed": {
+        "en": "Authority around emotion, relationships, intuition, connection may feel rigid or forced right now. True steadiness leaves room for flexibility.",
+        "vi": "Quyền lực quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối có thể đang cứng nhắc hoặc gượng ép lúc này. Sự vững vàng thật sự vẫn cần chỗ cho linh hoạt."
+      }
+    },
+    {
+      "id": 51,
+      "name": "Ace of Swords",
+      "name_vi": "Át Kiếm",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 1,
+      "keywords_upright": [
+        "new opportunity",
+        "potential",
+        "raw energy"
+      ],
+      "keywords_reversed": [
+        "missed opportunity",
+        "delay",
+        "false start"
+      ],
+      "meaning_upright": {
+        "en": "A fresh spark of thought, communication, conflict, truth is available to you. It's small and unformed right now, but it's real — worth paying attention to.",
+        "vi": "Một tia lửa mới của suy nghĩ, giao tiếp, xung đột và sự thật đang xuất hiện với bạn. Nó còn nhỏ và chưa rõ hình dạng, nhưng là thật — đáng để bạn chú ý."
+      },
+      "meaning_reversed": {
+        "en": "An opportunity related to thought, communication, conflict, truth may be delayed or harder to access than expected. It hasn't disappeared, it just needs more groundwork first.",
+        "vi": "Một cơ hội liên quan đến suy nghĩ, giao tiếp, xung đột và sự thật có thể đang bị trì hoãn hoặc khó nắm bắt hơn dự kiến. Nó chưa biến mất, chỉ cần thêm thời gian chuẩn bị."
+      }
+    },
+    {
+      "id": 52,
+      "name": "Two of Swords",
+      "name_vi": "Hai Kiếm",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 2,
+      "keywords_upright": [
+        "choice",
+        "balance",
+        "partnership"
+      ],
+      "keywords_reversed": [
+        "indecision",
+        "imbalance",
+        "disconnection"
+      ],
+      "meaning_upright": {
+        "en": "You're weighing a decision or a partnership around thought, communication, conflict, truth. Both options may be reasonable — trust what feels aligned, not just logical.",
+        "vi": "Bạn đang cân nhắc một quyết định hay mối quan hệ hợp tác quanh suy nghĩ, giao tiếp, xung đột và sự thật. Cả hai lựa chọn đều có lý do riêng — hãy tin vào điều phù hợp với mình, không chỉ dựa vào lý trí."
+      },
+      "meaning_reversed": {
+        "en": "Indecision around thought, communication, conflict, truth is understandable, but staying suspended too long has its own cost. A small choice is enough to start.",
+        "vi": "Sự do dự quanh suy nghĩ, giao tiếp, xung đột và sự thật là điều dễ hiểu, nhưng treo lơ lửng quá lâu cũng có cái giá của nó. Một lựa chọn nhỏ cũng đủ để bắt đầu."
+      }
+    },
+    {
+      "id": 53,
+      "name": "Three of Swords",
+      "name_vi": "Ba Kiếm",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 3,
+      "keywords_upright": [
+        "growth",
+        "expansion",
+        "early results"
+      ],
+      "keywords_reversed": [
+        "setbacks",
+        "disappointment",
+        "misdirected effort"
+      ],
+      "meaning_upright": {
+        "en": "Early signs of growth are showing in your thought, communication, conflict, truth. Keep going — the foundation you laid is starting to pay off.",
+        "vi": "Những dấu hiệu tăng trưởng đầu tiên đang xuất hiện trong suy nghĩ, giao tiếp, xung đột và sự thật của bạn. Hãy tiếp tục — nền tảng bạn đã đặt đang bắt đầu sinh trái."
+      },
+      "meaning_reversed": {
+        "en": "Progress in thought, communication, conflict, truth may feel slower or less certain than hoped. It's a setback, not a dead end.",
+        "vi": "Tiến triển trong suy nghĩ, giao tiếp, xung đột và sự thật có thể chậm hơn hoặc chưa chắc chắn như bạn mong. Đây là một bước lùi, không phải ngõ cụt."
+      }
+    },
+    {
+      "id": 54,
+      "name": "Four of Swords",
+      "name_vi": "Bốn Kiếm",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 4,
+      "keywords_upright": [
+        "stability",
+        "rest",
+        "consolidation"
+      ],
+      "keywords_reversed": [
+        "stagnation",
+        "boredom",
+        "resistance to rest"
+      ],
+      "meaning_upright": {
+        "en": "This is a good moment to pause and consolidate around thought, communication, conflict, truth, rather than pushing for more right away.",
+        "vi": "Đây là thời điểm tốt để dừng lại và củng cố quanh suy nghĩ, giao tiếp, xung đột và sự thật, thay vì vội vàng tiến thêm."
+      },
+      "meaning_reversed": {
+        "en": "Stability in thought, communication, conflict, truth may have tipped into stagnation. A small shift, not a total overhaul, is what's needed.",
+        "vi": "Sự ổn định trong suy nghĩ, giao tiếp, xung đột và sự thật có thể đã chuyển thành trì trệ. Một thay đổi nhỏ, chứ không phải đại tu toàn bộ, là điều cần thiết."
+      }
+    },
+    {
+      "id": 55,
+      "name": "Five of Swords",
+      "name_vi": "Năm Kiếm",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 5,
+      "keywords_upright": [
+        "conflict",
+        "challenge",
+        "disruption"
+      ],
+      "keywords_reversed": [
+        "avoiding conflict",
+        "resolution emerging",
+        "residual tension"
+      ],
+      "meaning_upright": {
+        "en": "Some friction or challenge around thought, communication, conflict, truth is testing you right now. It's uncomfortable, but it's also clarifying what actually matters.",
+        "vi": "Một vài va chạm hay thử thách quanh suy nghĩ, giao tiếp, xung đột và sự thật đang thử thách bạn lúc này. Khó chịu thật, nhưng nó cũng đang làm rõ điều thực sự quan trọng."
+      },
+      "meaning_reversed": {
+        "en": "Tension around thought, communication, conflict, truth may be easing, or you might be avoiding a conflict that needs gentle, honest attention.",
+        "vi": "Căng thẳng quanh suy nghĩ, giao tiếp, xung đột và sự thật có thể đang dịu bớt, hoặc bạn đang né tránh một xung đột cần được nhìn nhận một cách nhẹ nhàng và thành thật."
+      }
+    },
+    {
+      "id": 56,
+      "name": "Six of Swords",
+      "name_vi": "Sáu Kiếm",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 6,
+      "keywords_upright": [
+        "recovery",
+        "cooperation",
+        "moving forward"
+      ],
+      "keywords_reversed": [
+        "setback in recovery",
+        "one-sided giving",
+        "nostalgia"
+      ],
+      "meaning_upright": {
+        "en": "Things around thought, communication, conflict, truth are beginning to ease and move forward, often with the help of others.",
+        "vi": "Mọi thứ quanh suy nghĩ, giao tiếp, xung đột và sự thật đang bắt đầu dịu lại và tiến về phía trước, thường là nhờ sự giúp đỡ từ người khác."
+      },
+      "meaning_reversed": {
+        "en": "Recovery in thought, communication, conflict, truth may feel uneven, or you may be giving more than you're receiving. Balance matters here.",
+        "vi": "Sự hồi phục trong suy nghĩ, giao tiếp, xung đột và sự thật có thể chưa đồng đều, hoặc bạn đang cho đi nhiều hơn nhận lại. Sự cân bằng rất quan trọng lúc này."
+      }
+    },
+    {
+      "id": 57,
+      "name": "Seven of Swords",
+      "name_vi": "Bảy Kiếm",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 7,
+      "keywords_upright": [
+        "reassessment",
+        "perseverance",
+        "inner questioning"
+      ],
+      "keywords_reversed": [
+        "giving up too soon",
+        "overwhelm",
+        "lack of clarity"
+      ],
+      "meaning_upright": {
+        "en": "It's worth pausing to reassess your approach to thought, communication, conflict, truth. Staying the course with small adjustments beats a total restart.",
+        "vi": "Đáng để bạn dừng lại và nhìn nhận lại cách tiếp cận với suy nghĩ, giao tiếp, xung đột và sự thật. Kiên trì với những điều chỉnh nhỏ tốt hơn là làm lại từ đầu."
+      },
+      "meaning_reversed": {
+        "en": "You may feel like giving up on something related to thought, communication, conflict, truth. Before deciding, check whether it's exhaustion talking, or real misalignment.",
+        "vi": "Bạn có thể đang muốn buông bỏ điều gì đó liên quan đến suy nghĩ, giao tiếp, xung đột và sự thật. Trước khi quyết định, hãy kiểm tra xem đó là do kiệt sức hay thực sự không còn phù hợp."
+      }
+    },
+    {
+      "id": 58,
+      "name": "Eight of Swords",
+      "name_vi": "Tám Kiếm",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 8,
+      "keywords_upright": [
+        "movement",
+        "progress",
+        "swift change"
+      ],
+      "keywords_reversed": [
+        "delays",
+        "frustration",
+        "scattered energy"
+      ],
+      "meaning_upright": {
+        "en": "Momentum is building around thought, communication, conflict, truth. Things may move faster than expected — stay responsive rather than rigid.",
+        "vi": "Đà tiến đang hình thành quanh suy nghĩ, giao tiếp, xung đột và sự thật. Mọi thứ có thể diễn ra nhanh hơn dự kiến — hãy linh hoạt thay vì cứng nhắc."
+      },
+      "meaning_reversed": {
+        "en": "Delays around thought, communication, conflict, truth are frustrating, but they're often protecting you from moving too fast in the wrong direction.",
+        "vi": "Sự trì hoãn quanh suy nghĩ, giao tiếp, xung đột và sự thật khiến bạn khó chịu, nhưng nó thường đang bảo vệ bạn khỏi việc tiến quá nhanh sai hướng."
+      }
+    },
+    {
+      "id": 59,
+      "name": "Nine of Swords",
+      "name_vi": "Chín Kiếm",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 9,
+      "keywords_upright": [
+        "resilience",
+        "close to completion",
+        "self-reliance"
+      ],
+      "keywords_reversed": [
+        "exhaustion",
+        "defensiveness",
+        "isolation"
+      ],
+      "meaning_upright": {
+        "en": "You're closer to a resolution in thought, communication, conflict, truth than it feels. What's carried you this far — your resilience — is still enough.",
+        "vi": "Bạn đang gần đạt được kết quả trong suy nghĩ, giao tiếp, xung đột và sự thật hơn là bạn cảm nhận. Điều đã đưa bạn đi xa đến vậy — sự bền bỉ của bạn — vẫn còn đủ."
+      },
+      "meaning_reversed": {
+        "en": "You may be running on empty around thought, communication, conflict, truth, or guarding yourself so tightly that support can't reach you. Rest is not a setback.",
+        "vi": "Bạn có thể đang cạn kiệt năng lượng quanh suy nghĩ, giao tiếp, xung đột và sự thật, hoặc đang phòng thủ quá chặt khiến sự hỗ trợ không thể chạm tới. Nghỉ ngơi không phải là bước lùi."
+      }
+    },
+    {
+      "id": 60,
+      "name": "Ten of Swords",
+      "name_vi": "Mười Kiếm",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 10,
+      "keywords_upright": [
+        "completion",
+        "culmination",
+        "fulfillment or burden"
+      ],
+      "keywords_reversed": [
+        "release",
+        "letting go of a burden",
+        "incomplete ending"
+      ],
+      "meaning_upright": {
+        "en": "A cycle involving thought, communication, conflict, truth is reaching its natural completion — whether that feels like relief, fulfillment, or a lot to carry.",
+        "vi": "Một chu kỳ liên quan đến suy nghĩ, giao tiếp, xung đột và sự thật đang đi đến hồi kết tự nhiên — dù điều đó mang lại cảm giác nhẹ nhõm, mãn nguyện, hay nặng nề."
+      },
+      "meaning_reversed": {
+        "en": "It may be time to set down a burden connected to thought, communication, conflict, truth rather than carrying it into the next chapter.",
+        "vi": "Có lẽ đã đến lúc đặt xuống một gánh nặng liên quan đến suy nghĩ, giao tiếp, xung đột và sự thật, thay vì mang nó sang chương tiếp theo."
+      }
+    },
+    {
+      "id": 61,
+      "name": "Page of Swords",
+      "name_vi": "Học Trò Kiếm",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": "Page",
+      "keywords_upright": [
+        "curiosity",
+        "new message",
+        "willingness to learn"
+      ],
+      "keywords_reversed": [
+        "immaturity",
+        "distraction",
+        "hesitation to start"
+      ],
+      "meaning_upright": {
+        "en": "A curious, beginner's-mind energy around thought, communication, conflict, truth is opening up — a message, an idea, or an invitation to learn something new.",
+        "vi": "Một năng lượng tò mò, tâm thế người mới bắt đầu quanh suy nghĩ, giao tiếp, xung đột và sự thật đang mở ra — một tin nhắn, một ý tưởng, hay lời mời học điều gì đó mới."
+      },
+      "meaning_reversed": {
+        "en": "There may be some scattered or unready energy around thought, communication, conflict, truth. That's alright — not every idea needs to be acted on immediately.",
+        "vi": "Có thể có chút năng lượng chưa sẵn sàng hay phân tán quanh suy nghĩ, giao tiếp, xung đột và sự thật. Không sao cả — không phải ý tưởng nào cũng cần hành động ngay."
+      }
+    },
+    {
+      "id": 62,
+      "name": "Knight of Swords",
+      "name_vi": "Kỵ Sĩ Kiếm",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": "Knight",
+      "keywords_upright": [
+        "momentum",
+        "pursuit",
+        "bold action"
+      ],
+      "keywords_reversed": [
+        "recklessness",
+        "impatience",
+        "stalled momentum"
+      ],
+      "meaning_upright": {
+        "en": "There's real momentum around thought, communication, conflict, truth right now. Channel it toward something you actually care about, and it will carry you far.",
+        "vi": "Có đà tiến thực sự quanh suy nghĩ, giao tiếp, xung đột và sự thật lúc này. Hãy hướng nó vào điều bạn thực sự quan tâm, nó sẽ đưa bạn đi xa."
+      },
+      "meaning_reversed": {
+        "en": "Energy around thought, communication, conflict, truth may be moving too fast or not moving at all. Either way, a more measured pace will serve you better.",
+        "vi": "Năng lượng quanh suy nghĩ, giao tiếp, xung đột và sự thật có thể đang quá nhanh hoặc hoàn toàn đứng yên. Dù thế nào, một nhịp độ vừa phải sẽ tốt hơn cho bạn."
+      }
+    },
+    {
+      "id": 63,
+      "name": "Queen of Swords",
+      "name_vi": "Nữ Hoàng Kiếm",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": "Queen",
+      "keywords_upright": [
+        "nurturing mastery",
+        "emotional intelligence",
+        "confidence"
+      ],
+      "keywords_reversed": [
+        "self-neglect",
+        "insecurity",
+        "overextension"
+      ],
+      "meaning_upright": {
+        "en": "You're being asked to lead with the mature, grounded side of thought, communication, conflict, truth — steady, warm, and sure of yourself.",
+        "vi": "Bạn đang được mời gọi dẫn dắt bằng phần trưởng thành, vững vàng của suy nghĩ, giao tiếp, xung đột và sự thật — điềm tĩnh, ấm áp và tự tin."
+      },
+      "meaning_reversed": {
+        "en": "You may be neglecting your own needs while tending to thought, communication, conflict, truth for others. It's safe to include yourself in the care.",
+        "vi": "Có thể bạn đang bỏ quên nhu cầu của chính mình trong khi chăm sóc suy nghĩ, giao tiếp, xung đột và sự thật cho người khác. Bạn hoàn toàn có thể tự chăm sóc bản thân."
+      }
+    },
+    {
+      "id": 64,
+      "name": "King of Swords",
+      "name_vi": "Vua Kiếm",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": "King",
+      "keywords_upright": [
+        "mastery",
+        "authority",
+        "steady leadership"
+      ],
+      "keywords_reversed": [
+        "control issues",
+        "rigidity",
+        "misuse of power"
+      ],
+      "meaning_upright": {
+        "en": "You have more mastery over thought, communication, conflict, truth than you're giving yourself credit for. Lead from that steadiness, not from pressure.",
+        "vi": "Bạn có nhiều sự làm chủ với suy nghĩ, giao tiếp, xung đột và sự thật hơn bạn tự nhận. Hãy dẫn dắt từ sự vững vàng đó, không phải từ áp lực."
+      },
+      "meaning_reversed": {
+        "en": "Authority around thought, communication, conflict, truth may feel rigid or forced right now. True steadiness leaves room for flexibility.",
+        "vi": "Quyền lực quanh suy nghĩ, giao tiếp, xung đột và sự thật có thể đang cứng nhắc hoặc gượng ép lúc này. Sự vững vàng thật sự vẫn cần chỗ cho linh hoạt."
+      }
+    },
+    {
+      "id": 65,
+      "name": "Ace of Pentacles",
+      "name_vi": "Át Tiền",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 1,
+      "keywords_upright": [
+        "new opportunity",
+        "potential",
+        "raw energy"
+      ],
+      "keywords_reversed": [
+        "missed opportunity",
+        "delay",
+        "false start"
+      ],
+      "meaning_upright": {
+        "en": "A fresh spark of resources, work, body, material stability is available to you. It's small and unformed right now, but it's real — worth paying attention to.",
+        "vi": "Một tia lửa mới của tài chính, công việc, cơ thể và sự ổn định vật chất đang xuất hiện với bạn. Nó còn nhỏ và chưa rõ hình dạng, nhưng là thật — đáng để bạn chú ý."
+      },
+      "meaning_reversed": {
+        "en": "An opportunity related to resources, work, body, material stability may be delayed or harder to access than expected. It hasn't disappeared, it just needs more groundwork first.",
+        "vi": "Một cơ hội liên quan đến tài chính, công việc, cơ thể và sự ổn định vật chất có thể đang bị trì hoãn hoặc khó nắm bắt hơn dự kiến. Nó chưa biến mất, chỉ cần thêm thời gian chuẩn bị."
+      }
+    },
+    {
+      "id": 66,
+      "name": "Two of Pentacles",
+      "name_vi": "Hai Tiền",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 2,
+      "keywords_upright": [
+        "choice",
+        "balance",
+        "partnership"
+      ],
+      "keywords_reversed": [
+        "indecision",
+        "imbalance",
+        "disconnection"
+      ],
+      "meaning_upright": {
+        "en": "You're weighing a decision or a partnership around resources, work, body, material stability. Both options may be reasonable — trust what feels aligned, not just logical.",
+        "vi": "Bạn đang cân nhắc một quyết định hay mối quan hệ hợp tác quanh tài chính, công việc, cơ thể và sự ổn định vật chất. Cả hai lựa chọn đều có lý do riêng — hãy tin vào điều phù hợp với mình, không chỉ dựa vào lý trí."
+      },
+      "meaning_reversed": {
+        "en": "Indecision around resources, work, body, material stability is understandable, but staying suspended too long has its own cost. A small choice is enough to start.",
+        "vi": "Sự do dự quanh tài chính, công việc, cơ thể và sự ổn định vật chất là điều dễ hiểu, nhưng treo lơ lửng quá lâu cũng có cái giá của nó. Một lựa chọn nhỏ cũng đủ để bắt đầu."
+      }
+    },
+    {
+      "id": 67,
+      "name": "Three of Pentacles",
+      "name_vi": "Ba Tiền",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 3,
+      "keywords_upright": [
+        "growth",
+        "expansion",
+        "early results"
+      ],
+      "keywords_reversed": [
+        "setbacks",
+        "disappointment",
+        "misdirected effort"
+      ],
+      "meaning_upright": {
+        "en": "Early signs of growth are showing in your resources, work, body, material stability. Keep going — the foundation you laid is starting to pay off.",
+        "vi": "Những dấu hiệu tăng trưởng đầu tiên đang xuất hiện trong tài chính, công việc, cơ thể và sự ổn định vật chất của bạn. Hãy tiếp tục — nền tảng bạn đã đặt đang bắt đầu sinh trái."
+      },
+      "meaning_reversed": {
+        "en": "Progress in resources, work, body, material stability may feel slower or less certain than hoped. It's a setback, not a dead end.",
+        "vi": "Tiến triển trong tài chính, công việc, cơ thể và sự ổn định vật chất có thể chậm hơn hoặc chưa chắc chắn như bạn mong. Đây là một bước lùi, không phải ngõ cụt."
+      }
+    },
+    {
+      "id": 68,
+      "name": "Four of Pentacles",
+      "name_vi": "Bốn Tiền",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 4,
+      "keywords_upright": [
+        "stability",
+        "rest",
+        "consolidation"
+      ],
+      "keywords_reversed": [
+        "stagnation",
+        "boredom",
+        "resistance to rest"
+      ],
+      "meaning_upright": {
+        "en": "This is a good moment to pause and consolidate around resources, work, body, material stability, rather than pushing for more right away.",
+        "vi": "Đây là thời điểm tốt để dừng lại và củng cố quanh tài chính, công việc, cơ thể và sự ổn định vật chất, thay vì vội vàng tiến thêm."
+      },
+      "meaning_reversed": {
+        "en": "Stability in resources, work, body, material stability may have tipped into stagnation. A small shift, not a total overhaul, is what's needed.",
+        "vi": "Sự ổn định trong tài chính, công việc, cơ thể và sự ổn định vật chất có thể đã chuyển thành trì trệ. Một thay đổi nhỏ, chứ không phải đại tu toàn bộ, là điều cần thiết."
+      }
+    },
+    {
+      "id": 69,
+      "name": "Five of Pentacles",
+      "name_vi": "Năm Tiền",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 5,
+      "keywords_upright": [
+        "conflict",
+        "challenge",
+        "disruption"
+      ],
+      "keywords_reversed": [
+        "avoiding conflict",
+        "resolution emerging",
+        "residual tension"
+      ],
+      "meaning_upright": {
+        "en": "Some friction or challenge around resources, work, body, material stability is testing you right now. It's uncomfortable, but it's also clarifying what actually matters.",
+        "vi": "Một vài va chạm hay thử thách quanh tài chính, công việc, cơ thể và sự ổn định vật chất đang thử thách bạn lúc này. Khó chịu thật, nhưng nó cũng đang làm rõ điều thực sự quan trọng."
+      },
+      "meaning_reversed": {
+        "en": "Tension around resources, work, body, material stability may be easing, or you might be avoiding a conflict that needs gentle, honest attention.",
+        "vi": "Căng thẳng quanh tài chính, công việc, cơ thể và sự ổn định vật chất có thể đang dịu bớt, hoặc bạn đang né tránh một xung đột cần được nhìn nhận một cách nhẹ nhàng và thành thật."
+      }
+    },
+    {
+      "id": 70,
+      "name": "Six of Pentacles",
+      "name_vi": "Sáu Tiền",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 6,
+      "keywords_upright": [
+        "recovery",
+        "cooperation",
+        "moving forward"
+      ],
+      "keywords_reversed": [
+        "setback in recovery",
+        "one-sided giving",
+        "nostalgia"
+      ],
+      "meaning_upright": {
+        "en": "Things around resources, work, body, material stability are beginning to ease and move forward, often with the help of others.",
+        "vi": "Mọi thứ quanh tài chính, công việc, cơ thể và sự ổn định vật chất đang bắt đầu dịu lại và tiến về phía trước, thường là nhờ sự giúp đỡ từ người khác."
+      },
+      "meaning_reversed": {
+        "en": "Recovery in resources, work, body, material stability may feel uneven, or you may be giving more than you're receiving. Balance matters here.",
+        "vi": "Sự hồi phục trong tài chính, công việc, cơ thể và sự ổn định vật chất có thể chưa đồng đều, hoặc bạn đang cho đi nhiều hơn nhận lại. Sự cân bằng rất quan trọng lúc này."
+      }
+    },
+    {
+      "id": 71,
+      "name": "Seven of Pentacles",
+      "name_vi": "Bảy Tiền",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 7,
+      "keywords_upright": [
+        "reassessment",
+        "perseverance",
+        "inner questioning"
+      ],
+      "keywords_reversed": [
+        "giving up too soon",
+        "overwhelm",
+        "lack of clarity"
+      ],
+      "meaning_upright": {
+        "en": "It's worth pausing to reassess your approach to resources, work, body, material stability. Staying the course with small adjustments beats a total restart.",
+        "vi": "Đáng để bạn dừng lại và nhìn nhận lại cách tiếp cận với tài chính, công việc, cơ thể và sự ổn định vật chất. Kiên trì với những điều chỉnh nhỏ tốt hơn là làm lại từ đầu."
+      },
+      "meaning_reversed": {
+        "en": "You may feel like giving up on something related to resources, work, body, material stability. Before deciding, check whether it's exhaustion talking, or real misalignment.",
+        "vi": "Bạn có thể đang muốn buông bỏ điều gì đó liên quan đến tài chính, công việc, cơ thể và sự ổn định vật chất. Trước khi quyết định, hãy kiểm tra xem đó là do kiệt sức hay thực sự không còn phù hợp."
+      }
+    },
+    {
+      "id": 72,
+      "name": "Eight of Pentacles",
+      "name_vi": "Tám Tiền",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 8,
+      "keywords_upright": [
+        "movement",
+        "progress",
+        "swift change"
+      ],
+      "keywords_reversed": [
+        "delays",
+        "frustration",
+        "scattered energy"
+      ],
+      "meaning_upright": {
+        "en": "Momentum is building around resources, work, body, material stability. Things may move faster than expected — stay responsive rather than rigid.",
+        "vi": "Đà tiến đang hình thành quanh tài chính, công việc, cơ thể và sự ổn định vật chất. Mọi thứ có thể diễn ra nhanh hơn dự kiến — hãy linh hoạt thay vì cứng nhắc."
+      },
+      "meaning_reversed": {
+        "en": "Delays around resources, work, body, material stability are frustrating, but they're often protecting you from moving too fast in the wrong direction.",
+        "vi": "Sự trì hoãn quanh tài chính, công việc, cơ thể và sự ổn định vật chất khiến bạn khó chịu, nhưng nó thường đang bảo vệ bạn khỏi việc tiến quá nhanh sai hướng."
+      }
+    },
+    {
+      "id": 73,
+      "name": "Nine of Pentacles",
+      "name_vi": "Chín Tiền",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 9,
+      "keywords_upright": [
+        "resilience",
+        "close to completion",
+        "self-reliance"
+      ],
+      "keywords_reversed": [
+        "exhaustion",
+        "defensiveness",
+        "isolation"
+      ],
+      "meaning_upright": {
+        "en": "You're closer to a resolution in resources, work, body, material stability than it feels. What's carried you this far — your resilience — is still enough.",
+        "vi": "Bạn đang gần đạt được kết quả trong tài chính, công việc, cơ thể và sự ổn định vật chất hơn là bạn cảm nhận. Điều đã đưa bạn đi xa đến vậy — sự bền bỉ của bạn — vẫn còn đủ."
+      },
+      "meaning_reversed": {
+        "en": "You may be running on empty around resources, work, body, material stability, or guarding yourself so tightly that support can't reach you. Rest is not a setback.",
+        "vi": "Bạn có thể đang cạn kiệt năng lượng quanh tài chính, công việc, cơ thể và sự ổn định vật chất, hoặc đang phòng thủ quá chặt khiến sự hỗ trợ không thể chạm tới. Nghỉ ngơi không phải là bước lùi."
+      }
+    },
+    {
+      "id": 74,
+      "name": "Ten of Pentacles",
+      "name_vi": "Mười Tiền",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 10,
+      "keywords_upright": [
+        "completion",
+        "culmination",
+        "fulfillment or burden"
+      ],
+      "keywords_reversed": [
+        "release",
+        "letting go of a burden",
+        "incomplete ending"
+      ],
+      "meaning_upright": {
+        "en": "A cycle involving resources, work, body, material stability is reaching its natural completion — whether that feels like relief, fulfillment, or a lot to carry.",
+        "vi": "Một chu kỳ liên quan đến tài chính, công việc, cơ thể và sự ổn định vật chất đang đi đến hồi kết tự nhiên — dù điều đó mang lại cảm giác nhẹ nhõm, mãn nguyện, hay nặng nề."
+      },
+      "meaning_reversed": {
+        "en": "It may be time to set down a burden connected to resources, work, body, material stability rather than carrying it into the next chapter.",
+        "vi": "Có lẽ đã đến lúc đặt xuống một gánh nặng liên quan đến tài chính, công việc, cơ thể và sự ổn định vật chất, thay vì mang nó sang chương tiếp theo."
+      }
+    },
+    {
+      "id": 75,
+      "name": "Page of Pentacles",
+      "name_vi": "Học Trò Tiền",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": "Page",
+      "keywords_upright": [
+        "curiosity",
+        "new message",
+        "willingness to learn"
+      ],
+      "keywords_reversed": [
+        "immaturity",
+        "distraction",
+        "hesitation to start"
+      ],
+      "meaning_upright": {
+        "en": "A curious, beginner's-mind energy around resources, work, body, material stability is opening up — a message, an idea, or an invitation to learn something new.",
+        "vi": "Một năng lượng tò mò, tâm thế người mới bắt đầu quanh tài chính, công việc, cơ thể và sự ổn định vật chất đang mở ra — một tin nhắn, một ý tưởng, hay lời mời học điều gì đó mới."
+      },
+      "meaning_reversed": {
+        "en": "There may be some scattered or unready energy around resources, work, body, material stability. That's alright — not every idea needs to be acted on immediately.",
+        "vi": "Có thể có chút năng lượng chưa sẵn sàng hay phân tán quanh tài chính, công việc, cơ thể và sự ổn định vật chất. Không sao cả — không phải ý tưởng nào cũng cần hành động ngay."
+      }
+    },
+    {
+      "id": 76,
+      "name": "Knight of Pentacles",
+      "name_vi": "Kỵ Sĩ Tiền",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": "Knight",
+      "keywords_upright": [
+        "momentum",
+        "pursuit",
+        "bold action"
+      ],
+      "keywords_reversed": [
+        "recklessness",
+        "impatience",
+        "stalled momentum"
+      ],
+      "meaning_upright": {
+        "en": "There's real momentum around resources, work, body, material stability right now. Channel it toward something you actually care about, and it will carry you far.",
+        "vi": "Có đà tiến thực sự quanh tài chính, công việc, cơ thể và sự ổn định vật chất lúc này. Hãy hướng nó vào điều bạn thực sự quan tâm, nó sẽ đưa bạn đi xa."
+      },
+      "meaning_reversed": {
+        "en": "Energy around resources, work, body, material stability may be moving too fast or not moving at all. Either way, a more measured pace will serve you better.",
+        "vi": "Năng lượng quanh tài chính, công việc, cơ thể và sự ổn định vật chất có thể đang quá nhanh hoặc hoàn toàn đứng yên. Dù thế nào, một nhịp độ vừa phải sẽ tốt hơn cho bạn."
+      }
+    },
+    {
+      "id": 77,
+      "name": "Queen of Pentacles",
+      "name_vi": "Nữ Hoàng Tiền",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": "Queen",
+      "keywords_upright": [
+        "nurturing mastery",
+        "emotional intelligence",
+        "confidence"
+      ],
+      "keywords_reversed": [
+        "self-neglect",
+        "insecurity",
+        "overextension"
+      ],
+      "meaning_upright": {
+        "en": "You're being asked to lead with the mature, grounded side of resources, work, body, material stability — steady, warm, and sure of yourself.",
+        "vi": "Bạn đang được mời gọi dẫn dắt bằng phần trưởng thành, vững vàng của tài chính, công việc, cơ thể và sự ổn định vật chất — điềm tĩnh, ấm áp và tự tin."
+      },
+      "meaning_reversed": {
+        "en": "You may be neglecting your own needs while tending to resources, work, body, material stability for others. It's safe to include yourself in the care.",
+        "vi": "Có thể bạn đang bỏ quên nhu cầu của chính mình trong khi chăm sóc tài chính, công việc, cơ thể và sự ổn định vật chất cho người khác. Bạn hoàn toàn có thể tự chăm sóc bản thân."
+      }
+    },
+    {
+      "id": 78,
+      "name": "King of Pentacles",
+      "name_vi": "Vua Tiền",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": "King",
+      "keywords_upright": [
+        "mastery",
+        "authority",
+        "steady leadership"
+      ],
+      "keywords_reversed": [
+        "control issues",
+        "rigidity",
+        "misuse of power"
+      ],
+      "meaning_upright": {
+        "en": "You have more mastery over resources, work, body, material stability than you're giving yourself credit for. Lead from that steadiness, not from pressure.",
+        "vi": "Bạn có nhiều sự làm chủ với tài chính, công việc, cơ thể và sự ổn định vật chất hơn bạn tự nhận. Hãy dẫn dắt từ sự vững vàng đó, không phải từ áp lực."
+      },
+      "meaning_reversed": {
+        "en": "Authority around resources, work, body, material stability may feel rigid or forced right now. True steadiness leaves room for flexibility.",
+        "vi": "Quyền lực quanh tài chính, công việc, cơ thể và sự ổn định vật chất có thể đang cứng nhắc hoặc gượng ép lúc này. Sự vững vàng thật sự vẫn cần chỗ cho linh hoạt."
+      }
+    }
+  ]
+}

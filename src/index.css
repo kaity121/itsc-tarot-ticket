@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&subset=vietnamese&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Nunito', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #241B34;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Montserrat: Logo "ITSC Tarot", Section Headings, Card Names, Badges */
+  .font-montserrat,
+  .font-logo,
+  .font-fraunces,
+  .font-kalam,
+  .font-yellowtail,
+  .font-heading,
+  .font-display,
+  .font-card-title,
+  .font-badge {
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Baloo 2: Cute rounded bold typography */
+  .font-baloo,
+  .font-section-title,
+  .font-cute-heading {
+    font-family: 'Baloo 2', 'Montserrat', cursive, sans-serif;
+    font-optical-sizing: auto;
+  }
+
+  /* Quotes & Tarot Inquiries: Montserrat Italic or Nunito Italic (NO Cormorant Garamond) */
+  .font-cormorant,
+  .font-quote,
+  .font-serif {
+    font-family: 'Montserrat', 'Nunito', system-ui, sans-serif;
+    font-style: italic;
+  }
+
+  /* Nunito: Full body text, descriptions, buttons, microcopy */
+  .font-nunito,
+  .font-quicksand,
+  .font-body {
+    font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Subtle Rhinestone Gem Sparkle / Twinkle Animation */
+@keyframes gem-twinkle {
+  0%, 100% {
+    opacity: 0.7;
+    transform: scale(0.96);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.08);
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.9)) drop-shadow(0 0 2px rgba(192, 132, 252, 0.4));
+  }
+}
+
+.animate-gem-twinkle {
+  animation: gem-twinkle 3s ease-in-out infinite;
+}
+
+.animate-gem-twinkle-delayed {
+  animation: gem-twinkle 3.8s ease-in-out 1.5s infinite;
+}
+
+/* Mystical Skeleton Shimmer & Aura Pulsing */
+@keyframes mystical-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-mystical-shimmer {
+  background: linear-gradient(90deg, #EDE9FE 0%, #D8B4FE 30%, #FFFFFF 50%, #D8B4FE 70%, #EDE9FE 100%);
+  background-size: 250% 100%;
+  animation: mystical-shimmer 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes mystical-pulse-aura {
+  0%, 100% {
+    opacity: 0.55;
+    transform: scale(0.98);
+    filter: blur(28px);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1.05);
+    filter: blur(36px);
+  }
+}
+
+.animate-mystical-aura {
+  animation: mystical-pulse-aura 3.2s ease-in-out infinite;
+}
+
+.mystical-glow-card {
+  box-shadow: 0 0 35px rgba(168, 85, 247, 0.28), 0 16px 40px -4px rgba(85, 40, 125, 0.16);
+  border: 1.5px solid rgba(192, 132, 252, 0.65);
+}
+
+.mystical-glow-input {
+  box-shadow: 0 0 16px rgba(168, 85, 247, 0.18);
+  border: 1.5px solid rgba(216, 180, 254, 0.85);
+  transition: all 0.3s ease;
+}
+
+.mystical-glow-input:focus {
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.4);
+  border-color: #9333EA;
+  background-color: #FFFFFF;
+}
+
+/* Warm Purple Card Shadow & Softer Tactile Elevation */
+.tarot-clean-card {
+  border-radius: 1rem; /* rounded-2xl */
+  box-shadow: 0 8px 24px -2px rgba(95, 50, 135, 0.14), 0 3px 8px -1px rgba(135, 80, 180, 0.08);
+  transition: transform 0.35s ease-out, box-shadow 0.35s ease-out, border-color 0.35s ease-out;
+}
+
+.tarot-clean-card:hover {
+  box-shadow: 0 18px 38px -4px rgba(85, 40, 125, 0.22), 0 6px 14px -2px rgba(150, 95, 195, 0.16);
+}
+
+/* Cozy Washi tape & badge accents in pastel tones - authentic, delicate craft masking tape */
+.washi-tape-lavender {
+  background: rgba(228, 216, 246, 0.82);
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(75, 45, 110, 0.18);
+  box-shadow: 0 1px 2px rgba(45, 30, 70, 0.08);
+}
+.washi-tape-blue {
+  background: rgba(216, 230, 248, 0.82);
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(45, 75, 120, 0.18);
+  box-shadow: 0 1px 2px rgba(45, 30, 70, 0.08);
+}
+.washi-tape-peach {
+  background: rgba(254, 226, 218, 0.82);
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(130, 60, 45, 0.18);
+  box-shadow: 0 1px 2px rgba(45, 30, 70, 0.08);
+}
+.washi-tape-beige {
+  background: rgba(246, 241, 230, 0.86);
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(100, 85, 70, 0.18);
+  box-shadow: 0 1px 2px rgba(45, 30, 70, 0.08);
+}
+
+/* Slender, delicate divider */
+.subtle-divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(160, 150, 185, 0.22) 20%, rgba(160, 150, 185, 0.22) 80%, transparent);
+}
+
+/* Cozy pixel-world & scrapbook subtle texture backgrounds - low contrast, warm, gentle */
+.cozy-polka-bg {
+  background-color: #FAF8FD;
+  background-image: radial-gradient(rgba(175, 150, 205, 0.22) 1.2px, transparent 1.2px);
+  background-size: 14px 14px;
+}
+
+.cozy-caro-bg {
+  background-color: #FAF8FD;
+  background-image: 
+    linear-gradient(rgba(185, 165, 215, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(185, 165, 215, 0.15) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+/* 3D Card Flip & Motion Helpers */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(130, 120, 150, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(130, 120, 150, 0.45);
+}
+

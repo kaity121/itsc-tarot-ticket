@@ -1,0 +1,8 @@
+{
+  "name": "Remix Moonlight Tarot",
+  "description": "A mindful, elegant tarot web application featuring ITSC Owl Mascot, full-bleed authentic card artwork, unified lavender palette, dual contrast daily spreads, and rhinestone gems.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
