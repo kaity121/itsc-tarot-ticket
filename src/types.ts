@@ -1,81 +1,42 @@
-export type Language = 'en' | 'vi';
+/**
+ * types.ts
+ * -----------------------------------------------------------------------
+ * Kiểu dữ liệu dùng chung cho frontend, khớp với schema JSON mà
+ * promptBuilder.js ép AI trả về (xem buildPrompt() trong promptBuilder.js).
+ *
+ * Lưu ý: nếu file src/types.ts thật của bạn đã có sẵn interface
+ * TarotReadingApiResponse (kiểu cũ `{ reading: string }`), hãy THAY THẾ
+ * toàn bộ interface đó bằng bản dưới đây — đừng chỉ thêm vào, vì kiểu cũ
+ * và kiểu mới không tương thích ngược (breaking change).
+ * -----------------------------------------------------------------------
+ */
 
-export interface TarotCardData {
-  id: string;
+/** Một lá bài trong kết quả trả về, gắn với vị trí đã rút. */
+export interface TarotCardReflection {
+  /** Tên lá bài, ví dụ "The Fool". */
   name: string;
-  nameVi: string;
-  numeral: string;
-  suit?: 'Major' | 'Wands' | 'Cups' | 'Swords' | 'Pentacles';
-  keywords: string[];
-  keywordsVi: string[];
-  element: 'Air' | 'Water' | 'Fire' | 'Earth';
-  summary: string;
-  summaryVi: string;
-  contrastPerspective: {
-    apparent: string;
-    actual: string;
-  };
-  contrastPerspectiveVi: {
-    apparent: string;
-    actual: string;
-  };
-  symbol: string;
-  modernNote: string;
-  modernNoteVi: string;
-  image: string;
-}
-
-export type TarotOrientation = 'upright' | 'reversed';
-
-export interface DrawnTarotCard extends TarotCardData {
-  orientation: TarotOrientation;
-}
-
-export interface TarotCardInput {
-  name: string;
-  orientation: TarotOrientation;
+  /** Vị trí đã gán khi rút bài, ví dụ "Quá khứ" / "Hiện tại" / "Tương lai". */
   position: string;
+  /** Góc nhìn sâu gắn lá bài với câu hỏi — không phải định nghĩa từ điển. */
+  reflection: string;
 }
 
-export interface TarotReadingRequest {
-  question: string;
-  language: Language;
-  cards: TarotCardInput[];
-}
-
-export interface SpreadPerspective {
-  id: string;
-  label: string;
-  labelVi: string;
-  subtext: string;
-  subtextVi: string;
-}
-
-export interface CardSlotItem {
-  card: TarotCardData;
-  isFlipped: boolean;
-  perspectiveLabel: string;
-}
-
-export type ReadingMode = 'daily' | 'classic';
-
-
+/** Toàn bộ kết quả 1 buổi đọc bài, đúng schema JSON mà AI phải trả về. */
 export interface TarotReadingApiResponse {
-  reading: string;
-}
-
-export interface TarotReadingResponse {
-  interpretation: string;
-  cardBreakdown: Record<string, string>;
+  /** 1 câu đúc kết năng lượng chủ đạo của buổi đọc. */
+  theme: string;
+  /** Reflection cho từng lá bài đã rút, theo đúng thứ tự đã gửi lên AI. */
+  cards: TarotCardReflection[];
+  /** Phân tích "Card Dialogue" — sự tương tác/mâu thuẫn giữa các lá bài. */
+  synthesis: string;
+  /** 1-2 câu hành động thực tế / lời khuyên vi mô cho hôm nay. */
   takeaway: string;
-  source: 'gemini' | 'curated' | 'fallback';
 }
 
-export interface QuestionPreset {
-  id: string;
-  label: string;
-  labelVi: string;
-  category: 'All' | 'Love' | 'Career' | 'Mindset';
-  placeholder: string;
-  placeholderVi: string;
+/**
+ * @deprecated Schema cũ, chỉ giữ lại để tham chiếu / hỗ trợ migrate dữ liệu
+ * cũ nếu cần. Đừng dùng cho code mới — dùng TarotReadingApiResponse ở trên.
+ */
+export interface LegacyTarotReadingApiResponse {
+  reading: string;
 }

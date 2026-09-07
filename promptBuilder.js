@@ -36,13 +36,9 @@
  * -----------------------------------------------------------------------
  */
 
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import { SYSTEM_PROMPT } from './systemPrompt.js';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const fs = require('fs');
+const path = require('path');
+const { SYSTEM_PROMPT } = require('./systemPrompt');
 
 let _deckCache = null;
 
@@ -96,20 +92,35 @@ function describeCard(card, language) {
   const meaningText = meaning[language] || meaning.en;
   const position = card.position || (language === 'vi' ? 'Không xác định' : 'Unspecified');
 
+  // Các field "chiều sâu tâm lý" mới — optional chaining vì lá bài cũ (nếu
+  // tarotDeck.json chưa được enrich đầy đủ) vẫn phải chạy được, không throw lỗi.
+  const shadowText = data.psychological_shadow?.[language] || data.psychological_shadow?.en;
+  const reflectionText = data.reflection_prompt?.[language] || data.reflection_prompt?.en;
+  const contrastApparent = data.contrast_dimension?.apparent?.[language] || data.contrast_dimension?.apparent?.en;
+  const contrastActual = data.contrast_dimension?.actual?.[language] || data.contrast_dimension?.actual?.en;
+
   if (language === 'vi') {
-    return (
+    let block =
       `- Vị trí: ${position}\n` +
       `  Lá bài: ${displayName} (${data.name}) — ${orientationLabel}\n` +
       `  Từ khóa: ${keywords.join(', ')}\n` +
-      `  Ý nghĩa nền tảng: ${meaningText}`
-    );
+      `  Ý nghĩa nền tảng: ${meaningText}`;
+    if (shadowText) block += `\n  Điểm mù tâm lý: ${shadowText}`;
+    if (contrastApparent) block += `\n  Vẻ bề ngoài: ${contrastApparent}`;
+    if (contrastActual) block += `\n  Bản chất thực sự: ${contrastActual}`;
+    if (reflectionText) block += `\n  Câu hỏi tự vấn gợi ý: ${reflectionText}`;
+    return block;
   }
-  return (
+  let block =
     `- Position: ${position}\n` +
     `  Card: ${displayName} — ${orientationLabel}\n` +
     `  Keywords: ${keywords.join(', ')}\n` +
-    `  Base meaning: ${meaningText}`
-  );
+    `  Base meaning: ${meaningText}`;
+  if (shadowText) block += `\n  Psychological shadow: ${shadowText}`;
+  if (contrastApparent) block += `\n  Apparent surface: ${contrastApparent}`;
+  if (contrastActual) block += `\n  True nature: ${contrastActual}`;
+  if (reflectionText) block += `\n  Suggested reflection prompt: ${reflectionText}`;
+  return block;
 }
 
 /**
@@ -134,13 +145,20 @@ function buildPrompt({ question, cards, language = 'vi' }) {
     question && question.trim().length > 0
       ? question.trim()
       : lang === 'vi'
-        ? 'Định hướng và sự rõ ràng chung cho hiện tại'
-        : 'General guidance and clarity for the present moment';
+      ? 'Định hướng và sự rõ ràng chung cho hiện tại'
+      : 'General guidance and clarity for the present moment';
 
-  // Ngân sách độ dài: 60 chữ/lá + ~20 chữ đệm cho câu mở đầu và câu kết
-  const WORDS_PER_CARD = 60;
-  const OPENING_CLOSING_BUFFER = 20;
-  const totalWordBudget = cards.length * WORDS_PER_CARD + OPENING_CLOSING_BUFFER;
+  // Thống kê nhanh Major/Minor + nguyên tố (Gậy=lửa, Cốc=nước, Kiếm=khí,
+  // Tiền=đất) để AI có sẵn dữ kiện cho phần "Card Dialogue" ở synthesis,
+  // thay vì phải tự đếm lại từ mô tả từng lá.
+  const cardDataList = cards.map((c) => getCardData(c.name));
+  const majorCount = cardDataList.filter((d) => d.arcana === 'Major').length;
+  const minorCount = cardDataList.length - majorCount;
+  const suitLabelsVi = { Wands: 'Gậy (lửa)', Cups: 'Cốc (nước)', Swords: 'Kiếm (khí)', Pentacles: 'Tiền (đất)' };
+  const suitLabelsEn = { Wands: 'Wands (fire)', Cups: 'Cups (water)', Swords: 'Swords (air)', Pentacles: 'Pentacles (earth)' };
+  const suitsPresent = [...new Set(cardDataList.filter((d) => d.suit).map((d) => d.suit))];
+  const suitSummaryVi = suitsPresent.length ? suitsPresent.map((s) => suitLabelsVi[s] || s).join(', ') : 'không có (toàn Major Arcana)';
+  const suitSummaryEn = suitsPresent.length ? suitsPresent.map((s) => suitLabelsEn[s] || s).join(', ') : 'none (all Major Arcana)';
 
   const userPrompt =
     lang === 'vi'
@@ -148,44 +166,52 @@ function buildPrompt({ question, cards, language = 'vi' }) {
 
 Câu hỏi / mối bận tâm của người hỏi: ${focusQuestion}
 
-Các lá bài đã rút (${cards.length} lá):
+Các lá bài đã rút (${cards.length} lá) — ${majorCount} Major Arcana, ${minorCount} Minor Arcana. Nguyên tố xuất hiện: ${suitSummaryVi}.
 
 ${cardBlock}
 
-Hướng dẫn viết lời giải:
-1. QUAN TRỌNG NHẤT: Với MỖI lá bài, phần giải thích + liên hệ câu hỏi chỉ khoảng 60 chữ. Với ${cards.length} lá đã rút, tổng toàn bộ lời giải (gồm câu mở đầu, phần từng lá, câu kết) khoảng ${totalWordBudget} chữ — đây là nhận xét nhanh hiển thị trên web, không phải bài viết dài.
-2. Câu đầu tiên chạm nhẹ đến cảm xúc phía sau câu hỏi — không lặp lại y nguyên câu hỏi.
-3. Với MỖI lá bài: nêu tên lá, giải thích sơ qua ý nghĩa cốt lõi của lá đó (đủ dễ hiểu cho người mới, diễn đạt tự nhiên bằng lời của bạn — không sao chép y nguyên "ý nghĩa nền tảng" hay liệt kê lại từ khóa), rồi liên hệ ý nghĩa đó với câu hỏi — mỗi lá giữ trong khoảng 60 chữ như trên.
-4. Câu cuối cùng là một lời khích lệ nhẹ nhàng, không phán xét, không khẳng định tuyệt đối về tương lai.
-5. Không dùng tiêu đề, không gạch đầu dòng, không xuống dòng giữa các câu — viết thành một đoạn văn liền mạch, ngắn gọn, dễ đọc.
+Hướng dẫn viết lời giải — trả về đúng 4 phần theo schema JSON bên dưới:
+1. "theme": 1 câu đúc kết năng lượng chủ đạo của cả buổi đọc, chạm thẳng vào trạng thái cảm xúc đằng sau câu hỏi — không lặp lại y nguyên câu hỏi.
+2. "cards": mảng gồm ${cards.length} phần tử, mỗi phần tử có "name" (tên lá), "position" (vị trí đã cho), và "reflection" — góc nhìn sâu gắn lá bài với bối cảnh câu hỏi, tập trung cảm xúc và bài học thực tế, không chép lại từ điển/từ khóa/ý nghĩa nền tảng nguyên văn.
+3. "synthesis": phân tích Card Dialogue — các lá bài đối thoại với nhau thế nào (mâu thuẫn, làm dịu, hay khuếch đại lẫn nhau; khoảng cách giữa bề ngoài và thực chất nếu có; tỷ lệ Major/Minor; các nguyên tố có tụ hay xung khắc) — chỉ dùng góc nhìn nào thực sự phù hợp với bộ bài này.
+4. "takeaway": 1-2 câu hành động thực tế hoặc lời khuyên vi mô có thể áp dụng trong ngày, giúp người hỏi tự tin làm chủ tình huống.
 
-Chỉ trả về nội dung lời giải bằng tiếng Việt, dưới dạng JSON theo schema:
+Chỉ trả về JSON theo schema:
 {
-  "reading": "toàn bộ lời giải hoàn chỉnh dưới dạng một đoạn văn liền mạch"
+  "theme": "...",
+  "cards": [
+    { "name": "...", "position": "...", "reflection": "..." }
+  ],
+  "synthesis": "...",
+  "takeaway": "..."
 }
 Chỉ xuất JSON thuần, không thêm chú thích hay markdown.`
       : `Reading context:
 
 User's question / focus: ${focusQuestion}
 
-Drawn cards (${cards.length}):
+Drawn cards (${cards.length}) — ${majorCount} Major Arcana, ${minorCount} Minor Arcana. Elements present: ${suitSummaryEn}.
 
 ${cardBlock}
 
-Writing instructions:
-1. MOST IMPORTANT: For EACH card, the explanation + connection to the question should be about 60 words. With ${cards.length} cards drawn, the ENTIRE reading (opening line + per-card parts + closing line) should total around ${totalWordBudget} words — this is a quick on-screen note, not a long-form piece.
-2. Open with a short line that touches the feeling behind the question — don't just repeat the question back.
-3. For EACH card: name it, briefly explain its core meaning (accessible to a beginner, in your own natural words — don't copy the "base meaning" verbatim or list keywords), then connect that meaning to the question — keep each card to about 60 words as above.
-4. Close with one gentle, non-judgmental encouraging line. Never state the future as fixed or absolute.
-5. No headers, no bullet points, no line breaks between sentences — write it as a single short, easy-to-read paragraph.
+Writing instructions — return exactly the 4 parts in the JSON schema below:
+1. "theme": one sentence capturing the dominant energy of the whole reading, touching the feeling behind the question — don't just repeat the question.
+2. "cards": an array of ${cards.length} items, each with "name" (card name), "position" (the given position), and "reflection" — a deep insight linking the card to the question's context, focused on feeling and practical lessons, not a copy of the dictionary/keywords/base meaning.
+3. "synthesis": a Card Dialogue analysis — how the cards talk to each other (contradicting, softening, or amplifying one another; any gap between apparent surface and true nature; the Major/Minor ratio; whether the elements cluster or clash) — use only whichever lens is actually relevant to this spread.
+4. "takeaway": 1-2 sentences of practical action or a micro piece of advice usable today, helping the person feel confident and in control.
 
-Return ONLY the reading, in JSON matching this schema:
+Return ONLY JSON matching this schema:
 {
-  "reading": "the complete reading as one coherent passage of text"
+  "theme": "...",
+  "cards": [
+    { "name": "...", "position": "...", "reflection": "..." }
+  ],
+  "synthesis": "...",
+  "takeaway": "..."
 }
 Output raw JSON only, no commentary or markdown fences.`;
 
   return { systemPrompt, userPrompt };
 }
 
-export { buildPrompt, getCardData, loadDeck };
+module.exports = { buildPrompt, getCardData, loadDeck };

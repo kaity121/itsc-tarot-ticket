@@ -26,6 +26,24 @@
       "meaning_reversed": {
         "en": "You may be holding back out of fear, or leaping without any grounding. Pause just long enough to check in with yourself, not to punish the impulse.",
         "vi": "Bạn có thể đang chần chừ vì sợ hãi, hoặc lao vào điều gì đó mà chưa có nền tảng vững. Hãy dừng lại một chút để lắng nghe chính mình, không phải để tự trách."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ bị xem là ngây thơ, hoặc ngược lại: sự bốc đồng liều lĩnh để trốn chạy thực tại.",
+        "en": "Fear of being judged as naive, or reckless impulsiveness used as an escape from grounded reality."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác chênh vênh, thiếu chuẩn bị, như đang đứng trước vực thẳm.",
+          "en": "A sense of precarious unpreparedness, standing at the edge of the unknown."
+        },
+        "actual": {
+          "vi": "Tâm thế người mới trong trẻo, cơ hội vàng để bắt đầu lại mà không bị trói buộc bởi quá khứ.",
+          "en": "A pristine beginner's mind, a golden chance to start again unburdened by the past."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Điều gì đang ngăn bạn bước bước đầu tiên ngay cả khi không có gì đảm bảo?",
+        "en": "What is stopping you from taking that first step even without any guarantee?"
       }
     },
     {
@@ -54,6 +72,24 @@
       "meaning_reversed": {
         "en": "Energy feels scattered or your confidence has dipped. Gently refocus on one small, honest step rather than trying to do everything at once.",
         "vi": "Năng lượng đang phân tán hoặc sự tự tin chững lại. Hãy nhẹ nhàng tập trung vào một bước nhỏ chân thật, thay vì cố ôm đồm tất cả."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ rằng nguồn lực trong tay là chưa đủ, hoặc thao túng người khác để chứng minh năng lực.",
+        "en": "Fear that the resources at hand aren't enough, or manipulating others to prove one's own capability."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Áp lực phải chứng tỏ bản thân ngay lập tức, sợ bị coi là chưa đủ giỏi.",
+          "en": "Pressure to prove yourself right now, fear of being seen as not good enough."
+        },
+        "actual": {
+          "vi": "Mọi công cụ cần thiết đã có sẵn trong tay bạn, chỉ cần tập trung ý chí để hành động.",
+          "en": "Every tool you need is already in your hands — it just takes focused will to act."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu tin rằng mình đã có đủ nguồn lực, bạn sẽ bắt đầu hành động nào ngay hôm nay?",
+        "en": "If you trusted you already had enough, what action would you start today?"
       }
     },
     {
@@ -81,6 +117,24 @@
       "meaning_reversed": {
         "en": "You might be ignoring a quiet feeling in favor of noise or other people's opinions. It's safe to come back to your own inner voice.",
         "vi": "Có thể bạn đang lờ đi một cảm giác nhỏ để chạy theo tiếng ồn hay ý kiến người khác. Việc quay về lắng nghe tiếng nói bên trong là điều an toàn."
+      },
+      "psychological_shadow": {
+        "vi": "Trốn tránh trực giác của chính mình vì sợ nó không 'logic', hoặc giữ im lặng thay vì lên tiếng.",
+        "en": "Avoiding your own intuition because it feels 'illogical', or staying silent instead of speaking up."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Sự im lặng khó hiểu, cảm giác có điều gì đó bị giấu kín chưa rõ ràng.",
+          "en": "A puzzling silence, a sense that something is being kept hidden and unclear."
+        },
+        "actual": {
+          "vi": "Trực giác của bạn đã biết câu trả lời, chỉ cần đủ tĩnh lặng để lắng nghe nó.",
+          "en": "Your intuition already knows the answer — it just needs enough stillness to be heard."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu gạt lý trí sang một bên trong 1 phút, trực giác của bạn đang thì thầm điều gì?",
+        "en": "If you set logic aside for one minute, what is your intuition quietly telling you?"
       }
     },
     {
@@ -109,6 +163,24 @@
       "meaning_reversed": {
         "en": "You may be pouring into everyone else while running dry. Nurturing starts with including yourself in the care you give.",
         "vi": "Có thể bạn đang dồn hết cho người khác mà quên mất bản thân. Sự chăm sóc thật sự bắt đầu từ việc không bỏ quên chính mình."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ không đủ tốt để được yêu thương, hoặc kiệt sức vì cho đi quá nhiều mà quên chăm sóc bản thân.",
+        "en": "Fear of not being lovable enough, or burning out from giving too much while forgetting self-care."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác thiếu thốn, như chưa có đủ sự chăm sóc hay nguồn nuôi dưỡng xung quanh.",
+          "en": "A feeling of lack, as if there isn't enough care or nourishment around you."
+        },
+        "actual": {
+          "vi": "Sự sung túc và khả năng nuôi dưỡng đang có sẵn trong bạn, chỉ cần cho phép mình đón nhận nó.",
+          "en": "Abundance and nurturing capacity are already within you — you just need to let yourself receive it."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Hôm nay bạn có thể tự chăm sóc mình theo cách mà bạn vẫn thường dành cho người khác không?",
+        "en": "Could you care for yourself today the way you usually care for others?"
       }
     },
     {
@@ -137,6 +209,24 @@
       "meaning_reversed": {
         "en": "Control (yours or someone else's) may be creating tension instead of safety. Structure works best when it still leaves room to breathe.",
         "vi": "Sự kiểm soát (của bạn hoặc người khác) có thể đang gây căng thẳng thay vì an toàn. Cấu trúc chỉ thực sự tốt khi vẫn còn chỗ để thở."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ mất kiểm soát, dẫn đến việc kiểm soát quá mức người khác hoặc chính bản thân mình.",
+        "en": "Fear of losing control, leading to over-controlling others or yourself."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác hỗn loạn, thiếu cấu trúc, như mọi thứ có thể sụp đổ bất cứ lúc nào.",
+          "en": "A sense of chaos, lacking structure, as if everything could collapse at any moment."
+        },
+        "actual": {
+          "vi": "Bạn có khả năng tạo ra trật tự vững chắc, chỉ cần dùng kỷ luật để phục vụ mục tiêu, không phải để sợ hãi.",
+          "en": "You have the capacity to build solid order — using discipline to serve your goals, not out of fear."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Bạn đang cố kiểm soát điều gì vì lo lắng, thay vì vì nó thực sự cần thiết?",
+        "en": "What are you trying to control out of anxiety, rather than real necessity?"
       }
     },
     {
@@ -164,6 +254,24 @@
       "meaning_reversed": {
         "en": "A rule or tradition may no longer fit you. It's okay to respectfully step outside what was expected and find your own way.",
         "vi": "Một quy tắc hay truyền thống nào đó có thể không còn phù hợp với bạn nữa. Bạn hoàn toàn có thể bước ra ngoài khuôn mẫu để tìm con đường riêng."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ đi lệch khỏi khuôn khổ được dạy, hoặc nổi loạn chỉ để chứng minh mình khác biệt.",
+        "en": "Fear of straying from what you were taught, or rebelling just to prove you're different."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Áp lực phải tuân theo một khuôn mẫu, quy tắc mà bạn chưa chắc đã tin tưởng.",
+          "en": "Pressure to follow a mold or set of rules you're not fully convinced by."
+        },
+        "actual": {
+          "vi": "Có những giá trị nền tảng đáng giữ lại, bạn được quyền chọn lọc điều gì thực sự phù hợp với mình.",
+          "en": "There are foundational values worth keeping — you're allowed to choose what truly fits you."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Quy tắc nào bạn đang tuân theo chỉ vì thói quen, chứ không phải vì bạn thực sự tin vào nó?",
+        "en": "Which rule are you following out of habit rather than genuine belief?"
       }
     },
     {
@@ -191,6 +299,24 @@
       "meaning_reversed": {
         "en": "Something feels out of sync — with another person, or between what you say you want and what you're actually doing.",
         "vi": "Có điều gì đó đang lệch nhịp — với một người khác, hoặc giữa điều bạn nói mình muốn và điều bạn thực sự đang làm."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ phải lựa chọn sai, hoặc đánh mất một phần bản thân khi gắn bó với ai đó.",
+        "en": "Fear of choosing wrong, or losing part of yourself when bonding with someone."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác bị giằng xé giữa hai lựa chọn, như phải hy sinh một điều để có điều kia.",
+          "en": "A feeling of being torn between two choices, as if one must be sacrificed for the other."
+        },
+        "actual": {
+          "vi": "Lựa chọn thật sự đến từ giá trị cốt lõi của bạn, không phải từ nỗi sợ đánh mất.",
+          "en": "The real choice comes from your core values, not from a fear of losing out."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu bỏ qua nỗi sợ đánh mất, giá trị nào của bạn đang thật sự lên tiếng lúc này?",
+        "en": "Setting aside the fear of loss, which of your core values is really speaking right now?"
       }
     },
     {
@@ -218,6 +344,24 @@
       "meaning_reversed": {
         "en": "You might be pulled in two directions at once. Slow down enough to choose one clear direction rather than forcing speed.",
         "vi": "Có thể bạn đang bị kéo về hai hướng cùng lúc. Hãy chậm lại đủ để chọn một hướng rõ ràng, thay vì ép mình phải tăng tốc."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ dừng lại sẽ bị coi là thất bại, dẫn đến việc ép bản thân tiến lên dù đã kiệt sức.",
+        "en": "Fear that stopping means failure, leading to pushing yourself forward even when exhausted."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác hai lực đối lập đang kéo bạn về hai hướng, khó mà tiến lên được.",
+          "en": "A sense of two opposing forces pulling you in different directions, making forward motion hard."
+        },
+        "actual": {
+          "vi": "Chiến thắng đến từ việc làm chủ hai lực đó cùng lúc, không phải triệt tiêu một bên.",
+          "en": "Victory comes from mastering both forces at once, not eliminating one side."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Hai điều gì trong bạn đang kéo về hai hướng, và làm sao để chúng cùng phục vụ một mục tiêu?",
+        "en": "What two things inside you are pulling in different directions, and how could they serve one goal?"
       }
     },
     {
@@ -245,6 +389,24 @@
       "meaning_reversed": {
         "en": "You may be doubting your own resilience, or trying to control something through force instead of steadiness.",
         "vi": "Có thể bạn đang nghi ngờ sức chịu đựng của chính mình, hoặc cố kiểm soát điều gì đó bằng vũ lực thay vì sự vững vàng."
+      },
+      "psychological_shadow": {
+        "vi": "Nhầm lẫn sức mạnh thật sự với việc phải gồng mình cứng rắn hoặc đè nén cảm xúc.",
+        "en": "Mistaking true strength for having to appear tough or suppress your emotions."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác phải chiến đấu, kiểm soát một điều gì đó hoang dã và khó thuần phục.",
+          "en": "A feeling of having to fight or forcefully control something wild and hard to tame."
+        },
+        "actual": {
+          "vi": "Sức mạnh thật đến từ sự dịu dàng và kiên nhẫn, không phải từ việc ép buộc.",
+          "en": "Real strength comes from gentleness and patience, not from force."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu đối xử dịu dàng với phần \"hoang dã\" trong mình thay vì chống lại nó, điều gì sẽ thay đổi?",
+        "en": "If you treated the 'wild' part of yourself gently instead of fighting it, what would change?"
       }
     },
     {
@@ -272,6 +434,24 @@
       "meaning_reversed": {
         "en": "Solitude may be tipping into isolation. It's okay to step back, but don't forget the people who are there to support you.",
         "vi": "Sự tĩnh lặng có thể đang chuyển thành cô lập. Rút lui một chút cũng được, nhưng đừng quên những người vẫn luôn ở đó để đỡ bạn."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ bị cô lập, hoặc dùng sự cô đơn như một cách né tránh kết nối thật sự.",
+        "en": "Fear of being isolated, or using solitude as a way to avoid real connection."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác lạc lõng, tách biệt khỏi mọi người xung quanh.",
+          "en": "A feeling of being lost or disconnected from everyone around you."
+        },
+        "actual": {
+          "vi": "Đây là khoảng lặng cần thiết để tìm lại ánh sáng nội tâm, trước khi quay lại với thế giới.",
+          "en": "This is a necessary pause to find your inner light again before returning to the world."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Khoảng lặng này đang muốn dạy bạn điều gì mà sự bận rộn thường che khuất?",
+        "en": "What is this quiet moment trying to teach you that busyness usually hides?"
       }
     },
     {
@@ -299,6 +479,24 @@
       "meaning_reversed": {
         "en": "A change feels unwelcome or out of your hands. Even so, this turn is redirecting you away from something that had already run its course.",
         "vi": "Một sự thay đổi có thể khiến bạn khó chịu hoặc ngoài tầm kiểm soát. Dù vậy, khúc quanh này đang đưa bạn tránh xa điều vốn đã đến hồi kết."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ mất kiểm soát trước những điều ngẫu nhiên, hoặc ảo tưởng rằng mình có thể kiểm soát mọi thứ.",
+        "en": "Fear of losing control over random events, or the illusion that you can control everything."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác mọi thứ đang xoay chuyển ngoài tầm với, khó đoán và bất định.",
+          "en": "A sense that everything is spinning out of reach, unpredictable and uncertain."
+        },
+        "actual": {
+          "vi": "Chu kỳ nào rồi cũng thay đổi — đây có thể chính là bước ngoặt bạn đang chờ đợi.",
+          "en": "Every cycle eventually turns — this may well be the turning point you've been waiting for."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu tin rằng vận may đang chuyển hướng có lợi cho bạn, bạn sẽ chuẩn bị điều gì ngay bây giờ?",
+        "en": "If you trusted the wheel was turning in your favor, what would you prepare for right now?"
       }
     },
     {
@@ -326,6 +524,24 @@
       "meaning_reversed": {
         "en": "Something may feel unfair, or there's an accountability being avoided — by you or someone else. Naming it plainly helps more than staying quiet.",
         "vi": "Có điều gì đó cảm giác không công bằng, hoặc một trách nhiệm đang bị né tránh — từ bạn hoặc người khác. Gọi tên nó rõ ràng sẽ hữu ích hơn là im lặng."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ bị đối xử bất công, hoặc quá khắt khe với bản thân và người khác để tìm sự 'công bằng'.",
+        "en": "Fear of being treated unfairly, or being overly harsh on yourself and others in the name of 'fairness'."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác một điều gì đó không công bằng đang xảy ra, mọi thứ có vẻ lệch cán cân.",
+          "en": "A feeling that something unfair is happening, as if the scales are tipped."
+        },
+        "actual": {
+          "vi": "Sự thật và trách nhiệm rõ ràng đang chờ được nhìn nhận một cách trung thực, không phán xét.",
+          "en": "A clear truth and responsibility are waiting to be acknowledged honestly, without judgment."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu nhìn tình huống này thật khách quan, phần trách nhiệm nào là của bạn và phần nào không phải?",
+        "en": "Looking at this as objectively as you can, which part of the responsibility is yours, and which isn't?"
       }
     },
     {
@@ -353,6 +569,24 @@
       "meaning_reversed": {
         "en": "You may be resisting a needed pause, or sacrificing yourself unnecessarily for something that doesn't ask that of you.",
         "vi": "Có thể bạn đang chống lại một khoảng dừng cần thiết, hoặc hy sinh bản thân một cách không cần thiết cho điều không đòi hỏi điều đó."
+      },
+      "psychological_shadow": {
+        "vi": "Cảm giác bất lực khi phải chờ đợi, hoặc coi việc 'không làm gì' là một dạng thất bại.",
+        "en": "A feeling of helplessness while waiting, or seeing 'doing nothing' as a kind of failure."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác bị mắc kẹt, treo lơ lửng, không thể tiến hay lùi.",
+          "en": "A feeling of being stuck, suspended, unable to move forward or back."
+        },
+        "actual": {
+          "vi": "Góc nhìn ngược này đang mở ra một sự thấu hiểu mới mà bạn chưa từng thấy khi đứng thẳng.",
+          "en": "This upside-down view is opening an insight you could never see while standing upright."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu ngừng cố gắng thoát ra và thay vào đó quan sát từ góc nhìn này, bạn thấy điều gì mới?",
+        "en": "If you stopped trying to escape and just observed from this angle, what new thing would you notice?"
       }
     },
     {
@@ -380,6 +614,24 @@
       "meaning_reversed": {
         "en": "You may be clinging to a chapter that has already closed. Holding on tighter won't stop the change; it only delays your own relief.",
         "vi": "Có thể bạn đang bám víu vào một chương đã thực sự khép lại. Càng giữ chặt càng không ngăn được thay đổi, chỉ khiến bạn chậm được nhẹ lòng hơn."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ buông bỏ điều quen thuộc, dù nó không còn phục vụ bạn nữa.",
+        "en": "Fear of letting go of the familiar, even when it no longer serves you."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác một điều gì đó đang kết thúc, mất mát, để lại khoảng trống đáng sợ.",
+          "en": "A feeling that something is ending, a loss leaving behind a frightening emptiness."
+        },
+        "actual": {
+          "vi": "Một sự chuyển tiếp cần thiết đang mở đường cho phiên bản mới của chính bạn.",
+          "en": "A necessary transition is clearing the way for a new version of yourself."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Điều gì trong bạn đã sẵn sàng được buông bỏ để nhường chỗ cho một khởi đầu khác?",
+        "en": "What in you is already ready to be released to make room for something new?"
       }
     },
     {
@@ -408,6 +660,24 @@
       "meaning_reversed": {
         "en": "Something feels too extreme in one direction. A small course correction, done patiently, will help more than an abrupt swing.",
         "vi": "Có điều gì đó đang lệch quá đà về một phía. Một điều chỉnh nhỏ, thực hiện kiên nhẫn, sẽ hữu ích hơn một cú xoay chuyển đột ngột."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ sự mất cân bằng, dẫn đến việc cố kiểm soát mọi thứ thành 'vừa phải' một cách gượng ép.",
+        "en": "Fear of imbalance, leading to a forced attempt at making everything 'just right'."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác căng thẳng giữa hai thái cực, như đang cố dung hòa những điều đối lập.",
+          "en": "Tension between two extremes, as if trying to force opposites into harmony."
+        },
+        "actual": {
+          "vi": "Sự cân bằng đang tự nhiên hình thành khi bạn cho phép mọi thứ hòa quyện từ từ, không vội vàng.",
+          "en": "Balance is naturally forming as you let things blend slowly, without rushing."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Ở đâu trong cuộc sống bạn đang cố ép sự cân bằng, thay vì để nó diễn ra tự nhiên?",
+        "en": "Where in your life are you forcing balance instead of letting it happen naturally?"
       }
     },
     {
@@ -435,6 +705,24 @@
       "meaning_reversed": {
         "en": "You're starting to see the chain, or already loosening it. That awareness itself is real progress.",
         "vi": "Bạn đang bắt đầu nhìn thấy sợi xích, hoặc đã đang nới lỏng nó. Chỉ riêng nhận thức đó thôi cũng đã là một bước tiến thật sự."
+      },
+      "psychological_shadow": {
+        "vi": "Cảm giác bị trói buộc bởi một thói quen, mối quan hệ, hay nỗi sợ mà thực ra bạn có quyền rời khỏi.",
+        "en": "A sense of being chained to a habit, relationship, or fear that you actually have the power to leave."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác bị mắc kẹt hoàn toàn, như không còn lựa chọn nào khác.",
+          "en": "A feeling of being completely trapped, as if there's no other choice."
+        },
+        "actual": {
+          "vi": "Sợi dây ràng buộc đó lỏng hơn bạn nghĩ — nhận ra nó là bước đầu để tháo gỡ nó.",
+          "en": "The chain is looser than it feels — recognizing it is the first step to loosening it."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu sợi dây trói buộc kia thực ra không khóa chặt như bạn nghĩ, bạn sẽ làm gì trước tiên?",
+        "en": "If that chain weren't actually locked as tightly as it feels, what would you do first?"
       }
     },
     {
@@ -462,6 +750,24 @@
       "meaning_reversed": {
         "en": "You may be bracing against a change that's already happening internally, even if it hasn't shown up outwardly yet.",
         "vi": "Có thể bạn đang gồng mình chống lại một thay đổi vốn đã diễn ra bên trong, dù nó chưa bộc lộ ra ngoài."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ mọi thứ sụp đổ đột ngột, khi thực ra nền móng cũ đã lung lay từ trước.",
+        "en": "Fear of sudden collapse, when in fact the old foundation had already been shaky for a while."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác hỗn loạn, choáng váng, như mọi thứ đang sụp đổ trong tích tắc.",
+          "en": "A sense of chaos and shock, as if everything is collapsing in an instant."
+        },
+        "actual": {
+          "vi": "Điều sụp đổ chỉ là cái vỏ không còn phù hợp, mở đường cho một nền tảng chân thật hơn.",
+          "en": "What's collapsing is only a shell that no longer fits, clearing space for something more authentic."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu nhìn lại, có dấu hiệu nào cho thấy nền móng cũ đã lung lay từ trước khi sụp đổ?",
+        "en": "Looking back, were there signs the old foundation was already shaky before it fell?"
       }
     },
     {
@@ -489,6 +795,24 @@
       "meaning_reversed": {
         "en": "Hope might feel far away right now. That doesn't mean it's gone — it just means you need extra gentleness with yourself.",
         "vi": "Hy vọng lúc này có thể cảm giác xa vời. Điều đó không có nghĩa là nó đã mất, chỉ là bạn cần đối xử với chính mình dịu dàng hơn."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ hy vọng rồi lại thất vọng, khiến bạn ngần ngại tin vào điều tốt đẹp phía trước.",
+        "en": "Fear of hoping only to be disappointed again, making it hard to trust that good things lie ahead."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác kiệt sức, như vừa trải qua một cơn bão và chưa chắc điều gì tốt hơn sẽ đến.",
+          "en": "A feeling of exhaustion, as if you've just weathered a storm without knowing anything better is coming."
+        },
+        "actual": {
+          "vi": "Một nguồn hy vọng lặng lẽ và chân thật đang âm thầm chữa lành, dù chưa thấy rõ ngay lúc này.",
+          "en": "A quiet, genuine source of hope is healing beneath the surface, even if not yet visible."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu cho phép mình hy vọng một chút, dù chỉ một điều nhỏ, đó sẽ là điều gì?",
+        "en": "If you allowed yourself to hope for just one small thing, what would it be?"
       }
     },
     {
@@ -516,6 +840,24 @@
       "meaning_reversed": {
         "en": "Some of the fog is starting to lift. Trust that the anxious story you've been telling yourself isn't the only possible one.",
         "vi": "Một phần sương mù đang bắt đầu tan. Hãy tin rằng câu chuyện lo âu bạn đang tự kể cho mình không phải là khả năng duy nhất."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ những điều mơ hồ, chưa rõ hình dạng, khiến trí tưởng tượng vẽ ra viễn cảnh tệ hơn thực tế.",
+        "en": "Fear of the vague and undefined, letting imagination paint a worse picture than reality."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác bất an trước những điều mơ hồ, chưa rõ hình dạng, khiến mọi thứ trông đáng sợ hơn thực tế.",
+          "en": "Unease around vague, shapeless things, making everything look scarier than it really is."
+        },
+        "actual": {
+          "vi": "Trực giác của bạn đang cố nói điều gì đó quan trọng qua lớp sương mù cảm xúc này.",
+          "en": "Your intuition is trying to tell you something important beneath this emotional fog."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nỗi sợ này có thực sự dựa trên bằng chứng, hay phần lớn đến từ trí tưởng tượng?",
+        "en": "Is this fear really based on evidence, or is most of it coming from imagination?"
       }
     },
     {
@@ -543,6 +885,24 @@
       "meaning_reversed": {
         "en": "Joy may feel dimmed or delayed. It's still within reach — sometimes it just needs smaller, gentler moments to show up in.",
         "vi": "Niềm vui có thể đang mờ nhạt hoặc đến chậm. Nó vẫn ở trong tầm với — đôi khi chỉ cần những khoảnh khắc nhỏ, dịu dàng hơn để xuất hiện."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ thể hiện niềm vui thật sự vì lo bị đánh giá là ngây thơ hay 'quá lạc quan'.",
+        "en": "Fear of showing real joy out of worry it will be seen as naive or 'too optimistic'."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác phải cố tỏ ra ổn, che giấu niềm vui thật vì sợ bị phán xét.",
+          "en": "A pressure to seem fine, hiding real joy for fear of being judged."
+        },
+        "actual": {
+          "vi": "Niềm vui và sự rõ ràng chân thật đang có sẵn, chỉ cần bạn cho phép mình đón nhận nó trọn vẹn.",
+          "en": "Genuine joy and clarity are already available — you just need to let yourself fully receive them."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Điều gì đang khiến bạn ngần ngại thể hiện niềm vui thật sự của mình ngay lúc này?",
+        "en": "What's making you hesitate to show your genuine joy right now?"
       }
     },
     {
@@ -570,6 +930,24 @@
       "meaning_reversed": {
         "en": "You may be judging yourself more harshly than the situation deserves. Reflection works best paired with self-compassion, not self-criticism.",
         "vi": "Có thể bạn đang tự phán xét mình khắt khe hơn mức cần thiết. Sự nhìn lại chỉ thực sự hiệu quả khi đi cùng lòng bao dung, không phải tự trách."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ bị phán xét vì những sai lầm cũ, khiến bạn khó tha thứ cho chính mình.",
+        "en": "Fear of being judged for past mistakes, making it hard to forgive yourself."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác đang bị soi xét, phải giải trình cho những điều đã qua.",
+          "en": "A feeling of being scrutinized, having to account for things already past."
+        },
+        "actual": {
+          "vi": "Đây là một lời gọi thức tỉnh để nhìn lại và đón nhận phiên bản trưởng thành hơn của chính mình.",
+          "en": "This is a wake-up call to look back and welcome a more grown version of yourself."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu tha thứ cho sai lầm cũ ngay lúc này, bạn sẽ bước tiếp với tâm thế nào?",
+        "en": "If you forgave that past mistake right now, with what mindset would you move forward?"
       }
     },
     {
@@ -597,6 +975,24 @@
       "meaning_reversed": {
         "en": "Something may feel unfinished. That's alright — closure sometimes comes gradually, not all at once.",
         "vi": "Có điều gì đó vẫn cảm giác dang dở. Không sao cả — đôi khi sự trọn vẹn đến từ từ, chứ không phải ngay lập tức."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ rằng khi một hành trình kết thúc, mọi nỗ lực bỏ ra sẽ trở nên vô nghĩa.",
+        "en": "Fear that when a journey ends, all the effort put in will feel meaningless."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác một chặng đường đã khép lại, để lại chút trống trải không biết tiếp theo là gì.",
+          "en": "A sense that a chapter has closed, leaving a quiet emptiness about what comes next."
+        },
+        "actual": {
+          "vi": "Một sự trọn vẹn thật sự đã đạt được, và nó đang mở ra một vòng tuần hoàn mới ở tầm cao hơn.",
+          "en": "A genuine sense of completion has been reached, opening a new cycle at a higher level."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nhìn lại chặng đường vừa qua, điều gì bạn tự hào nhất về sự trưởng thành của mình?",
+        "en": "Looking back on this chapter, what are you proudest of in how you've grown?"
       }
     },
     {
@@ -623,6 +1019,24 @@
       "meaning_reversed": {
         "en": "An opportunity related to action, ambition, creativity, passion may be delayed or harder to access than expected. It hasn't disappeared, it just needs more groundwork first.",
         "vi": "Một cơ hội liên quan đến hành động, tham vọng, sự sáng tạo và đam mê có thể đang bị trì hoãn hoặc khó nắm bắt hơn dự kiến. Nó chưa biến mất, chỉ cần thêm thời gian chuẩn bị."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ để tia lửa cảm hứng nguội tắt vì trì hoãn quá lâu.",
+        "en": "Fear of letting a spark of inspiration fade out from waiting too long."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Một ý tưởng thoáng qua, chưa biết có đáng để theo đuổi không.",
+          "en": "A fleeting idea, unsure if it's worth pursuing."
+        },
+        "actual": {
+          "vi": "Một nguồn năng lượng sáng tạo thật sự đang chờ được thắp lên thành hành động.",
+          "en": "A genuine spark of creative energy waiting to be turned into action."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu hành động ngay hôm nay theo tia lửa cảm hứng đó, bước đầu tiên sẽ là gì?",
+        "en": "If you acted on that spark today, what would the very first step be?"
       }
     },
     {
@@ -649,6 +1063,24 @@
       "meaning_reversed": {
         "en": "Indecision around action, ambition, creativity, passion is understandable, but staying suspended too long has its own cost. A small choice is enough to start.",
         "vi": "Sự do dự quanh hành động, tham vọng, sự sáng tạo và đam mê là điều dễ hiểu, nhưng treo lơ lửng quá lâu cũng có cái giá của nó. Một lựa chọn nhỏ cũng đủ để bắt đầu."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ rời khỏi vùng an toàn để khám phá chân trời rộng lớn hơn.",
+        "en": "Fear of leaving the comfort zone to explore a bigger horizon."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác bị mắc kẹt giữa an toàn hiện tại và một cơ hội chưa chắc chắn.",
+          "en": "Feeling stuck between current safety and an uncertain opportunity."
+        },
+        "actual": {
+          "vi": "Bạn đã có đủ nền tảng để bắt đầu hoạch định một bước tiến xa hơn.",
+          "en": "You already have enough grounding to start planning a bigger step forward."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Chân trời nào bạn đang ngập ngừng chưa dám nhìn tới?",
+        "en": "What horizon have you been hesitant to even look toward?"
       }
     },
     {
@@ -675,6 +1107,24 @@
       "meaning_reversed": {
         "en": "Progress in action, ambition, creativity, passion may feel slower or less certain than hoped. It's a setback, not a dead end.",
         "vi": "Tiến triển trong hành động, tham vọng, sự sáng tạo và đam mê có thể chậm hơn hoặc chưa chắc chắn như bạn mong. Đây là một bước lùi, không phải ngõ cụt."
+      },
+      "psychological_shadow": {
+        "vi": "Sốt ruột khi kết quả chưa đến ngay, dù mọi thứ đang đi đúng hướng.",
+        "en": "Impatience when results aren't immediate, even though things are moving in the right direction."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác phải chờ đợi lâu, chưa thấy rõ thành quả của công sức đã bỏ ra.",
+          "en": "A long wait, without yet seeing the fruit of effort already invested."
+        },
+        "actual": {
+          "vi": "Những hạt giống bạn gieo đang âm thầm lớn lên, mở rộng tầm nhìn xa hơn.",
+          "en": "The seeds you planted are quietly growing, expanding your view further ahead."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Bạn đang mong chờ điều gì ở phía chân trời mà mình đã gieo trồng?",
+        "en": "What are you looking forward to on the horizon you've been cultivating?"
       }
     },
     {
@@ -701,6 +1151,24 @@
       "meaning_reversed": {
         "en": "Stability in action, ambition, creativity, passion may have tipped into stagnation. A small shift, not a total overhaul, is what's needed.",
         "vi": "Sự ổn định trong hành động, tham vọng, sự sáng tạo và đam mê có thể đã chuyển thành trì trệ. Một thay đổi nhỏ, chứ không phải đại tu toàn bộ, là điều cần thiết."
+      },
+      "psychological_shadow": {
+        "vi": "Khó cho phép mình ăn mừng vì sợ 'chưa đủ giỏi' để xứng đáng nghỉ ngơi.",
+        "en": "Difficulty letting yourself celebrate, feeling 'not good enough yet' to deserve rest."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác chưa đến lúc dừng lại, vẫn còn nhiều việc phải làm.",
+          "en": "A feeling it's not yet time to stop, with still much left to do."
+        },
+        "actual": {
+          "vi": "Một cột mốc đáng được ăn mừng đã hoàn thành, xứng đáng có một khoảnh khắc bình yên.",
+          "en": "A milestone worth celebrating has been reached, deserving a moment of peace."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Có cột mốc nào gần đây bạn chưa cho phép mình ăn mừng không?",
+        "en": "Is there a recent milestone you haven't let yourself celebrate yet?"
       }
     },
     {
@@ -727,6 +1195,24 @@
       "meaning_reversed": {
         "en": "Tension around action, ambition, creativity, passion may be easing, or you might be avoiding a conflict that needs gentle, honest attention.",
         "vi": "Căng thẳng quanh hành động, tham vọng, sự sáng tạo và đam mê có thể đang dịu bớt, hoặc bạn đang né tránh một xung đột cần được nhìn nhận một cách nhẹ nhàng và thành thật."
+      },
+      "psychological_shadow": {
+        "vi": "Coi mọi bất đồng là mối đe dọa, thay vì một cơ hội để cọ xát ý tưởng.",
+        "en": "Treating every disagreement as a threat rather than a chance to test ideas."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác đang trong một cuộc tranh giành ồn ào, ai cũng muốn phần thắng về mình.",
+          "en": "A noisy sense of competing, everyone wanting to come out on top."
+        },
+        "actual": {
+          "vi": "Sự va chạm ý tưởng này thực ra đang mài giũa và làm rõ điều bạn thật sự muốn.",
+          "en": "This clash of ideas is actually sharpening and clarifying what you truly want."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Cuộc tranh luận này đang giúp bạn nhìn rõ điều gì hơn về chính mình?",
+        "en": "What is this friction helping you see more clearly about yourself?"
       }
     },
     {
@@ -753,6 +1239,24 @@
       "meaning_reversed": {
         "en": "Recovery in action, ambition, creativity, passion may feel uneven, or you may be giving more than you're receiving. Balance matters here.",
         "vi": "Sự hồi phục trong hành động, tham vọng, sự sáng tạo và đam mê có thể chưa đồng đều, hoặc bạn đang cho đi nhiều hơn nhận lại. Sự cân bằng rất quan trọng lúc này."
+      },
+      "psychological_shadow": {
+        "vi": "Gắn giá trị bản thân với sự công nhận của người khác thay vì với chính nỗ lực đã bỏ ra.",
+        "en": "Tying self-worth to others' recognition rather than to the effort itself."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác cần được người khác nhìn thấy và công nhận mới thấy mình thành công.",
+          "en": "Feeling you need others to see and validate you before success feels real."
+        },
+        "actual": {
+          "vi": "Chiến thắng này là kết quả thật sự từ nỗ lực của bạn, dù ai có nhìn thấy hay không.",
+          "en": "This victory is genuinely the result of your own effort, whether or not others notice."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu không ai nhìn thấy, bạn vẫn tự hào về điều gì mình vừa đạt được?",
+        "en": "If no one were watching, what would you still be proud of achieving?"
       }
     },
     {
@@ -779,6 +1283,24 @@
       "meaning_reversed": {
         "en": "You may feel like giving up on something related to action, ambition, creativity, passion. Before deciding, check whether it's exhaustion talking, or real misalignment.",
         "vi": "Bạn có thể đang muốn buông bỏ điều gì đó liên quan đến hành động, tham vọng, sự sáng tạo và đam mê. Trước khi quyết định, hãy kiểm tra xem đó là do kiệt sức hay thực sự không còn phù hợp."
+      },
+      "psychological_shadow": {
+        "vi": "Cảm giác luôn phải phòng thủ, sợ mất đi vị trí mình đã cố gắng xây dựng.",
+        "en": "A constant need to defend, fearing the loss of a position you've worked to build."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác bị bao vây, phải chống đỡ nhiều phía cùng lúc.",
+          "en": "A feeling of being surrounded, having to defend from multiple sides at once."
+        },
+        "actual": {
+          "vi": "Bạn đang đứng ở vị trí cao hơn bạn tưởng, chỉ cần giữ vững lập trường mình tin.",
+          "en": "You're standing on higher ground than you think — just hold steady in what you believe."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Lập trường nào của bạn đáng để giữ vững ngay cả khi bị thử thách?",
+        "en": "Which of your positions is worth holding firm even when challenged?"
       }
     },
     {
@@ -805,6 +1327,24 @@
       "meaning_reversed": {
         "en": "Delays around action, ambition, creativity, passion are frustrating, but they're often protecting you from moving too fast in the wrong direction.",
         "vi": "Sự trì hoãn quanh hành động, tham vọng, sự sáng tạo và đam mê khiến bạn khó chịu, nhưng nó thường đang bảo vệ bạn khỏi việc tiến quá nhanh sai hướng."
+      },
+      "psychological_shadow": {
+        "vi": "Sốt ruột muốn mọi thứ xảy ra ngay lập tức, khó chịu với sự chờ đợi.",
+        "en": "Restlessness wanting everything to happen instantly, impatient with any waiting."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác mọi thứ đang dồn dập, khó kiểm soát tốc độ của sự việc.",
+          "en": "A rush of things happening all at once, hard to control the pace."
+        },
+        "actual": {
+          "vi": "Đà tiến đang thuận lợi, mọi thứ đang di chuyển nhanh theo đúng hướng bạn mong muốn.",
+          "en": "Momentum is on your side — things are moving fast in the direction you want."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Điều gì đang di chuyển nhanh trong cuộc sống bạn mà bạn có thể tin tưởng để nó tự diễn ra?",
+        "en": "What's moving quickly in your life that you could trust to unfold on its own?"
       }
     },
     {
@@ -831,6 +1371,24 @@
       "meaning_reversed": {
         "en": "You may be running on empty around action, ambition, creativity, passion, or guarding yourself so tightly that support can't reach you. Rest is not a setback.",
         "vi": "Bạn có thể đang cạn kiệt năng lượng quanh hành động, tham vọng, sự sáng tạo và đam mê, hoặc đang phòng thủ quá chặt khiến sự hỗ trợ không thể chạm tới. Nghỉ ngơi không phải là bước lùi."
+      },
+      "psychological_shadow": {
+        "vi": "Cảnh giác quá mức vì những vết thương cũ, khó tin rằng lần này có thể khác.",
+        "en": "Over-guardedness from old wounds, hard to trust this time could be different."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác kiệt sức, cảnh giác cao độ như phải chuẩn bị cho một cú đánh nữa.",
+          "en": "A weary, high-alert feeling, as if bracing for one more blow."
+        },
+        "actual": {
+          "vi": "Bạn đã đi qua rất nhiều thử thách và vẫn còn đủ sức cho chặng cuối cùng.",
+          "en": "You've come through so much already and still have enough strength for the final stretch."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Điều gì đã giúp bạn trụ vững qua từng thử thách cho đến tận bây giờ?",
+        "en": "What has helped you stay standing through each challenge up to now?"
       }
     },
     {
@@ -857,6 +1415,24 @@
       "meaning_reversed": {
         "en": "It may be time to set down a burden connected to action, ambition, creativity, passion rather than carrying it into the next chapter.",
         "vi": "Có lẽ đã đến lúc đặt xuống một gánh nặng liên quan đến hành động, tham vọng, sự sáng tạo và đam mê, thay vì mang nó sang chương tiếp theo."
+      },
+      "psychological_shadow": {
+        "vi": "Nhận hết trách nhiệm về mình vì sợ nếu buông ra, mọi thứ sẽ sụp đổ.",
+        "en": "Taking on all the responsibility, fearing everything will fall apart if you let go."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác gánh nặng quá tải, như đang mang vác nhiều hơn sức mình.",
+          "en": "A feeling of being overloaded, carrying more than you can bear."
+        },
+        "actual": {
+          "vi": "Đích đến đã gần kề, và bạn được phép san sẻ bớt gánh nặng thay vì ôm hết một mình.",
+          "en": "The finish line is close, and you're allowed to share the load instead of carrying it alone."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Có gánh nặng nào bạn có thể buông bớt hoặc nhờ ai đó san sẻ ngay lúc này?",
+        "en": "Is there a burden you could set down or share with someone right now?"
       }
     },
     {
@@ -883,6 +1459,24 @@
       "meaning_reversed": {
         "en": "There may be some scattered or unready energy around action, ambition, creativity, passion. That's alright — not every idea needs to be acted on immediately.",
         "vi": "Có thể có chút năng lượng chưa sẵn sàng hay phân tán quanh hành động, tham vọng, sự sáng tạo và đam mê. Không sao cả — không phải ý tưởng nào cũng cần hành động ngay."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ ý tưởng của mình bị coi là ngây ngô, chưa đủ chín chắn để chia sẻ.",
+        "en": "Fear that your idea will be seen as too immature or half-baked to share."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác hào hứng nhưng cũng hơi ngại ngùng vì ý tưởng còn non nớt.",
+          "en": "A mix of excitement and shyness because the idea still feels raw."
+        },
+        "actual": {
+          "vi": "Sự tò mò trong trẻo này chính là khởi nguồn của những điều lớn lao sau này.",
+          "en": "This pure curiosity is exactly the seed of something bigger to come."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Ý tưởng non nớt nào gần đây bạn muốn dành thêm thời gian khám phá?",
+        "en": "What raw, early idea have you wanted to spend more time exploring?"
       }
     },
     {
@@ -909,6 +1503,24 @@
       "meaning_reversed": {
         "en": "Energy around action, ambition, creativity, passion may be moving too fast or not moving at all. Either way, a more measured pace will serve you better.",
         "vi": "Năng lượng quanh hành động, tham vọng, sự sáng tạo và đam mê có thể đang quá nhanh hoặc hoàn toàn đứng yên. Dù thế nào, một nhịp độ vừa phải sẽ tốt hơn cho bạn."
+      },
+      "psychological_shadow": {
+        "vi": "Lao vào hành động để né tránh cảm giác chờ đợi hoặc buồn chán.",
+        "en": "Rushing into action to avoid the discomfort of waiting or boredom."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác nóng vội, muốn hành động ngay mà chưa kịp cân nhắc kỹ.",
+          "en": "An impatient urge to act right now, without fully weighing the consequences."
+        },
+        "actual": {
+          "vi": "Nguồn năng lượng táo bạo này, nếu hướng đúng chỗ, có thể tạo ra bước đột phá thật sự.",
+          "en": "This bold energy, aimed in the right direction, could create a real breakthrough."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu dành thêm 1 ngày trước khi hành động, kế hoạch của bạn sẽ vững hơn ở điểm nào?",
+        "en": "If you gave it one more day before acting, where would your plan get stronger?"
       }
     },
     {
@@ -935,6 +1547,24 @@
       "meaning_reversed": {
         "en": "You may be neglecting your own needs while tending to action, ambition, creativity, passion for others. It's safe to include yourself in the care.",
         "vi": "Có thể bạn đang bỏ quên nhu cầu của chính mình trong khi chăm sóc hành động, tham vọng, sự sáng tạo và đam mê cho người khác. Bạn hoàn toàn có thể tự chăm sóc bản thân."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ tỏa sáng sẽ khiến người khác khó chịu, nên tự thu nhỏ bản thân lại.",
+        "en": "Fear that shining brightly will make others uncomfortable, so you shrink yourself."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác cần phải chứng minh sự tự tin của mình trước mặt người khác.",
+          "en": "A felt need to prove your confidence in front of others."
+        },
+        "actual": {
+          "vi": "Sự tự tin ấm áp của bạn là thật, không cần phải phô diễn để chứng minh.",
+          "en": "Your warm confidence is real and doesn't need to be performed to be proven."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Bạn đang thu nhỏ phần rực rỡ nào của mình vì sợ làm ai đó khó chịu?",
+        "en": "Which radiant part of yourself are you dimming for fear of making someone uncomfortable?"
       }
     },
     {
@@ -961,6 +1591,24 @@
       "meaning_reversed": {
         "en": "Authority around action, ambition, creativity, passion may feel rigid or forced right now. True steadiness leaves room for flexibility.",
         "vi": "Quyền lực quanh hành động, tham vọng, sự sáng tạo và đam mê có thể đang cứng nhắc hoặc gượng ép lúc này. Sự vững vàng thật sự vẫn cần chỗ cho linh hoạt."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ tầm nhìn lớn của mình sẽ không được ai tin tưởng đi theo.",
+        "en": "Fear that your big vision won't be trusted or followed by anyone."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác phải một mình gánh vác cả một tầm nhìn lớn, đơn độc trong vai trò dẫn dắt.",
+          "en": "A feeling of having to carry a big vision alone, isolated in the role of leading."
+        },
+        "actual": {
+          "vi": "Khả năng truyền cảm hứng của bạn đủ mạnh để người khác tự nguyện bước theo.",
+          "en": "Your ability to inspire is strong enough that others will want to follow willingly."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Tầm nhìn nào của bạn xứng đáng được chia sẻ to hơn thay vì giữ trong đầu?",
+        "en": "Which of your visions deserves to be spoken louder instead of staying in your head?"
       }
     },
     {
@@ -987,6 +1635,24 @@
       "meaning_reversed": {
         "en": "An opportunity related to emotion, relationships, intuition, connection may be delayed or harder to access than expected. It hasn't disappeared, it just needs more groundwork first.",
         "vi": "Một cơ hội liên quan đến cảm xúc, các mối quan hệ, trực giác và sự kết nối có thể đang bị trì hoãn hoặc khó nắm bắt hơn dự kiến. Nó chưa biến mất, chỉ cần thêm thời gian chuẩn bị."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ mở lòng lần nữa vì từng bị tổn thương trong cảm xúc.",
+        "en": "Fear of opening the heart again after having been emotionally hurt before."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác trống rỗng, như trái tim đang chờ được lấp đầy bởi điều gì đó.",
+          "en": "A feeling of emptiness, as if the heart is waiting to be filled."
+        },
+        "actual": {
+          "vi": "Một nguồn cảm xúc mới, tràn đầy và chân thật, đang mở ra ngay trước mắt bạn.",
+          "en": "A new, overflowing, genuine wellspring of feeling is opening right in front of you."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu cho phép trái tim mở ra một chút, điều gì bạn muốn đón nhận đầu tiên?",
+        "en": "If you let your heart open just a little, what would you want to receive first?"
       }
     },
     {
@@ -1013,6 +1679,24 @@
       "meaning_reversed": {
         "en": "Indecision around emotion, relationships, intuition, connection is understandable, but staying suspended too long has its own cost. A small choice is enough to start.",
         "vi": "Sự do dự quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối là điều dễ hiểu, nhưng treo lơ lửng quá lâu cũng có cái giá của nó. Một lựa chọn nhỏ cũng đủ để bắt đầu."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ dễ bị tổn thương khi thật lòng kết nối với một ai đó.",
+        "en": "Fear of vulnerability when truly connecting with someone."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác dò xét, chưa chắc đối phương có thật lòng như mình không.",
+          "en": "A cautious feeling, unsure if the other person is being just as genuine."
+        },
+        "actual": {
+          "vi": "Một sự kết nối chân thành, cân bằng đang hình thành giữa hai người.",
+          "en": "A genuine, balanced connection is forming between the two of you."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Điều gì khiến bạn ngần ngại mở lòng trọn vẹn với người này?",
+        "en": "What's making you hesitant to open up fully with this person?"
       }
     },
     {
@@ -1039,6 +1723,24 @@
       "meaning_reversed": {
         "en": "Progress in emotion, relationships, intuition, connection may feel slower or less certain than hoped. It's a setback, not a dead end.",
         "vi": "Tiến triển trong cảm xúc, các mối quan hệ, trực giác và sự kết nối có thể chậm hơn hoặc chưa chắc chắn như bạn mong. Đây là một bước lùi, không phải ngõ cụt."
+      },
+      "psychological_shadow": {
+        "vi": "So sánh niềm vui của mình với người khác, khiến khoảnh khắc ăn mừng mất đi ý nghĩa.",
+        "en": "Comparing your joy to others', which drains the meaning out of a moment worth celebrating."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác cần phải hòa nhập vào một cuộc vui để cảm thấy mình thuộc về.",
+          "en": "A felt need to fit into a celebration in order to feel like you belong."
+        },
+        "actual": {
+          "vi": "Niềm vui được chia sẻ cùng những người thân thiết đang nuôi dưỡng bạn thật sự.",
+          "en": "Joy shared with close ones is genuinely nourishing you right now."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Ai là người bạn muốn chia sẻ niềm vui này cùng nhất?",
+        "en": "Who is the person you'd most want to share this joy with?"
       }
     },
     {
@@ -1065,6 +1767,24 @@
       "meaning_reversed": {
         "en": "Stability in emotion, relationships, intuition, connection may have tipped into stagnation. A small shift, not a total overhaul, is what's needed.",
         "vi": "Sự ổn định trong cảm xúc, các mối quan hệ, trực giác và sự kết nối có thể đã chuyển thành trì trệ. Một thay đổi nhỏ, chứ không phải đại tu toàn bộ, là điều cần thiết."
+      },
+      "psychological_shadow": {
+        "vi": "Chán nản đến mức không nhận ra cơ hội đang ở ngay trước mặt.",
+        "en": "Feeling so weary you fail to notice an opportunity right in front of you."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác thờ ơ, chán chường, như không còn gì mới mẻ để mong đợi.",
+          "en": "A sense of apathy and weariness, as if nothing new is worth looking forward to."
+        },
+        "actual": {
+          "vi": "Có một điều gì đó đang được đưa ra cho bạn, chỉ cần bạn ngẩng lên để nhìn thấy nó.",
+          "en": "Something is quietly being offered to you — you just need to look up to see it."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Có cơ hội nhỏ nào gần đây bạn đã bỏ lỡ vì đang mải chìm trong tâm trạng chán nản?",
+        "en": "Is there a small opportunity you've missed recently while lost in low spirits?"
       }
     },
     {
@@ -1091,6 +1811,24 @@
       "meaning_reversed": {
         "en": "Tension around emotion, relationships, intuition, connection may be easing, or you might be avoiding a conflict that needs gentle, honest attention.",
         "vi": "Căng thẳng quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối có thể đang dịu bớt, hoặc bạn đang né tránh một xung đột cần được nhìn nhận một cách nhẹ nhàng và thành thật."
+      },
+      "psychological_shadow": {
+        "vi": "Chỉ tập trung vào mất mát mà quên nhìn sang điều vẫn còn nguyên vẹn.",
+        "en": "Fixating only on loss while forgetting what's still intact."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác tiếc nuối, đau buồn vì một điều đã mất đi.",
+          "en": "A feeling of regret and grief over something that's been lost."
+        },
+        "actual": {
+          "vi": "Vẫn còn những chiếc cốc chưa đổ, những điều tốt đẹp vẫn đang chờ bạn quay lại nhận ra.",
+          "en": "There are still cups standing upright — good things still waiting for you to notice."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Điều gì vẫn còn nguyên vẹn trong cuộc sống bạn mà nỗi buồn đang che khuất?",
+        "en": "What's still intact in your life that grief is currently overshadowing?"
       }
     },
     {
@@ -1117,6 +1855,24 @@
       "meaning_reversed": {
         "en": "Recovery in emotion, relationships, intuition, connection may feel uneven, or you may be giving more than you're receiving. Balance matters here.",
         "vi": "Sự hồi phục trong cảm xúc, các mối quan hệ, trực giác và sự kết nối có thể chưa đồng đều, hoặc bạn đang cho đi nhiều hơn nhận lại. Sự cân bằng rất quan trọng lúc này."
+      },
+      "psychological_shadow": {
+        "vi": "Trốn vào ký ức đẹp của quá khứ để né tránh những đòi hỏi của hiện tại.",
+        "en": "Hiding in fond memories of the past to avoid the demands of the present."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác hoài niệm, muốn quay về một thời điểm đã qua vì thấy an toàn hơn.",
+          "en": "A nostalgic pull toward a past time that felt safer."
+        },
+        "actual": {
+          "vi": "Sự ngây thơ và ấm áp từ quá khứ đang là nguồn chữa lành cho hiện tại của bạn.",
+          "en": "The innocence and warmth from the past are becoming a healing resource for your present."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Ký ức đẹp nào đang nhắc bạn về một phần dịu dàng của chính mình?",
+        "en": "What fond memory is reminding you of a gentler part of yourself?"
       }
     },
     {
@@ -1143,6 +1899,24 @@
       "meaning_reversed": {
         "en": "You may feel like giving up on something related to emotion, relationships, intuition, connection. Before deciding, check whether it's exhaustion talking, or real misalignment.",
         "vi": "Bạn có thể đang muốn buông bỏ điều gì đó liên quan đến cảm xúc, các mối quan hệ, trực giác và sự kết nối. Trước khi quyết định, hãy kiểm tra xem đó là do kiệt sức hay thực sự không còn phù hợp."
+      },
+      "psychological_shadow": {
+        "vi": "Bị choáng ngợp bởi quá nhiều lựa chọn ảo tưởng, khó phân biệt điều gì thật sự khả thi.",
+        "en": "Overwhelmed by too many illusory options, hard to tell what's actually feasible."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác bối rối trước quá nhiều lựa chọn hấp dẫn nhưng mơ hồ.",
+          "en": "A confused feeling facing too many tempting but vague options."
+        },
+        "actual": {
+          "vi": "Chỉ cần chọn ra 1-2 điều thực tế nhất trong số đó, con đường sẽ rõ ràng hơn nhiều.",
+          "en": "Picking just one or two of the most realistic options will make the path much clearer."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Trong tất cả các lựa chọn đang có, điều nào thực tế và khả thi nhất ngay lúc này?",
+        "en": "Among all the options, which one is the most realistic and doable right now?"
       }
     },
     {
@@ -1169,6 +1943,24 @@
       "meaning_reversed": {
         "en": "Delays around emotion, relationships, intuition, connection are frustrating, but they're often protecting you from moving too fast in the wrong direction.",
         "vi": "Sự trì hoãn quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối khiến bạn khó chịu, nhưng nó thường đang bảo vệ bạn khỏi việc tiến quá nhanh sai hướng."
+      },
+      "psychological_shadow": {
+        "vi": "Cảm giác tội lỗi khi rời bỏ điều từng khiến mình hạnh phúc nhưng nay đã không còn phù hợp.",
+        "en": "Guilt over leaving something that once brought happiness but no longer fits."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác bỏ lại một điều quen thuộc, có chút cô đơn và không chắc chắn.",
+          "en": "A feeling of leaving something familiar behind, tinged with loneliness and uncertainty."
+        },
+        "actual": {
+          "vi": "Bạn đang can đảm đi tìm một điều gì đó có ý nghĩa sâu sắc hơn cho chính mình.",
+          "en": "You're bravely walking toward something that holds deeper meaning for you."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Điều gì thực sự có ý nghĩa mà bạn đang tìm kiếm phía sau quyết định rời đi này?",
+        "en": "What deeper meaning are you actually searching for behind this decision to leave?"
       }
     },
     {
@@ -1195,6 +1987,24 @@
       "meaning_reversed": {
         "en": "You may be running on empty around emotion, relationships, intuition, connection, or guarding yourself so tightly that support can't reach you. Rest is not a setback.",
         "vi": "Bạn có thể đang cạn kiệt năng lượng quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối, hoặc đang phòng thủ quá chặt khiến sự hỗ trợ không thể chạm tới. Nghỉ ngơi không phải là bước lùi."
+      },
+      "psychological_shadow": {
+        "vi": "Nhầm lẫn sự thỏa mãn vật chất/bề ngoài với hạnh phúc thật sự từ bên trong.",
+        "en": "Mistaking surface-level or material satisfaction for genuine inner happiness."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác hài lòng vì mọi thứ có vẻ như đang suôn sẻ, đủ đầy.",
+          "en": "A satisfied feeling because things seem to be going smoothly and abundantly."
+        },
+        "actual": {
+          "vi": "Sự hài lòng thật sự đến từ việc bạn biết ơn những gì mình thực sự cần, không phải phô trương.",
+          "en": "Real contentment comes from gratitude for what you truly need, not from showing off."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Điều gì đang khiến bạn thật sự hài lòng, không phải vì người khác nhìn thấy?",
+        "en": "What genuinely satisfies you, not because others are watching?"
       }
     },
     {
@@ -1221,6 +2031,24 @@
       "meaning_reversed": {
         "en": "It may be time to set down a burden connected to emotion, relationships, intuition, connection rather than carrying it into the next chapter.",
         "vi": "Có lẽ đã đến lúc đặt xuống một gánh nặng liên quan đến cảm xúc, các mối quan hệ, trực giác và sự kết nối, thay vì mang nó sang chương tiếp theo."
+      },
+      "psychological_shadow": {
+        "vi": "Sợ rằng sự viên mãn hiện tại quá mong manh, dễ vỡ tan bất cứ lúc nào.",
+        "en": "Fear that current fulfillment is too fragile and could shatter at any moment."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác có khoảng lặng hay kỳ vọng chưa nói ra, khiến mối gắn kết hơi xa cách.",
+          "en": "A quiet gap or unspoken expectation making the bond feel a bit distant."
+        },
+        "actual": {
+          "vi": "Một sự gắn kết cảm xúc sâu sắc và bền vững đang thực sự tồn tại giữa những người thân yêu.",
+          "en": "A deep, lasting emotional bond genuinely exists among the people you love."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Điều gì trong mối quan hệ này khiến bạn cảm thấy được thuộc về nhất?",
+        "en": "What about this relationship makes you feel most like you belong?"
       }
     },
     {
@@ -1247,6 +2075,24 @@
       "meaning_reversed": {
         "en": "There may be some scattered or unready energy around emotion, relationships, intuition, connection. That's alright — not every idea needs to be acted on immediately.",
         "vi": "Có thể có chút năng lượng chưa sẵn sàng hay phân tán quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối. Không sao cả — không phải ý tưởng nào cũng cần hành động ngay."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ cảm xúc của mình bị coi là 'trẻ con' hoặc quá nhạy cảm.",
+        "en": "Fear that your feelings will be seen as 'childish' or overly sensitive."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác rụt rè khi muốn bày tỏ một cảm xúc còn non nớt, chưa rõ ràng.",
+          "en": "A shy feeling when wanting to express an emotion that still feels raw and unclear."
+        },
+        "actual": {
+          "vi": "Một thông điệp cảm xúc chân thành, đầy trực giác đang cố tìm đường đến với bạn.",
+          "en": "A sincere, intuitive emotional message is trying to find its way to you."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Cảm xúc non nớt nào gần đây bạn muốn được lắng nghe mà chưa dám nói ra?",
+        "en": "What tender feeling have you wanted to voice recently but haven't dared to?"
       }
     },
     {
@@ -1273,6 +2119,24 @@
       "meaning_reversed": {
         "en": "Energy around emotion, relationships, intuition, connection may be moving too fast or not moving at all. Either way, a more measured pace will serve you better.",
         "vi": "Năng lượng quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối có thể đang quá nhanh hoặc hoàn toàn đứng yên. Dù thế nào, một nhịp độ vừa phải sẽ tốt hơn cho bạn."
+      },
+      "psychological_shadow": {
+        "vi": "Đắm chìm trong lãng mạn hóa mọi thứ, khó phân biệt cảm xúc thật với ảo tưởng.",
+        "en": "Getting lost in romanticizing everything, hard to tell real feeling from fantasy."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác say mê, cuốn theo một điều đẹp đẽ nhưng chưa chắc thực tế.",
+          "en": "A swept-up, enchanted feeling toward something beautiful but not yet grounded in reality."
+        },
+        "actual": {
+          "vi": "Trái tim bạn đang theo đuổi một điều có ý nghĩa thật sự, chỉ cần thêm chút tỉnh táo.",
+          "en": "Your heart is pursuing something genuinely meaningful — it just needs a touch more clarity."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu tỉnh táo nhìn lại, điều gì trong cảm xúc này là thật và điều gì là tưởng tượng?",
+        "en": "Looking at this clearly, what part of this feeling is real, and what's imagined?"
       }
     },
     {
@@ -1299,6 +2163,24 @@
       "meaning_reversed": {
         "en": "You may be neglecting your own needs while tending to emotion, relationships, intuition, connection for others. It's safe to include yourself in the care.",
         "vi": "Có thể bạn đang bỏ quên nhu cầu của chính mình trong khi chăm sóc cảm xúc, các mối quan hệ, trực giác và sự kết nối cho người khác. Bạn hoàn toàn có thể tự chăm sóc bản thân."
+      },
+      "psychological_shadow": {
+        "vi": "Hấp thụ cảm xúc của người khác đến mức quên mất ranh giới của chính mình.",
+        "en": "Absorbing others' emotions to the point of losing your own boundaries."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác nặng lòng vì mang theo cảm xúc của quá nhiều người xung quanh.",
+          "en": "A heavy feeling from carrying the emotions of too many people around you."
+        },
+        "actual": {
+          "vi": "Sự thấu cảm sâu sắc của bạn là một món quà, khi đi cùng ranh giới lành mạnh.",
+          "en": "Your deep empathy is a gift — when paired with healthy boundaries."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Ranh giới nào bạn cần đặt ra để bảo vệ sự thấu cảm của chính mình?",
+        "en": "What boundary do you need to set to protect your own capacity for empathy?"
       }
     },
     {
@@ -1325,6 +2207,24 @@
       "meaning_reversed": {
         "en": "Authority around emotion, relationships, intuition, connection may feel rigid or forced right now. True steadiness leaves room for flexibility.",
         "vi": "Quyền lực quanh cảm xúc, các mối quan hệ, trực giác và sự kết nối có thể đang cứng nhắc hoặc gượng ép lúc này. Sự vững vàng thật sự vẫn cần chỗ cho linh hoạt."
+      },
+      "psychological_shadow": {
+        "vi": "Kìm nén cảm xúc thật để giữ vẻ điềm tĩnh, đến mức tự xa cách với chính mình.",
+        "en": "Suppressing real feelings to maintain calm, to the point of becoming distant from yourself."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác phải luôn bình tĩnh, kiểm soát cảm xúc dù bên trong đang dậy sóng.",
+          "en": "A pressure to always stay calm and controlled while feeling turbulent inside."
+        },
+        "actual": {
+          "vi": "Sự làm chủ cảm xúc trưởng thành của bạn cho phép bạn thấu cảm mà không bị nhấn chìm.",
+          "en": "Your mature emotional mastery lets you empathize without being overwhelmed."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu cho phép mình cảm nhận trọn vẹn trong 5 phút, điều gì sẽ hiện lên?",
+        "en": "If you let yourself fully feel for five minutes, what would surface?"
       }
     },
     {
@@ -1351,6 +2251,24 @@
       "meaning_reversed": {
         "en": "An opportunity related to thought, communication, conflict, truth may be delayed or harder to access than expected. It hasn't disappeared, it just needs more groundwork first.",
         "vi": "Một cơ hội liên quan đến suy nghĩ, giao tiếp, xung đột và sự thật có thể đang bị trì hoãn hoặc khó nắm bắt hơn dự kiến. Nó chưa biến mất, chỉ cần thêm thời gian chuẩn bị."
+      },
+      "psychological_shadow": {
+        "vi": "Dùng lý trí sắc bén để né tránh đối diện với cảm xúc thật.",
+        "en": "Using sharp logic to avoid confronting real emotions."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác rối bời, chưa thấy rõ đâu là sự thật giữa nhiều luồng suy nghĩ.",
+          "en": "A tangled feeling, unsure where the truth lies among many thoughts."
+        },
+        "actual": {
+          "vi": "Một khoảnh khắc sáng rõ đang đến, giúp bạn cắt bỏ mọi mơ hồ để nhìn thấy sự thật.",
+          "en": "A moment of clarity is arriving, cutting through confusion to reveal the truth."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu chỉ được giữ lại một sự thật rõ ràng nhất lúc này, đó sẽ là gì?",
+        "en": "If you could keep only one clearest truth right now, what would it be?"
       }
     },
     {
@@ -1377,6 +2295,24 @@
       "meaning_reversed": {
         "en": "Indecision around thought, communication, conflict, truth is understandable, but staying suspended too long has its own cost. A small choice is enough to start.",
         "vi": "Sự do dự quanh suy nghĩ, giao tiếp, xung đột và sự thật là điều dễ hiểu, nhưng treo lơ lửng quá lâu cũng có cái giá của nó. Một lựa chọn nhỏ cũng đủ để bắt đầu."
+      },
+      "psychological_shadow": {
+        "vi": "Né tránh quyết định vì sợ phải đối diện với hậu quả của cả hai lựa chọn.",
+        "en": "Avoiding a decision out of fear of facing the consequences of either choice."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác bế tắc, như đang cố không nhìn vào một sự thật khó khăn.",
+          "en": "A stuck feeling, as if deliberately not looking at a difficult truth."
+        },
+        "actual": {
+          "vi": "Câu trả lời đã có sẵn bên trong bạn, chỉ cần đủ can đảm để tháo bỏ tấm bịt mắt.",
+          "en": "The answer already exists within you — it just takes courage to remove the blindfold."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu buộc phải chọn ngay bây giờ, trực giác của bạn nghiêng về phía nào?",
+        "en": "If forced to choose right now, which way does your gut lean?"
       }
     },
     {
@@ -1403,6 +2339,24 @@
       "meaning_reversed": {
         "en": "Progress in thought, communication, conflict, truth may feel slower or less certain than hoped. It's a setback, not a dead end.",
         "vi": "Tiến triển trong suy nghĩ, giao tiếp, xung đột và sự thật có thể chậm hơn hoặc chưa chắc chắn như bạn mong. Đây là một bước lùi, không phải ngõ cụt."
+      },
+      "psychological_shadow": {
+        "vi": "Né tránh nỗi đau bằng cách tê liệt cảm xúc, thay vì cho phép mình thật sự đau buồn.",
+        "en": "Avoiding pain by going numb instead of allowing yourself to genuinely grieve."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác đau đớn, như trái tim vừa bị một điều gì đó xuyên qua.",
+          "en": "A piercing pain, as if the heart has just been struck through."
+        },
+        "actual": {
+          "vi": "Cho phép nỗi đau này được cảm nhận trọn vẹn chính là bước đầu để chữa lành.",
+          "en": "Letting this pain be fully felt is the first step toward healing."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu cho phép mình đau buồn trọn vẹn thay vì né tránh, điều gì sẽ nhẹ nhõm hơn?",
+        "en": "If you let yourself grieve fully instead of avoiding it, what might feel lighter?"
       }
     },
     {
@@ -1429,6 +2383,24 @@
       "meaning_reversed": {
         "en": "Stability in thought, communication, conflict, truth may have tipped into stagnation. A small shift, not a total overhaul, is what's needed.",
         "vi": "Sự ổn định trong suy nghĩ, giao tiếp, xung đột và sự thật có thể đã chuyển thành trì trệ. Một thay đổi nhỏ, chứ không phải đại tu toàn bộ, là điều cần thiết."
+      },
+      "psychological_shadow": {
+        "vi": "Coi việc nghỉ ngơi là lười biếng, khiến bản thân không bao giờ thực sự phục hồi.",
+        "en": "Treating rest as laziness, so you never truly get to recover."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác kiệt sức nhưng vẫn thấy tội lỗi nếu dừng lại nghỉ ngơi.",
+          "en": "A worn-out feeling, yet guilty about stopping to rest."
+        },
+        "actual": {
+          "vi": "Một khoảng lặng phục hồi đang thực sự cần thiết trước khi bước tiếp.",
+          "en": "A restorative pause is genuinely necessary before moving forward."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu cho phép mình nghỉ ngơi trọn vẹn hôm nay, bạn sẽ cảm thấy thế nào vào ngày mai?",
+        "en": "If you allowed yourself to fully rest today, how might you feel tomorrow?"
       }
     },
     {
@@ -1455,6 +2427,24 @@
       "meaning_reversed": {
         "en": "Tension around thought, communication, conflict, truth may be easing, or you might be avoiding a conflict that needs gentle, honest attention.",
         "vi": "Căng thẳng quanh suy nghĩ, giao tiếp, xung đột và sự thật có thể đang dịu bớt, hoặc bạn đang né tránh một xung đột cần được nhìn nhận một cách nhẹ nhàng và thành thật."
+      },
+      "psychological_shadow": {
+        "vi": "Cố giành phần thắng bằng mọi giá, dù cái giá phải trả là một mối quan hệ.",
+        "en": "Trying to win at all costs, even if the price is a relationship."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác căng thẳng sau một cuộc tranh cãi, không rõ ai đúng ai sai.",
+          "en": "Tension lingering after a conflict, unclear who was right or wrong."
+        },
+        "actual": {
+          "vi": "Đây là cơ hội để nhìn lại điều gì thật sự quan trọng hơn việc phải thắng.",
+          "en": "This is a chance to reconsider what truly matters more than winning."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Trong tình huống này, điều gì quan trọng hơn việc chứng minh mình đúng?",
+        "en": "In this situation, what matters more than proving you're right?"
       }
     },
     {
@@ -1481,6 +2471,24 @@
       "meaning_reversed": {
         "en": "Recovery in thought, communication, conflict, truth may feel uneven, or you may be giving more than you're receiving. Balance matters here.",
         "vi": "Sự hồi phục trong suy nghĩ, giao tiếp, xung đột và sự thật có thể chưa đồng đều, hoặc bạn đang cho đi nhiều hơn nhận lại. Sự cân bằng rất quan trọng lúc này."
+      },
+      "psychological_shadow": {
+        "vi": "Miễn cưỡng rời bỏ một hoàn cảnh khó khăn vì quen thuộc, dù biết cần thay đổi.",
+        "en": "Reluctance to leave a difficult situation out of familiarity, even knowing change is needed."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác mệt mỏi, như đang rời khỏi vùng nước động để tìm nơi yên bình hơn.",
+          "en": "A weary feeling, as if leaving turbulent waters in search of calmer ground."
+        },
+        "actual": {
+          "vi": "Một quá trình chuyển tiếp lặng lẽ nhưng chắc chắn đang đưa bạn đến vùng nước yên bình hơn.",
+          "en": "A quiet but steady transition is carrying you toward calmer waters."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Bạn đang để lại điều gì phía sau để có thể đi tới vùng nước yên bình hơn?",
+        "en": "What are you leaving behind in order to reach calmer waters?"
       }
     },
     {
@@ -1507,6 +2515,24 @@
       "meaning_reversed": {
         "en": "You may feel like giving up on something related to thought, communication, conflict, truth. Before deciding, check whether it's exhaustion talking, or real misalignment.",
         "vi": "Bạn có thể đang muốn buông bỏ điều gì đó liên quan đến suy nghĩ, giao tiếp, xung đột và sự thật. Trước khi quyết định, hãy kiểm tra xem đó là do kiệt sức hay thực sự không còn phù hợp."
+      },
+      "psychological_shadow": {
+        "vi": "Tránh né đối thoại thẳng thắn bằng cách đi đường vòng hoặc giữ bí mật.",
+        "en": "Avoiding direct conversation by taking a roundabout path or keeping secrets."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác cần phải tự xoay sở một mình, không muốn ai biết chiến lược của mình.",
+          "en": "A feeling of needing to handle things alone, not wanting anyone to know your strategy."
+        },
+        "actual": {
+          "vi": "Sự khôn khéo của bạn có thể phục vụ mục tiêu tốt hơn nếu đi cùng sự minh bạch.",
+          "en": "Your resourcefulness could serve your goal even better paired with more transparency."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu minh bạch hơn một chút trong tình huống này, điều gì có thể thay đổi theo hướng tốt?",
+        "en": "If you were a bit more transparent here, what might change for the better?"
       }
     },
     {
@@ -1533,6 +2559,24 @@
       "meaning_reversed": {
         "en": "Delays around thought, communication, conflict, truth are frustrating, but they're often protecting you from moving too fast in the wrong direction.",
         "vi": "Sự trì hoãn quanh suy nghĩ, giao tiếp, xung đột và sự thật khiến bạn khó chịu, nhưng nó thường đang bảo vệ bạn khỏi việc tiến quá nhanh sai hướng."
+      },
+      "psychological_shadow": {
+        "vi": "Tự trói buộc mình bằng những suy nghĩ giới hạn tưởng như không có lối thoát.",
+        "en": "Trapping yourself in limiting thoughts that feel like they have no way out."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác bị bịt mắt, trói buộc, không thấy đường ra.",
+          "en": "A blindfolded, bound feeling, unable to see a way out."
+        },
+        "actual": {
+          "vi": "Những sợi dây trói thực ra khá lỏng lẻo — sự tự do đang chờ bạn tự bước ra.",
+          "en": "The ropes are actually looser than they feel — freedom is waiting for you to step out."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu tháo bỏ tấm bịt mắt suy nghĩ giới hạn, bạn sẽ thấy con đường nào?",
+        "en": "If you removed the blindfold of limiting thoughts, what path would you see?"
       }
     },
     {
@@ -1559,6 +2603,24 @@
       "meaning_reversed": {
         "en": "You may be running on empty around thought, communication, conflict, truth, or guarding yourself so tightly that support can't reach you. Rest is not a setback.",
         "vi": "Bạn có thể đang cạn kiệt năng lượng quanh suy nghĩ, giao tiếp, xung đột và sự thật, hoặc đang phòng thủ quá chặt khiến sự hỗ trợ không thể chạm tới. Nghỉ ngơi không phải là bước lùi."
+      },
+      "psychological_shadow": {
+        "vi": "Để nỗi lo âu ban đêm phóng đại mọi thứ vượt xa thực tế.",
+        "en": "Letting nighttime anxiety blow everything out of proportion."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác lo lắng tột độ, mất ngủ vì những suy nghĩ cứ lặp đi lặp lại.",
+          "en": "Overwhelming worry, sleepless from thoughts that keep looping."
+        },
+        "actual": {
+          "vi": "Ánh sáng ban ngày thường cho thấy nỗi sợ này lớn hơn thực tế rất nhiều.",
+          "en": "Daylight usually reveals this fear is far bigger than reality."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu nhìn nỗi lo này dưới ánh sáng ban ngày, nó có còn lớn như lúc nửa đêm không?",
+        "en": "If you looked at this worry in daylight, would it still feel as big as it did at midnight?"
       }
     },
     {
@@ -1585,6 +2647,24 @@
       "meaning_reversed": {
         "en": "It may be time to set down a burden connected to thought, communication, conflict, truth rather than carrying it into the next chapter.",
         "vi": "Có lẽ đã đến lúc đặt xuống một gánh nặng liên quan đến suy nghĩ, giao tiếp, xung đột và sự thật, thay vì mang nó sang chương tiếp theo."
+      },
+      "psychological_shadow": {
+        "vi": "Bám víu vào cảm giác là nạn nhân, khó tin rằng mọi thứ có thể bắt đầu lại.",
+        "en": "Clinging to a victim narrative, hard to believe things can start over."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác chạm đáy, như một điều gì đó đã hoàn toàn kết thúc, đau đớn tột cùng.",
+          "en": "A rock-bottom feeling, as if something has completely ended in deep pain."
+        },
+        "actual": {
+          "vi": "Vì đã chạm đáy, con đường duy nhất còn lại là đi lên — bình minh đang đến.",
+          "en": "Because you've hit bottom, the only way left is up — dawn is coming."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu điều tệ nhất đã qua rồi, bạn muốn bắt đầu lại điều gì trước tiên?",
+        "en": "If the worst has already passed, what would you want to begin again first?"
       }
     },
     {
@@ -1611,6 +2691,24 @@
       "meaning_reversed": {
         "en": "There may be some scattered or unready energy around thought, communication, conflict, truth. That's alright — not every idea needs to be acted on immediately.",
         "vi": "Có thể có chút năng lượng chưa sẵn sàng hay phân tán quanh suy nghĩ, giao tiếp, xung đột và sự thật. Không sao cả — không phải ý tưởng nào cũng cần hành động ngay."
+      },
+      "psychological_shadow": {
+        "vi": "Vội vàng kết luận hoặc phán xét trước khi có đủ thông tin.",
+        "en": "Jumping to conclusions or judgments before having enough information."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác tò mò xen lẫn cảnh giác, như đang cố nắm bắt một điều gì đó mới.",
+          "en": "A curious yet wary feeling, trying to grasp something new."
+        },
+        "actual": {
+          "vi": "Một sự thật đang chờ được khám phá, chỉ cần bạn đặt câu hỏi đúng.",
+          "en": "A truth is waiting to be discovered — you just need to ask the right question."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Câu hỏi nào bạn chưa dám hỏi thẳng nhưng thực sự muốn biết câu trả lời?",
+        "en": "What question haven't you dared to ask directly but really want answered?"
       }
     },
     {
@@ -1637,6 +2735,24 @@
       "meaning_reversed": {
         "en": "Energy around thought, communication, conflict, truth may be moving too fast or not moving at all. Either way, a more measured pace will serve you better.",
         "vi": "Năng lượng quanh suy nghĩ, giao tiếp, xung đột và sự thật có thể đang quá nhanh hoặc hoàn toàn đứng yên. Dù thế nào, một nhịp độ vừa phải sẽ tốt hơn cho bạn."
+      },
+      "psychological_shadow": {
+        "vi": "Lao vào tranh luận hoặc hành động quá nhanh, bỏ qua hậu quả lâu dài.",
+        "en": "Rushing into an argument or action too fast, overlooking long-term consequences."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác cấp bách, muốn giải quyết mọi thứ ngay lập tức, dứt khoát.",
+          "en": "A sense of urgency, wanting to resolve everything immediately and decisively."
+        },
+        "actual": {
+          "vi": "Sự quyết đoán này rất có giá trị nếu đi cùng một chút kiên nhẫn để lắng nghe.",
+          "en": "This decisiveness is valuable when paired with a little patience to listen."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu chậm lại một nhịp trước khi hành động, điều gì sẽ được cân nhắc thêm?",
+        "en": "If you slowed down one beat before acting, what would you consider more carefully?"
       }
     },
     {
@@ -1663,6 +2779,24 @@
       "meaning_reversed": {
         "en": "You may be neglecting your own needs while tending to thought, communication, conflict, truth for others. It's safe to include yourself in the care.",
         "vi": "Có thể bạn đang bỏ quên nhu cầu của chính mình trong khi chăm sóc suy nghĩ, giao tiếp, xung đột và sự thật cho người khác. Bạn hoàn toàn có thể tự chăm sóc bản thân."
+      },
+      "psychological_shadow": {
+        "vi": "Dùng sự sắc sảo như một lớp giáp để không ai chạm được vào tổn thương bên trong.",
+        "en": "Using sharp wit as armor so no one can touch the hurt underneath."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác cần phải giữ khoảng cách, lý trí và thẳng thắn để bảo vệ bản thân.",
+          "en": "A need to stay distant, rational, and blunt to protect yourself."
+        },
+        "actual": {
+          "vi": "Sự rõ ràng của bạn là một món quà, đặc biệt khi đi cùng một chút mềm mại.",
+          "en": "Your clarity is a gift, especially when paired with a touch of softness."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu cho phép mình mềm mại hơn một chút, sự thật bạn muốn nói sẽ thay đổi thế nào?",
+        "en": "If you allowed yourself a bit more softness, how would the truth you want to say change?"
       }
     },
     {
@@ -1689,6 +2823,24 @@
       "meaning_reversed": {
         "en": "Authority around thought, communication, conflict, truth may feel rigid or forced right now. True steadiness leaves room for flexibility.",
         "vi": "Quyền lực quanh suy nghĩ, giao tiếp, xung đột và sự thật có thể đang cứng nhắc hoặc gượng ép lúc này. Sự vững vàng thật sự vẫn cần chỗ cho linh hoạt."
+      },
+      "psychological_shadow": {
+        "vi": "Chỉ tin vào lý trí đến mức gạt bỏ hoàn toàn tiếng nói của cảm xúc.",
+        "en": "Trusting logic so completely that the voice of emotion is entirely dismissed."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác cần phải phân tích và kiểm soát mọi thứ bằng lý trí thuần túy.",
+          "en": "A need to analyze and control everything through pure logic."
+        },
+        "actual": {
+          "vi": "Sự công tâm và rõ ràng của bạn càng mạnh mẽ hơn khi có chỗ cho sự thấu cảm.",
+          "en": "Your fairness and clarity grow even stronger when there's room for empathy."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu để cảm xúc góp một phần vào quyết định này, điều gì sẽ khác đi?",
+        "en": "If you let emotion have a say in this decision, what would be different?"
       }
     },
     {
@@ -1715,6 +2867,24 @@
       "meaning_reversed": {
         "en": "An opportunity related to resources, work, body, material stability may be delayed or harder to access than expected. It hasn't disappeared, it just needs more groundwork first.",
         "vi": "Một cơ hội liên quan đến tài chính, công việc, cơ thể và sự ổn định vật chất có thể đang bị trì hoãn hoặc khó nắm bắt hơn dự kiến. Nó chưa biến mất, chỉ cần thêm thời gian chuẩn bị."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ để lỡ cơ hội thực tế vì mải suy nghĩ quá nhiều thay vì hành động.",
+        "en": "Fear of missing a practical opportunity by overthinking instead of acting."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác chưa chắc chắn liệu cơ hội này có thật sự đáng tin không.",
+          "en": "An unsure feeling about whether this opportunity is truly trustworthy."
+        },
+        "actual": {
+          "vi": "Một nền tảng vững chắc cho sự thịnh vượng lâu dài đang được đặt xuống ngay lúc này.",
+          "en": "A solid foundation for lasting prosperity is being laid down right now."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu tin tưởng vào cơ hội này, bước thực tế đầu tiên bạn sẽ làm là gì?",
+        "en": "If you trusted this opportunity, what practical first step would you take?"
       }
     },
     {
@@ -1741,6 +2911,24 @@
       "meaning_reversed": {
         "en": "Indecision around resources, work, body, material stability is understandable, but staying suspended too long has its own cost. A small choice is enough to start.",
         "vi": "Sự do dự quanh tài chính, công việc, cơ thể và sự ổn định vật chất là điều dễ hiểu, nhưng treo lơ lửng quá lâu cũng có cái giá của nó. Một lựa chọn nhỏ cũng đủ để bắt đầu."
+      },
+      "psychological_shadow": {
+        "vi": "Cố gồng gánh quá nhiều thứ cùng lúc để chứng minh mình có thể xử lý tất cả.",
+        "en": "Trying to juggle too much at once to prove you can handle it all."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác chao đảo, như đang cố giữ thăng bằng giữa nhiều ưu tiên cùng lúc.",
+          "en": "A wobbly feeling, trying to balance multiple priorities at once."
+        },
+        "actual": {
+          "vi": "Bạn đang linh hoạt thích nghi tốt hơn bạn nghĩ, chỉ cần biết ưu tiên điều gì trước.",
+          "en": "You're adapting more flexibly than you think — it just takes clarity on what to prioritize."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu chỉ được giữ lại 2 ưu tiên quan trọng nhất lúc này, đó sẽ là gì?",
+        "en": "If you could keep only two top priorities right now, what would they be?"
       }
     },
     {
@@ -1767,6 +2955,24 @@
       "meaning_reversed": {
         "en": "Progress in resources, work, body, material stability may feel slower or less certain than hoped. It's a setback, not a dead end.",
         "vi": "Tiến triển trong tài chính, công việc, cơ thể và sự ổn định vật chất có thể chậm hơn hoặc chưa chắc chắn như bạn mong. Đây là một bước lùi, không phải ngõ cụt."
+      },
+      "psychological_shadow": {
+        "vi": "Khó chấp nhận sự giúp đỡ từ người khác vì sợ bị coi là không đủ năng lực.",
+        "en": "Difficulty accepting help from others out of fear of seeming incapable."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác phải tự mình hoàn thành mọi thứ để chứng minh năng lực.",
+          "en": "A felt need to complete everything alone to prove your ability."
+        },
+        "actual": {
+          "vi": "Kết quả tốt nhất đang đến từ sự hợp tác, khi mỗi người đóng góp thế mạnh riêng.",
+          "en": "The best result is coming from collaboration, where each person contributes their strength."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Có ai bạn có thể mời hợp tác để công việc này tốt hơn thay vì tự làm hết?",
+        "en": "Who could you invite to collaborate to make this better, instead of doing it all yourself?"
       }
     },
     {
@@ -1793,6 +2999,24 @@
       "meaning_reversed": {
         "en": "Stability in resources, work, body, material stability may have tipped into stagnation. A small shift, not a total overhaul, is what's needed.",
         "vi": "Sự ổn định trong tài chính, công việc, cơ thể và sự ổn định vật chất có thể đã chuyển thành trì trệ. Một thay đổi nhỏ, chứ không phải đại tu toàn bộ, là điều cần thiết."
+      },
+      "psychological_shadow": {
+        "vi": "Bám chặt lấy những gì đang có vì sợ mất mát, dù điều đó khiến bản thân bị kẹt lại.",
+        "en": "Clutching tightly to what you have out of fear of loss, even though it keeps you stuck."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác cần phải nắm giữ thật chặt để không bị mất đi những gì mình có.",
+          "en": "A need to hold tightly so as not to lose what you have."
+        },
+        "actual": {
+          "vi": "Sự an toàn thật sự đến từ việc tin tưởng đủ để buông tay đôi chút, không phải từ việc nắm chặt.",
+          "en": "Real security comes from trusting enough to loosen your grip a little, not from clutching tighter."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu buông nhẹ một chút thứ bạn đang nắm chặt, điều gì có thể xảy ra?",
+        "en": "If you loosened your grip just a little, what might become possible?"
       }
     },
     {
@@ -1819,6 +3043,24 @@
       "meaning_reversed": {
         "en": "Tension around resources, work, body, material stability may be easing, or you might be avoiding a conflict that needs gentle, honest attention.",
         "vi": "Căng thẳng quanh tài chính, công việc, cơ thể và sự ổn định vật chất có thể đang dịu bớt, hoặc bạn đang né tránh một xung đột cần được nhìn nhận một cách nhẹ nhàng và thành thật."
+      },
+      "psychological_shadow": {
+        "vi": "Cảm thấy quá xấu hổ để tìm kiếm sự giúp đỡ dù đang thực sự cần.",
+        "en": "Feeling too ashamed to seek help even when genuinely needed."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác thiếu thốn, bị bỏ lại một mình ngoài lạnh giá.",
+          "en": "A sense of lack, left out in the cold alone."
+        },
+        "actual": {
+          "vi": "Có một nơi ấm áp và sự hỗ trợ đang ở gần hơn bạn nghĩ, chỉ cần bạn dám gõ cửa.",
+          "en": "Warmth and support are closer than you think — you just need the courage to knock."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu dám tìm đến ai đó để nhờ giúp đỡ ngay lúc này, bạn sẽ gọi cho ai?",
+        "en": "If you dared to reach out for help right now, who would you call?"
       }
     },
     {
@@ -1845,6 +3087,24 @@
       "meaning_reversed": {
         "en": "Recovery in resources, work, body, material stability may feel uneven, or you may be giving more than you're receiving. Balance matters here.",
         "vi": "Sự hồi phục trong tài chính, công việc, cơ thể và sự ổn định vật chất có thể chưa đồng đều, hoặc bạn đang cho đi nhiều hơn nhận lại. Sự cân bằng rất quan trọng lúc này."
+      },
+      "psychological_shadow": {
+        "vi": "Khó chịu khi ở vị trí cần nhận giúp đỡ, hoặc dùng việc cho đi để kiểm soát người khác.",
+        "en": "Discomfort being on the receiving end, or giving in order to control others."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác về sự chênh lệch giữa người cho và người nhận trong một mối quan hệ.",
+          "en": "A sense of imbalance between the giver and receiver in a relationship."
+        },
+        "actual": {
+          "vi": "Một dòng chảy cho-nhận lành mạnh đang giúp cả hai phía cùng được nâng đỡ.",
+          "en": "A healthy flow of giving and receiving is lifting up both sides."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Bạn đang ở vị trí cho hay nhận trong tình huống này, và điều đó khiến bạn cảm thấy thế nào?",
+        "en": "Are you in the giving or receiving position here, and how does that make you feel?"
       }
     },
     {
@@ -1871,6 +3131,24 @@
       "meaning_reversed": {
         "en": "You may feel like giving up on something related to resources, work, body, material stability. Before deciding, check whether it's exhaustion talking, or real misalignment.",
         "vi": "Bạn có thể đang muốn buông bỏ điều gì đó liên quan đến tài chính, công việc, cơ thể và sự ổn định vật chất. Trước khi quyết định, hãy kiểm tra xem đó là do kiệt sức hay thực sự không còn phù hợp."
+      },
+      "psychological_shadow": {
+        "vi": "Sốt ruột đánh giá thấp công sức đã bỏ ra vì chưa thấy kết quả ngay.",
+        "en": "Impatiently undervaluing the effort put in because results aren't visible yet."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác chưa chắc công sức bỏ ra có đáng hay không, khi kết quả chưa rõ ràng.",
+          "en": "Uncertainty about whether the effort invested is worth it, with results not yet clear."
+        },
+        "actual": {
+          "vi": "Đây là lúc cần đánh giá lại tiến trình một cách kiên nhẫn, không phải bỏ cuộc.",
+          "en": "This is a time to patiently reassess progress, not to give up."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nhìn lại chặng đường đã qua, điều gì đang thực sự lớn lên dù chưa thấy rõ?",
+        "en": "Looking back at the path so far, what's genuinely growing even if not yet visible?"
       }
     },
     {
@@ -1897,6 +3175,24 @@
       "meaning_reversed": {
         "en": "Delays around resources, work, body, material stability are frustrating, but they're often protecting you from moving too fast in the wrong direction.",
         "vi": "Sự trì hoãn quanh tài chính, công việc, cơ thể và sự ổn định vật chất khiến bạn khó chịu, nhưng nó thường đang bảo vệ bạn khỏi việc tiến quá nhanh sai hướng."
+      },
+      "psychological_shadow": {
+        "vi": "Gắn giá trị bản thân hoàn toàn vào việc phải hoàn hảo trong công việc.",
+        "en": "Tying self-worth entirely to being perfect at your work."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác lặp đi lặp lại, như đang mài giũa cùng một kỹ năng không ngừng.",
+          "en": "A repetitive feeling, as if endlessly honing the same skill."
+        },
+        "actual": {
+          "vi": "Sự tận tâm rèn luyện này đang âm thầm xây dựng một tay nghề thực thụ.",
+          "en": "This dedicated practice is quietly building genuine mastery."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Kỹ năng nào bạn đang rèn giũa mà chính bạn cũng thấy mình tiến bộ rõ rệt?",
+        "en": "What skill are you honing where you can genuinely see yourself improving?"
       }
     },
     {
@@ -1923,6 +3219,24 @@
       "meaning_reversed": {
         "en": "You may be running on empty around resources, work, body, material stability, or guarding yourself so tightly that support can't reach you. Rest is not a setback.",
         "vi": "Bạn có thể đang cạn kiệt năng lượng quanh tài chính, công việc, cơ thể và sự ổn định vật chất, hoặc đang phòng thủ quá chặt khiến sự hỗ trợ không thể chạm tới. Nghỉ ngơi không phải là bước lùi."
+      },
+      "psychological_shadow": {
+        "vi": "Khó tận hưởng thành quả một mình vì quen gắn hạnh phúc với sự có mặt của người khác.",
+        "en": "Difficulty enjoying success alone, used to tying happiness to others' presence."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác cô đơn dù đang đứng giữa thành quả mà mình đã tạo dựng.",
+          "en": "A lonely feeling even while standing amid the success you've built."
+        },
+        "actual": {
+          "vi": "Sự độc lập và tự chủ này chính là thành quả xứng đáng nhất bạn đã tự tay tạo ra.",
+          "en": "This independence and self-sufficiency is the most rightful reward you've built with your own hands."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu chỉ có một mình, bạn vẫn có thể tận hưởng thành quả này theo cách nào?",
+        "en": "Even alone, in what way could you still savor this success?"
       }
     },
     {
@@ -1949,6 +3263,24 @@
       "meaning_reversed": {
         "en": "It may be time to set down a burden connected to resources, work, body, material stability rather than carrying it into the next chapter.",
         "vi": "Có lẽ đã đến lúc đặt xuống một gánh nặng liên quan đến tài chính, công việc, cơ thể và sự ổn định vật chất, thay vì mang nó sang chương tiếp theo."
+      },
+      "psychological_shadow": {
+        "vi": "Lo lắng về di sản lâu dài đến mức quên tận hưởng sự ổn định của hiện tại.",
+        "en": "Worrying about long-term legacy to the point of forgetting to enjoy the current stability."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác áp lực phải xây dựng một điều gì đó bền vững cho tương lai xa.",
+          "en": "Pressure to build something lasting for the distant future."
+        },
+        "actual": {
+          "vi": "Một nền tảng vững chắc, mang tính gia đình và lâu dài đã đang hiện diện ngay lúc này.",
+          "en": "A solid, family-rooted, lasting foundation is already present right now."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Điều gì trong sự ổn định hiện tại của bạn đáng được trân trọng ngay hôm nay?",
+        "en": "What about your current stability deserves to be appreciated today?"
       }
     },
     {
@@ -1975,6 +3307,24 @@
       "meaning_reversed": {
         "en": "There may be some scattered or unready energy around resources, work, body, material stability. That's alright — not every idea needs to be acted on immediately.",
         "vi": "Có thể có chút năng lượng chưa sẵn sàng hay phân tán quanh tài chính, công việc, cơ thể và sự ổn định vật chất. Không sao cả — không phải ý tưởng nào cũng cần hành động ngay."
+      },
+      "psychological_shadow": {
+        "vi": "Nỗi sợ ước mơ thực tế của mình bị coi là quá nhỏ bé hoặc không đủ tham vọng.",
+        "en": "Fear that your practical dream will be seen as too small or unambitious."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác rụt rè khi mới bắt đầu học hỏi một kỹ năng hay dự định mới.",
+          "en": "A shy feeling when just starting to learn a new skill or plan."
+        },
+        "actual": {
+          "vi": "Sự tò mò thực tế này đang gieo những hạt giống cho một tương lai vững chắc.",
+          "en": "This grounded curiosity is planting the seeds for a solid future."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Kế hoạch nhỏ nào bạn muốn bắt đầu nghiêm túc học hỏi ngay từ bây giờ?",
+        "en": "What small plan do you want to seriously start learning right now?"
       }
     },
     {
@@ -2001,6 +3351,24 @@
       "meaning_reversed": {
         "en": "Energy around resources, work, body, material stability may be moving too fast or not moving at all. Either way, a more measured pace will serve you better.",
         "vi": "Năng lượng quanh tài chính, công việc, cơ thể và sự ổn định vật chất có thể đang quá nhanh hoặc hoàn toàn đứng yên. Dù thế nào, một nhịp độ vừa phải sẽ tốt hơn cho bạn."
+      },
+      "psychological_shadow": {
+        "vi": "Trì hoãn hành động vì muốn mọi thứ phải hoàn hảo và chắc chắn tuyệt đối.",
+        "en": "Delaying action because everything must be perfectly and absolutely certain first."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác tiến độ chậm chạp, như mọi thứ đang dậm chân tại chỗ.",
+          "en": "A feeling of slow progress, as if everything is standing still."
+        },
+        "actual": {
+          "vi": "Sự kiên trì bền bỉ, từng bước một đang âm thầm xây nên kết quả chắc chắn.",
+          "en": "Steady, patient persistence is quietly building toward a solid result."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Bước nhỏ và chắc chắn nào bạn có thể thực hiện ngay hôm nay, dù chưa hoàn hảo?",
+        "en": "What small, solid step could you take today, even if imperfect?"
       }
     },
     {
@@ -2027,6 +3395,24 @@
       "meaning_reversed": {
         "en": "You may be neglecting your own needs while tending to resources, work, body, material stability for others. It's safe to include yourself in the care.",
         "vi": "Có thể bạn đang bỏ quên nhu cầu của chính mình trong khi chăm sóc tài chính, công việc, cơ thể và sự ổn định vật chất cho người khác. Bạn hoàn toàn có thể tự chăm sóc bản thân."
+      },
+      "psychological_shadow": {
+        "vi": "Chăm sóc mọi người xung quanh đến mức quên chăm sóc chính nhu cầu thực tế của bản thân.",
+        "en": "Caring for everyone around you to the point of neglecting your own practical needs."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác bận rộn lo toan mọi thứ để giữ mọi người xung quanh ổn định.",
+          "en": "A busy feeling of managing everything to keep everyone around you stable."
+        },
+        "actual": {
+          "vi": "Sự chăm sóc thực tế và ấm áp của bạn đang nuôi dưỡng cả một không gian an toàn.",
+          "en": "Your practical, warm care is nurturing an entire space of safety."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Bạn có thể dành sự chăm sóc thực tế đó cho chính mình theo cách nào hôm nay?",
+        "en": "In what way could you offer that same practical care to yourself today?"
       }
     },
     {
@@ -2053,6 +3439,24 @@
       "meaning_reversed": {
         "en": "Authority around resources, work, body, material stability may feel rigid or forced right now. True steadiness leaves room for flexibility.",
         "vi": "Quyền lực quanh tài chính, công việc, cơ thể và sự ổn định vật chất có thể đang cứng nhắc hoặc gượng ép lúc này. Sự vững vàng thật sự vẫn cần chỗ cho linh hoạt."
+      },
+      "psychological_shadow": {
+        "vi": "Gắn giá trị bản thân với thành tựu vật chất, sợ mất tất cả nếu không còn thành công.",
+        "en": "Tying self-worth to material achievement, fearing losing everything if success fades."
+      },
+      "contrast_dimension": {
+        "apparent": {
+          "vi": "Cảm giác phải luôn kiểm soát và duy trì thành quả vật chất đã gây dựng.",
+          "en": "A need to always control and maintain the material success you've built."
+        },
+        "actual": {
+          "vi": "Sự vững vàng thật sự của bạn đến từ giá trị bên trong, không chỉ từ những gì bạn sở hữu.",
+          "en": "Your true stability comes from inner values, not just from what you own."
+        }
+      },
+      "reflection_prompt": {
+        "vi": "Nếu mất hết của cải vật chất, điều gì trong bạn vẫn còn vững vàng?",
+        "en": "If all material wealth were gone, what within you would still remain solid?"
       }
     }
   ]
