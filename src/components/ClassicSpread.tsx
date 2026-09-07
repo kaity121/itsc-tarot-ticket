@@ -53,7 +53,7 @@ export const ClassicSpread: React.FC<ClassicSpreadProps> = ({ onShare, language 
   const [cards, setCards] = useState<(DrawnTarotCard | null)[]>([null, null, null]);
   const [flipped, setFlipped] = useState<boolean[]>([false, false, false]);
 
-  const [readingText, setReadingText] = useState<string | null>(null);
+  const [readingText, setReadingText] = useState<TarotReadingApiResponse | null>(null);
   const [isLoadingAI, setIsLoadingAI] = useState(false);
 
   const filterPresets = selectedCategory === 'All'
@@ -154,49 +154,14 @@ export const ClassicSpread: React.FC<ClassicSpreadProps> = ({ onShare, language 
 
       if (res.ok) {
         const data: TarotReadingApiResponse = await res.json();
-        setReadingText(data.reading);
+        setReadingText(data);
       } else {
         throw new Error('API failed');
       }
     } catch {
-      // Fallback in case of network interruption
-      if (language === 'vi') {
-        setReadingText(
-          `## ✦ Luận Giải Chiêm Nghiệm Từ Bé Cú Đêm\n\n` +
-          `*Tâm điểm chiêm nghiệm: "${question}"*\n\n` +
-          `### ✦ ${getPositionLabel(0)}: **${cardNames[0]}**\n` +
-          `> *${drawnCards[0].summaryVi || drawnCards[0].summary}*\n\n` +
-          `Nền móng quá khứ đã tôi luyện cho bạn sự thấu hiểu và khả năng quan sát sâu sắc trước mọi thử thách.\n\n` +
-          `### ✦ ${getPositionLabel(1)}: **${cardNames[1]}**\n` +
-          `> *${drawnCards[1].summaryVi || drawnCards[1].summary}*\n\n` +
-          `Hiện tại là lúc giữ tâm thế tĩnh tại, nhận diện sự việc đúng như bản chất thay vì bị cuốn vào lo âu bên ngoài.\n\n` +
-          `### ✦ ${getPositionLabel(2)}: **${cardNames[2]}**\n` +
-          `> *${drawnCards[2].summaryVi || drawnCards[2].summary}*\n\n` +
-          `Tương lai mở ra một sự chuyển dịch tích cực, nơi sự kiên định của bạn sẽ kết trái ngọt lành.\n\n` +
-          `### ✦ Tổng Quan Bức Tranh Năng Lượng\n` +
-          `Hành trình từ ${cardNames[0]} qua ${cardNames[1]} và hướng tới ${cardNames[2]} phản ánh sự trưởng thành sâu sắc trong nhận thức và nội lực của bạn.\n\n` +
-          `### ✦ Lời Khuyên Hành Động Hôm Nay\n` +
-          `> **Hãy trân trọng bài học quá khứ, giữ tâm thế vững vàng trong hiện tại để tự tin đón nhận chặng đường phía trước.**`
-        );
-      } else {
-        setReadingText(
-          `## ✦ Owl Mascot Mindful Reading\n\n` +
-          `*Inquiry: "${question}"*\n\n` +
-          `### ✦ ${getPositionLabel(0)}: **${drawnCards[0].name}**\n` +
-          `> *${drawnCards[0].summary}*\n\n` +
-          `Your past experiences laid solid foundational roots of wisdom.\n\n` +
-          `### ✦ ${getPositionLabel(1)}: **${drawnCards[1].name}**\n` +
-          `> *${drawnCards[1].summary}*\n\n` +
-          `Present friction is an invitation to step back and observe with calm discernment.\n\n` +
-          `### ✦ ${getPositionLabel(2)}: **${drawnCards[2].name}**\n` +
-          `> *${drawnCards[2].summary}*\n\n` +
-          `Your forward trajectory unlocks clarity, expansiveness, and organic integration.\n\n` +
-          `### ✦ Energetic Synthesis\n` +
-          `Your journey from ${drawnCards[0].name} to ${drawnCards[1].name} and into ${drawnCards[2].name} reflects conscious agency.\n\n` +
-          `### ✦ Actionable Takeaway\n` +
-          `> **Honor the wisdom accumulated in past decisions. Apply conscious presence today to step calmly into tomorrow.**`
-        );
-      }
+      // Fallback will be handled separately
+      
+      
     } finally {
       setIsLoadingAI(false);
     }

@@ -11,8 +11,22 @@ import {
 import { Share2, RefreshCw, MessageSquarePlus, Sparkles } from 'lucide-react';
 import { sound } from '../utils/audio';
 
+interface ReadingCard {
+  name: string;
+  position: string;
+  reflection: string;
+}
+
+interface Reading {
+  theme: string;
+  cards: ReadingCard[];
+  synthesis: string;
+  takeaway: string;
+}
+
 interface ReadingResultViewProps {
-  reading: string;
+  reading: Reading;
+
   question?: string;
   language?: Language;
   onShare?: (text: string) => void;
@@ -51,94 +65,7 @@ export const ReadingResultView: React.FC<ReadingResultViewProps> = ({
   };
 
   // Parse lines into logical visual blocks
-  const renderFormattedReading = () => {
-    const lines = reading.split('\n');
-    const blocks: React.ReactNode[] = [];
-    let currentParagraph: string[] = [];
-
-    const flushParagraph = (key: string) => {
-      if (currentParagraph.length > 0) {
-        const text = currentParagraph.join(' ').trim();
-        if (text) {
-          blocks.push(
-            <p
-              key={key}
-              className="text-[14px] sm:text-[15px] text-[#332847] leading-relaxed font-nunito font-normal my-3"
-            >
-              {formatTextWithBold(text)}
-            </p>
-          );
-        }
-        currentParagraph = [];
-      }
-    };
-
-    lines.forEach((line, index) => {
-      const trimmed = line.trim();
-
-      if (!trimmed) {
-        flushParagraph(`p-${index}`);
-        return;
-      }
-
-      // Title ##
-      if (trimmed.startsWith('## ')) {
-        flushParagraph(`p-${index}`);
-        const titleText = trimmed.replace(/^##\s*/, '');
-        blocks.push(
-          <div key={`h2-${index}`} className="flex items-center gap-2 pt-2 pb-1 mb-2 border-b border-[#F0E6FA]">
-            <CuteStickerSparkle size={14} color="#8A73B5" />
-            <h3 className="font-montserrat text-lg sm:text-xl font-bold text-[#1E152E]">
-              {titleText}
-            </h3>
-          </div>
-        );
-        return;
-      }
-
-      // Subheading ###
-      if (trimmed.startsWith('### ')) {
-        flushParagraph(`p-${index}`);
-        const subText = trimmed.replace(/^###\s*/, '');
-        blocks.push(
-          <div
-            key={`h3-${index}`}
-            className="flex items-center gap-2 mt-5 mb-2.5 font-montserrat text-sm sm:text-base font-bold text-[#241B34] bg-[#F9F5FD] px-3.5 py-2 rounded-xl border border-[#EFE5FA] shadow-xs"
-          >
-            <Sparkles className="w-4 h-4 text-[#8A73B5]" />
-            <span>{formatTextWithBold(subText)}</span>
-          </div>
-        );
-        return;
-      }
-
-      // Blockquote >
-      if (trimmed.startsWith('>')) {
-        flushParagraph(`p-${index}`);
-        const quoteText = trimmed.replace(/^>\s*/, '');
-        blocks.push(
-          <div
-            key={`quote-${index}`}
-            className="my-4 pl-4 sm:pl-5 border-l-4 border-[#1E3A5F] bg-[#FAF8FE] p-4 sm:p-5 rounded-r-2xl border-t border-r border-b border-[#E3D9F0] shadow-xs"
-          >
-            <div className="font-montserrat text-xs font-bold text-[#1E3A5F] uppercase tracking-wider mb-1 flex items-center gap-1.5">
-              <span>✦</span>
-              <span>{isVi ? 'Thông điệp chuyển hóa' : 'Reflective Wisdom'}</span>
-            </div>
-            <p className="text-[13.5px] sm:text-[14.5px] font-nunito text-[#1E293B] leading-relaxed italic">
-              "{formatTextWithBold(quoteText)}"
-            </p>
-          </div>
-        );
-        return;
-      }
-
-      currentParagraph.push(trimmed);
-    });
-
-    flushParagraph('final');
-    return blocks;
-  };
+  
 
   return (
     <motion.div
@@ -195,7 +122,44 @@ export const ReadingResultView: React.FC<ReadingResultViewProps> = ({
 
         {/* Rendered Reading Body */}
         <div className="relative z-10 space-y-1">
-          {renderFormattedReading()}
+          <div className="space-y-8">
+  {/* Theme */}
+  <section>
+    <h3 className="text-xl font-semibold mb-3">
+      {isVi ? "Chủ đề" : "Theme"}
+    </h3>
+    <p>{reading.theme}</p>
+  </section>
+
+  {/* Cards */}
+  <section className="space-y-6">
+    {reading.cards.map((card, index) => (
+      <div key={`${card.name}-${index}`}>
+        <h3 className="text-lg font-semibold">
+          {card.position}
+        </h3>
+        <p className="font-medium mt-1">{card.name}</p>
+        <p className="mt-2">{card.reflection}</p>
+      </div>
+    ))}
+  </section>
+
+  {/* Synthesis */}
+  <section>
+    <h3 className="text-xl font-semibold mb-3">
+      {isVi ? "Tổng hợp" : "Synthesis"}
+    </h3>
+    <p>{reading.synthesis}</p>
+  </section>
+
+  {/* Takeaway */}
+  <section>
+    <h3 className="text-xl font-semibold mb-3">
+      {isVi ? "Điều cần ghi nhớ" : "Takeaway"}
+    </h3>
+    <p>{reading.takeaway}</p>
+  </section>
+</div>
         </div>
 
         {/* Footer Actions inside Reading Card */}
@@ -219,7 +183,16 @@ export const ReadingResultView: React.FC<ReadingResultViewProps> = ({
               id="btn-reading-share"
               onClick={() => {
                 sound.playChime();
-                onShare(reading);
+                onShare(
+                  [
+                    reading.theme,
+                    ...reading.cards.map(
+                      (card) => `${card.position}: ${card.name}\n${card.reflection}`
+                    ),
+                    reading.synthesis,
+                    reading.takeaway,
+                  ].join("\n\n")
+                );
               }}
               className="px-5 py-2.5 rounded-full bg-[#241B34] hover:bg-[#150E22] text-white text-xs font-bold font-montserrat border border-[#3E2F59] shadow-sm flex items-center gap-2.5 transition-transform hover:-translate-y-0.5 cursor-pointer ml-auto"
             >

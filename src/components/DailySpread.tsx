@@ -94,9 +94,8 @@ export const DailySpread: React.FC<DailySpreadProps> = ({ onShare, language = 'e
   const [isShuffling, setIsShuffling] = useState(false);
   const [shuffleStage, setShuffleStage] = useState<'idle' | 'stacking' | 'fanning' | 'gathering' | 'dealing'>('idle');
 
-  // Reading state (string according to API contract { reading: string })
-  const [readingText, setReadingText] = useState<string | null>(null);
-  const [isLoadingAI, setIsLoadingAI] = useState(false);
+  // Reading state
+  const [readingText, setReadingText] = useState<TarotReadingApiResponse | null>(null);  const [isLoadingAI, setIsLoadingAI] = useState(false);
 
   // Countdown timer for next spread
   const [timeLeft, setTimeLeft] = useState({ hours: 7, minutes: 42, seconds: 18 });
@@ -137,72 +136,30 @@ export const DailySpread: React.FC<DailySpreadProps> = ({ onShare, language = 'e
     const c1Name = isVi && c1.nameVi ? c1.nameVi : c1.name;
     const c2Name = isVi && c2.nameVi ? c2.nameVi : c2.name;
 
-    const minDelayPromise = new Promise(resolve => setTimeout(resolve, 1800));
 
     try {
-      const [res] = await Promise.all([
-        fetch('/api/reading', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            question: question || defaultQuestion,
-            language,
-            cards: [
-              {
-                name: c1.name,
-                orientation: c1.orientation,
-                position: label1
-              },
-              {
-                name: c2.name,
-                orientation: c2.orientation,
-                position: label2
-              }
-            ]
-          })
-        }),
-        minDelayPromise
-      ]);
+      const res = await fetch('/api/reading', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          question: question || defaultQuestion,
+          language,
+          cards: [
+            { name: c1.name, orientation: c1.orientation, position: label1 },
+            { name: c2.name, orientation: c2.orientation, position: label2 }
+          ]
+        })
+      });
 
       if (res.ok) {
         const data: TarotReadingApiResponse = await res.json();
-        setReadingText(data.reading);
+        setReadingText(data);
       } else {
         throw new Error('API failed');
       }
     } catch {
       // Local fallback in case of network issue
-      if (isVi) {
-        setReadingText(
-          `## ✦ Luận Giải Chiêm Nghiệm Từ Bé Cú Đêm\n\n` +
-          `*Tâm điểm chiêm nghiệm: "${question || defaultQuestion}"*\n\n` +
-          `### ✦ ${label1}: **${c1Name}**\n` +
-          `> *${c1.contrastPerspectiveVi?.apparent || c1.summaryVi}*\n\n` +
-          `Những thách thức hoặc biến chuyển bề ngoài đôi khi chỉ là sự phản chiếu nhất thời của tâm trí. Đừng để cảm xúc ban đầu làm bạn phân tâm.\n\n` +
-          `### ✦ ${label2}: **${c2Name}**\n` +
-          `> *${c2.contrastPerspectiveVi?.actual || c2.summaryVi}*\n\n` +
-          `Khi tĩnh lặng nhìn sâu vào bản chất, cơ hội và nguồn nội lực thực sự đã sẵn sàng để bừng nở.\n\n` +
-          `### ✦ Tổng Quan Bức Tranh Năng Lượng\n` +
-          `Sự đối chiếu giữa ${c1Name} và ${c2Name} nhắc nhở bạn rằng điều trông có vẻ bất động thực ra là sự tích lũy nội lực. Hãy tách bạch cảm xúc nhất thời khỏi thực tế khách quan.\n\n` +
-          `### ✦ Lời Khuyên Hành Động Hôm Nay\n` +
-          `> **Đừng nhầm lẫn sự tĩnh lặng với việc giậm chân tại chỗ. Hãy lắng nghe trực giác và bước đi từng bước vững chãi.**`
-        );
-      } else {
-        setReadingText(
-          `## ✦ Owl Mascot Mindful Reading\n\n` +
-          `*Inquiry: "${question || defaultQuestion}"*\n\n` +
-          `### ✦ ${label1}: **${c1.name}**\n` +
-          `> *${c1.contrastPerspective?.apparent || c1.summary}*\n\n` +
-          `What outwardly appears as friction is merely energy asking for conscious direction.\n\n` +
-          `### ✦ ${label2}: **${c2.name}**\n` +
-          `> *${c2.contrastPerspective?.actual || c2.summary}*\n\n` +
-          `Beneath the surface, genuine stability and growth are compounding organically.\n\n` +
-          `### ✦ Energetic Synthesis\n` +
-          `The dynamic between ${c1.name} and ${c2.name} illuminates that your compass is sound. Decouple temporary doubt from your long-term vision.\n\n` +
-          `### ✦ Actionable Takeaway\n` +
-          `> **Do not mistake quiet calibration for stagnation. Release unnecessary urgency and trust your grounded rhythm.**`
-        );
-      }
+      setReadingText(null);
     } finally {
       setIsLoadingAI(false);
     }

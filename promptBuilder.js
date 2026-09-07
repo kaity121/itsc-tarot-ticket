@@ -36,9 +36,13 @@
  * -----------------------------------------------------------------------
  */
 
-const fs = require('fs');
-const path = require('path');
-const { SYSTEM_PROMPT } = require('./systemPrompt');
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+import { SYSTEM_PROMPT } from "./systemPrompt.js";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 let _deckCache = null;
 
@@ -214,4 +218,4 @@ Output raw JSON only, no commentary or markdown fences.`;
   return { systemPrompt, userPrompt };
 }
 
-module.exports = { buildPrompt, getCardData, loadDeck };
+export { buildPrompt, getCardData, loadDeck };

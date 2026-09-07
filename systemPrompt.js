@@ -114,4 +114,4 @@ Không bao giờ thoát vai để giải thích rằng bạn là một mô hình
 hỏi trực tiếp và rõ ràng.`,
 };
 
-module.exports = { SYSTEM_PROMPT };
+export { SYSTEM_PROMPT };
