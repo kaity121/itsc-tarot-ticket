@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&subset=vietnamese&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600;1,700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,600;1,9..144,700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&subset=vietnamese&display=swap');
 @import "tailwindcss";
 
 @layer base {
@@ -14,7 +14,6 @@
   /* Montserrat: Logo "ITSC Tarot", Section Headings, Card Names, Badges */
   .font-montserrat,
   .font-logo,
-  .font-fraunces,
   .font-kalam,
   .font-yellowtail,
   .font-heading,
@@ -22,6 +21,15 @@
   .font-card-title,
   .font-badge {
     font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Classical Serif Italic for Tarot Questions & Quotes (Fraunces & EB Garamond) */
+  .font-fraunces,
+  .font-garamond,
+  .font-reading-question,
+  .font-serif-italic {
+    font-family: 'Fraunces', 'EB Garamond', Georgia, serif;
+    font-style: italic;
   }
 
   /* Baloo 2: Cute rounded bold typography */
@@ -32,7 +40,7 @@
     font-optical-sizing: auto;
   }
 
-  /* Quotes & Tarot Inquiries: Montserrat Italic or Nunito Italic (NO Cormorant Garamond) */
+  /* Quotes & Tarot Inquiries: Montserrat Italic or Nunito Italic */
   .font-cormorant,
   .font-quote,
   .font-serif {
@@ -211,4 +219,44 @@
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(130, 120, 150, 0.45);
 }
+
+/* ================= Y2K PURPLE PIXEL CHECKERBOARD PATTERN ================= */
+.bg-pixel-checker-purple {
+  background-image: 
+    linear-gradient(45deg, rgba(107, 79, 160, 0.055) 25%, transparent 25%), 
+    linear-gradient(-45deg, rgba(107, 79, 160, 0.055) 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, rgba(107, 79, 160, 0.055) 75%), 
+    linear-gradient(-45deg, transparent 75%, rgba(107, 79, 160, 0.055) 75%);
+  background-size: 8px 8px;
+  background-position: 0 0, 0 4px, 4px -4px, -4px 0px;
+}
+
+/* Holographic shimmer animation for ticket stars */
+@keyframes holo-sparkle {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(0.92) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15) rotate(6deg);
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 4px rgba(198, 166, 242, 0.8));
+  }
+}
+
+.animate-holo-sparkle {
+  animation: holo-sparkle 2.8s ease-in-out infinite;
+}
+
+.animate-holo-sparkle-delayed {
+  animation: holo-sparkle 3.4s ease-in-out 1.2s infinite;
+}
+
+/* When capturing with html-to-image, disable animations for static export */
+.tarot-ticket-exporting,
+.tarot-ticket-exporting * {
+  animation: none !important;
+  transition: none !important;
+}
+
 

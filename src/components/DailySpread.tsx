@@ -605,6 +605,7 @@ export const DailySpread: React.FC<DailySpreadProps> = ({ onShare, language = 'e
               reading={readingText}
               question={question}
               language={language}
+              drawnCards={card1 && card2 ? [card1, card2] : undefined}
               onShare={onShare}
               onReset={handleResetToQuestion}
             />

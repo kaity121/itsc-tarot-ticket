@@ -8,8 +8,10 @@ import {
   WashiTape,
   CuteStickerSparkle
 } from './OwlMotifs';
-import { Share2, RefreshCw, MessageSquarePlus, Sparkles } from 'lucide-react';
+import { Share2, RefreshCw, MessageSquarePlus, Sparkles, Ticket } from 'lucide-react';
 import { sound } from '../utils/audio';
+import { DrawnTarotCard } from '../types';
+import { TarotShareCard, TarotCardShareItem } from './TarotShareCard';
 
 interface ReadingCard {
   name: string;
@@ -26,9 +28,10 @@ interface Reading {
 
 interface ReadingResultViewProps {
   reading: Reading;
-
   question?: string;
   language?: Language;
+  drawnCards?: DrawnTarotCard[];
+  readingId?: string;
   onShare?: (text: string) => void;
   onReset?: () => void;
 }
@@ -37,10 +40,38 @@ export const ReadingResultView: React.FC<ReadingResultViewProps> = ({
   reading,
   question,
   language = 'vi',
+  drawnCards,
+  readingId,
   onShare,
   onReset
 }) => {
   const isVi = language === 'vi';
+  const [isTicketModalOpen, setIsTicketModalOpen] = React.useState(false);
+
+  // Generate consistent reading code if not passed
+  const activeReadingId = React.useMemo(() => {
+    if (readingId) return readingId;
+    return 'ITSC-' + Math.random().toString(36).substring(2, 8).toUpperCase();
+  }, [readingId]);
+
+  // Prepare cards array for TarotShareCard
+  const shareCards: TarotCardShareItem[] = React.useMemo(() => {
+    if (drawnCards && drawnCards.length > 0) {
+      return drawnCards.map((dc, i) => ({
+        name: dc.name,
+        nameVi: dc.nameVi,
+        reversed: dc.orientation === 'reversed',
+        positionLabel: reading.cards[i]?.position,
+        suit: dc.suit,
+        image: dc.image
+      }));
+    }
+    return reading.cards.map((rc) => ({
+      name: rc.name,
+      reversed: rc.name.toLowerCase().includes('ngược') || rc.name.toLowerCase().includes('reversed'),
+      positionLabel: rc.position
+    }));
+  }, [drawnCards, reading.cards]);
 
   // Helper to parse simple markdown formatting into React elements
   const formatTextWithBold = (text: string) => {
@@ -178,31 +209,60 @@ export const ReadingResultView: React.FC<ReadingResultViewProps> = ({
             </button>
           )}
 
-          {onShare && (
+          <div className="flex items-center gap-2.5 ml-auto flex-wrap">
+            {/* Primary Action: Open Ticket Stub Share Card */}
             <button
-              id="btn-reading-share"
+              id="btn-reading-ticket"
               onClick={() => {
                 sound.playChime();
-                onShare(
-                  [
-                    reading.theme,
-                    ...reading.cards.map(
-                      (card) => `${card.position}: ${card.name}\n${card.reflection}`
-                    ),
-                    reading.synthesis,
-                    reading.takeaway,
-                  ].join("\n\n")
-                );
+                setIsTicketModalOpen(true);
               }}
-              className="px-5 py-2.5 rounded-full bg-[#241B34] hover:bg-[#150E22] text-white text-xs font-bold font-montserrat border border-[#3E2F59] shadow-sm flex items-center gap-2.5 transition-transform hover:-translate-y-0.5 cursor-pointer ml-auto"
+              className="px-5 py-2.5 rounded-full bg-gradient-to-r from-[#6B4FA0] via-[#855EC8] to-[#9D6ED8] hover:from-[#5C3F90] hover:to-[#8E5EC4] text-white text-xs font-bold font-montserrat border border-[#BFA2E8]/50 shadow-sm flex items-center gap-2 transition-transform hover:-translate-y-0.5 cursor-pointer"
             >
-              <NotebookStickerAvatar size={20} expression="happy" tilt={-2} tapeColor="lavender" />
-              <Share2 className="w-3.5 h-3.5 text-white" />
-              <span>{isVi ? 'Chia sẻ quẻ bài' : 'Share reading'}</span>
+              <Ticket className="w-3.5 h-3.5 text-[#E4D2FA]" />
+              <span>{isVi ? 'Vé Lưu Niệm (Reading Ticket) ✦' : 'Reading Ticket Stub ✦'}</span>
             </button>
-          )}
+
+            {onShare && (
+              <button
+                id="btn-reading-share"
+                onClick={() => {
+                  sound.playChime();
+                  onShare(
+                    [
+                      reading.theme,
+                      ...reading.cards.map(
+                        (card) => `${card.position}: ${card.name}\n${card.reflection}`
+                      ),
+                      reading.synthesis,
+                      reading.takeaway,
+                    ].join("\n\n")
+                  );
+                }}
+                className="px-4 py-2.5 rounded-full bg-[#241B34] hover:bg-[#150E22] text-white text-xs font-bold font-montserrat border border-[#3E2F59] shadow-sm flex items-center gap-2 transition-transform hover:-translate-y-0.5 cursor-pointer"
+              >
+                <Share2 className="w-3.5 h-3.5 text-white" />
+                <span>{isVi ? 'Sao chép chữ' : 'Copy Text'}</span>
+              </button>
+            )}
+          </div>
         </div>
       </div>
+
+      {/* TarotShareCard Modal Popup */}
+      {isTicketModalOpen && (
+        <TarotShareCard
+          readingId={activeReadingId}
+          question={question || (isVi ? 'Thông điệp chiêm nghiệm cùng Bé Cú' : 'Mindful guidance with Owl Mascot')}
+          spreadType={shareCards.length === 1 ? '1' : shareCards.length === 3 ? '3' : `${shareCards.length} lá`}
+          cards={shareCards}
+          manifestText={reading.takeaway || reading.synthesis || reading.theme}
+          qrUrl={typeof window !== 'undefined' ? `${window.location.origin}${window.location.pathname}#reading-${activeReadingId}` : ''}
+          userName={isVi ? 'Người Bói Ẩn Danh' : 'Mystic Seeker'}
+          language={language}
+          onClose={() => setIsTicketModalOpen(false)}
+        />
+      )}
     </motion.div>
   );
 };
