@@ -76,10 +76,14 @@ export async function saveReadingData(readingId, readingData) {
   }
 
   // Local filesystem persistence
-  const dir = getLocalDirectory();
-  await fs.mkdir(dir, { recursive: true });
-  const filePath = path.join(dir, `${readingId}.json`);
-  await fs.writeFile(filePath, JSON.stringify(payload, null, 2), "utf8");
+  try {
+    const dir = getLocalDirectory();
+    await fs.mkdir(dir, { recursive: true });
+    const filePath = path.join(dir, `${readingId}.json`);
+    await fs.writeFile(filePath, JSON.stringify(payload, null, 2), "utf8");
+  } catch (fsErr) {
+    console.warn("[Storage] Local filesystem write warning:", fsErr?.message || fsErr);
+  }
   return payload;
 }
 

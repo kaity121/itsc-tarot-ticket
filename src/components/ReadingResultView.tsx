@@ -114,12 +114,12 @@ export const ReadingResultView: React.FC<ReadingResultViewProps> = ({
   }, [activeReadingId, defaultQuestion, spreadTypeStr, shareCards, manifestText, isVi, language]);
 
   const publicQrUrl = React.useMemo(() => {
-    if (savedUrl) return savedUrl;
-    if (typeof window !== 'undefined') {
+    if (typeof window !== 'undefined' && window.location.origin) {
       return `${window.location.origin}/ticket/${activeReadingId}`;
     }
-    return '';
-  }, [savedUrl, activeReadingId]);
+    if (savedUrl) return savedUrl;
+    return `/ticket/${activeReadingId}`;
+  }, [activeReadingId, savedUrl]);
 
   // Helper to parse simple markdown formatting into React elements
   const formatTextWithBold = (text: string) => {

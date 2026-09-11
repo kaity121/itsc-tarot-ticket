@@ -151,8 +151,23 @@ export const TarotShareCard: React.FC<TarotShareCardProps> = ({
   const [showSpeechBubble, setShowSpeechBubble] = useState(true);
   const [layoutMode, setLayoutMode] = useState<'horizontal' | 'vertical'>('horizontal');
   const [statusNote, setStatusNote] = useState<string | null>(null);
+  const [failedImages, setFailedImages] = useState<Record<number, boolean>>({});
 
   const isVi = language === 'vi';
+
+  // Safe QR value: Ensures QRCodeSVG always receives a valid, non-empty URL string
+  const safeQrUrl = React.useMemo(() => {
+    if (qrUrl && typeof qrUrl === 'string' && qrUrl.trim().length > 0) {
+      return qrUrl.trim();
+    }
+    if (typeof window !== 'undefined') {
+      const origin = window.location.origin || '';
+      const pathname = window.location.pathname || '';
+      const fallback = `${origin}${pathname}`;
+      return fallback || window.location.href || 'https://itsc-tarot-ticket.vercel.app';
+    }
+    return 'https://itsc-tarot-ticket.vercel.app';
+  }, [qrUrl]);
 
   // Format current date if not provided
   const formattedDate = dateTime || (() => {
@@ -212,8 +227,9 @@ export const TarotShareCard: React.FC<TarotShareCardProps> = ({
   // Copy link to clipboard
   const handleCopyLink = async () => {
     try {
-      if (navigator.clipboard && qrUrl) {
-        await navigator.clipboard.writeText(qrUrl);
+      const linkToCopy = safeQrUrl;
+      if (navigator.clipboard && linkToCopy) {
+        await navigator.clipboard.writeText(linkToCopy);
         setIsCopied(true);
         setStatusNote(isVi ? 'Đã sao chép liên kết vào bộ nhớ tạm! ✨' : 'Link copied to clipboard! ✨');
         setTimeout(() => {
@@ -438,12 +454,13 @@ export const TarotShareCard: React.FC<TarotShareCardProps> = ({
 
                       {/* Card Visual / Thumbnail Representation */}
                       <div className="w-12 h-16 sm:w-14 sm:h-20 rounded border border-[#6B4FA0]/40 overflow-hidden relative my-1 bg-[#241B34] flex items-center justify-center shadow-xs">
-                        {card.image ? (
+                        {card.image && !failedImages[idx] ? (
                           <img
                             src={card.image}
                             alt={card.name}
                             className={`w-full h-full object-cover ${card.reversed ? 'rotate-180' : ''}`}
                             crossOrigin="anonymous"
+                            onError={() => setFailedImages((prev) => ({ ...prev, [idx]: true }))}
                           />
                         ) : (
                           <div className="flex flex-col items-center justify-center p-1 text-center">
@@ -504,6 +521,7 @@ export const TarotShareCard: React.FC<TarotShareCardProps> = ({
                     <img
                       src={ITSC_MASCOT_BASE64}
                       alt="ITSC Owl Mascot"
+                      crossOrigin="anonymous"
                       className="w-[58px] sm:w-[68px] h-auto object-contain select-none pointer-events-none relative z-10"
                       style={{
                         filter: 'drop-shadow(0 4px 10px rgba(95, 60, 145, 0.22))'
@@ -629,25 +647,13 @@ export const TarotShareCard: React.FC<TarotShareCardProps> = ({
               <div className="flex flex-col items-center text-center">
                 {/* QR Container */}
                 <div className="p-1.5 rounded-md bg-white border border-[#A78BFA]/50 shadow-sm flex items-center justify-center">
-                  {qrUrl ? (
-                    <QRCodeSVG
-                      value={qrUrl}
-                      size={layoutMode === 'horizontal' ? 84 : 76}
-                      level="M"
-                      fgColor="#241B34"
-                      bgColor="#FFFFFF"
-                    />
-                  ) : (
-                    <div
-                      style={{
-                        width: layoutMode === 'horizontal' ? 84 : 76,
-                        height: layoutMode === 'horizontal' ? 84 : 76,
-                      }}
-                      className="flex items-center justify-center bg-[#F4ECFC] rounded"
-                    >
-                      <RefreshCw className="w-5 h-5 text-[#8A68C8] animate-spin" />
-                    </div>
-                  )}
+                  <QRCodeSVG
+                    value={safeQrUrl}
+                    size={layoutMode === 'horizontal' ? 84 : 76}
+                    level="M"
+                    fgColor="#241B34"
+                    bgColor="#FFFFFF"
+                  />
                 </div>
                 <p className="text-[8px] font-nunito font-semibold text-[#D8B4FE] mt-1.5 max-w-[90px] leading-tight">
                   {isVi ? 'Quét để xem lại quẻ bài của bạn' : 'Scan to view your reading'}
@@ -706,9 +712,9 @@ export const TarotShareCard: React.FC<TarotShareCardProps> = ({
           </button>
 
           {/* Test Link Button */}
-          {qrUrl && (
+          {safeQrUrl && (
             <a
-              href={qrUrl}
+              href={safeQrUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2.5 rounded-full bg-white/10 hover:bg-white/20 text-[#D8B4FE] hover:text-white font-montserrat font-medium text-xs border border-white/20 transition-all flex items-center gap-1.5"
