@@ -159,9 +159,22 @@ export const ClassicSpread: React.FC<ClassicSpreadProps> = ({ onShare, language 
         throw new Error('API failed');
       }
     } catch {
-      // Fallback will be handled separately
-      
-      
+      // Local fallback in case of network or API key issue
+      const isVi = language === 'vi';
+      setReadingText({
+        theme: isVi ? 'Thông điệp chiêm nghiệm cùng Bé Cú' : 'Reflective Guidance with Owl Mascot',
+        cards: drawnCards.map((c, idx) => ({
+          name: isVi && c.nameVi ? c.nameVi : c.name,
+          position: getPositionLabel(idx),
+          reflection: isVi ? (c.summaryVi || c.summary) : c.summary
+        })),
+        synthesis: isVi
+          ? 'Quá khứ đã qua, hiện tại là món quà và tương lai đang đón đợi những lựa chọn sáng suốt của bạn.'
+          : 'The past has concluded, the present is a gift, and the future awaits your mindful choices.',
+        takeaway: isVi
+          ? 'Hãy hít thở sâu, tập trung vào điều bạn có thể kiểm soát và hành động từng bước vững chắc.'
+          : 'Take a deep breath, focus on what you can control, and proceed with confidence.'
+      });
     } finally {
       setIsLoadingAI(false);
     }

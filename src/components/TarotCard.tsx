@@ -256,6 +256,7 @@ export const TarotCard: React.FC<TarotCardProps> = ({
                 className="w-full h-full object-cover block"
                 style={{ filter: 'none' }}
                 referrerPolicy="no-referrer"
+                crossOrigin="anonymous"
                 onError={(e) => {
                   const target = e.currentTarget as HTMLElement;
                   target.style.display = 'none';

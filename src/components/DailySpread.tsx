@@ -158,8 +158,29 @@ export const DailySpread: React.FC<DailySpreadProps> = ({ onShare, language = 'e
         throw new Error('API failed');
       }
     } catch {
-      // Local fallback in case of network issue
-      setReadingText(null);
+      // Local fallback in case of network or API key issue
+      const isVi = language === 'vi';
+      setReadingText({
+        theme: isVi ? 'Chiêm nghiệm sự chuyển hóa năng lượng' : 'Reflective Energy Transformation',
+        cards: [
+          {
+            name: isVi && c1.nameVi ? c1.nameVi : c1.name,
+            position: label1,
+            reflection: isVi ? (c1.contrastPerspectiveVi?.actual || c1.summaryVi) : (c1.contrastPerspective?.actual || c1.summary)
+          },
+          {
+            name: isVi && c2.nameVi ? c2.nameVi : c2.name,
+            position: label2,
+            reflection: isVi ? (c2.contrastPerspectiveVi?.actual || c2.summaryVi) : (c2.contrastPerspective?.actual || c2.summary)
+          }
+        ],
+        synthesis: isVi
+          ? 'Dòng năng lượng hôm nay khuyến khích bạn nhìn nhận mọi việc từ nhiều chiều kích khác nhau để tìm thấy sự bình an.'
+          : 'Today\'s energy invites you to perceive situations from multiple dimensions to find inner calm.',
+        takeaway: isVi
+          ? 'Hãy lắng đọng tâm trí, buông bỏ những lo âu không cần thiết và trân trọng từng khoảnh khắc hiện tại.'
+          : 'Quiet your mind, release unnecessary worries, and embrace the present moment.'
+      });
     } finally {
       setIsLoadingAI(false);
     }
