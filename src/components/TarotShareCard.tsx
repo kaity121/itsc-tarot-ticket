@@ -628,14 +628,26 @@ export const TarotShareCard: React.FC<TarotShareCardProps> = ({
               {/* Right/Bottom: QR Code with link & caption */}
               <div className="flex flex-col items-center text-center">
                 {/* QR Container */}
-                <div className="p-1.5 rounded-md bg-white border border-[#A78BFA]/50 shadow-sm">
-                  <QRCodeSVG
-                    value={qrUrl || window.location.href}
-                    size={layoutMode === 'horizontal' ? 84 : 76}
-                    level="M"
-                    fgColor="#241B34"
-                    bgColor="#FFFFFF"
-                  />
+                <div className="p-1.5 rounded-md bg-white border border-[#A78BFA]/50 shadow-sm flex items-center justify-center">
+                  {qrUrl ? (
+                    <QRCodeSVG
+                      value={qrUrl}
+                      size={layoutMode === 'horizontal' ? 84 : 76}
+                      level="M"
+                      fgColor="#241B34"
+                      bgColor="#FFFFFF"
+                    />
+                  ) : (
+                    <div
+                      style={{
+                        width: layoutMode === 'horizontal' ? 84 : 76,
+                        height: layoutMode === 'horizontal' ? 84 : 76,
+                      }}
+                      className="flex items-center justify-center bg-[#F4ECFC] rounded"
+                    >
+                      <RefreshCw className="w-5 h-5 text-[#8A68C8] animate-spin" />
+                    </div>
+                  )}
                 </div>
                 <p className="text-[8px] font-nunito font-semibold text-[#D8B4FE] mt-1.5 max-w-[90px] leading-tight">
                   {isVi ? 'Quét để xem lại quẻ bài của bạn' : 'Scan to view your reading'}

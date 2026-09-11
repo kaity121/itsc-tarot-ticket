@@ -12,6 +12,7 @@ import { Share2, RefreshCw, MessageSquarePlus, Sparkles, Ticket } from 'lucide-r
 import { sound } from '../utils/audio';
 import { DrawnTarotCard } from '../types';
 import { TarotShareCard, TarotCardShareItem } from './TarotShareCard';
+import { generateReadingId, persistReading } from '../utils/readingStorage';
 
 interface ReadingCard {
   name: string;
@@ -48,10 +49,10 @@ export const ReadingResultView: React.FC<ReadingResultViewProps> = ({
   const isVi = language === 'vi';
   const [isTicketModalOpen, setIsTicketModalOpen] = React.useState(false);
 
-  // Generate consistent reading code if not passed
+  // Generate consistent persistent reading code if not passed
   const activeReadingId = React.useMemo(() => {
     if (readingId) return readingId;
-    return 'ITSC-' + Math.random().toString(36).substring(2, 8).toUpperCase();
+    return generateReadingId();
   }, [readingId]);
 
   // Prepare cards array for TarotShareCard
@@ -72,6 +73,53 @@ export const ReadingResultView: React.FC<ReadingResultViewProps> = ({
       positionLabel: rc.position
     }));
   }, [drawnCards, reading.cards]);
+
+  const [savedUrl, setSavedUrl] = React.useState<string>('');
+  const [isPersisting, setIsPersisting] = React.useState(false);
+
+  const manifestText = reading.takeaway || reading.synthesis || reading.theme || '';
+  const defaultQuestion = question || (isVi ? 'Thông điệp chiêm nghiệm cùng Bé Cú' : 'Mindful guidance with Owl Mascot');
+  const spreadTypeStr = shareCards.length === 1 ? '1' : shareCards.length === 3 ? '3' : `${shareCards.length} lá`;
+
+  // Auto-persist reading so QR and deep link are ready immediately
+  React.useEffect(() => {
+    let isMounted = true;
+    setIsPersisting(true);
+
+    persistReading({
+      readingId: activeReadingId,
+      question: defaultQuestion,
+      spreadType: spreadTypeStr,
+      cards: shareCards,
+      manifestText,
+      userName: isVi ? 'Người Bói Ẩn Danh' : 'Mystic Seeker',
+      language: language === 'en' ? 'en' : 'vi',
+    })
+      .then((res) => {
+        if (isMounted) {
+          setSavedUrl(res.url);
+          setIsPersisting(false);
+        }
+      })
+      .catch((err) => {
+        console.error('[ReadingResultView] Failed to persist reading:', err);
+        if (isMounted) {
+          setIsPersisting(false);
+        }
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, [activeReadingId, defaultQuestion, spreadTypeStr, shareCards, manifestText, isVi, language]);
+
+  const publicQrUrl = React.useMemo(() => {
+    if (savedUrl) return savedUrl;
+    if (typeof window !== 'undefined') {
+      return `${window.location.origin}/ticket/${activeReadingId}`;
+    }
+    return '';
+  }, [savedUrl, activeReadingId]);
 
   // Helper to parse simple markdown formatting into React elements
   const formatTextWithBold = (text: string) => {
@@ -253,11 +301,11 @@ export const ReadingResultView: React.FC<ReadingResultViewProps> = ({
       {isTicketModalOpen && (
         <TarotShareCard
           readingId={activeReadingId}
-          question={question || (isVi ? 'Thông điệp chiêm nghiệm cùng Bé Cú' : 'Mindful guidance with Owl Mascot')}
-          spreadType={shareCards.length === 1 ? '1' : shareCards.length === 3 ? '3' : `${shareCards.length} lá`}
+          question={defaultQuestion}
+          spreadType={spreadTypeStr}
           cards={shareCards}
-          manifestText={reading.takeaway || reading.synthesis || reading.theme}
-          qrUrl={typeof window !== 'undefined' ? `${window.location.origin}${window.location.pathname}#reading-${activeReadingId}` : ''}
+          manifestText={manifestText}
+          qrUrl={publicQrUrl}
           userName={isVi ? 'Người Bói Ẩn Danh' : 'Mystic Seeker'}
           language={language}
           onClose={() => setIsTicketModalOpen(false)}

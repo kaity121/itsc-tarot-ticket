@@ -457,6 +457,7 @@ export const ClassicSpread: React.FC<ClassicSpreadProps> = ({ onShare, language 
           reading={readingText}
           question={question}
           language={language}
+          drawnCards={cards.filter((c): c is DrawnTarotCard => c !== null)}
           onShare={onShare}
           onReset={handleReset}
         />

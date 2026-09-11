@@ -8,6 +8,7 @@ import { ReadingMode, Language } from './types';
 import { sound } from './utils/audio';
 import { HelpCircle, Send } from 'lucide-react';
 import { CuteStickerSparkle, OwlSilhouetteMascot, NotebookStickerAvatar } from './components/OwlMotifs';
+import { PublicTicketView } from './components/PublicTicketView';
 
 export default function App() {
   const [currentMode, setCurrentMode] = useState<ReadingMode>('daily');
@@ -15,6 +16,33 @@ export default function App() {
   const [isAmbientPlaying, setIsAmbientPlaying] = useState(false);
   const [isHelpOpen, setIsHelpOpen] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
+
+  // Client routing: Detect /ticket/:readingId
+  const [ticketId, setTicketId] = useState<string | null>(() => {
+    if (typeof window === 'undefined') return null;
+    const match = window.location.pathname.match(/^\/ticket\/([^/?#]+)/);
+    return match ? decodeURIComponent(match[1]) : null;
+  });
+
+  useEffect(() => {
+    const handleLocationChange = () => {
+      const match = window.location.pathname.match(/^\/ticket\/([^/?#]+)/);
+      setTicketId(match ? decodeURIComponent(match[1]) : null);
+    };
+
+    window.addEventListener('popstate', handleLocationChange);
+    return () => window.removeEventListener('popstate', handleLocationChange);
+  }, []);
+
+  const handleNavigateHome = () => {
+    window.history.pushState({}, '', '/');
+    setTicketId(null);
+  };
+
+  // If on /ticket/:readingId, immediately render PublicTicketView without rendering homepage
+  if (ticketId) {
+    return <PublicTicketView readingId={ticketId} onNavigateHome={handleNavigateHome} />;
+  }
 
   // Auto-dismiss toast
   useEffect(() => {

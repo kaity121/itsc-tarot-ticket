@@ -3,6 +3,8 @@ import path from "path";
 import dotenv from "dotenv";
 import { createServer as createViteServer } from "vite";
 import readingHandler from "./api/reading.js";
+import readingsHandler from "./api/readings/index.js";
+import readingByIdHandler from "./api/readings/[id].js";
 
 dotenv.config();
 
@@ -18,6 +20,14 @@ app.all("/api/reading", (req, res) => {
     error: "Method not allowed. Use POST /api/reading.",
   });
 });
+
+app.post("/api/readings", readingsHandler);
+app.get("/api/readings/:id", (req, res) => {
+  req.query = req.query || {};
+  req.query.id = req.params.id;
+  return readingByIdHandler(req, res);
+});
+app.get("/api/readings", readingsHandler);
 
 async function startServer() {
   if (process.env.NODE_ENV !== "production") {
